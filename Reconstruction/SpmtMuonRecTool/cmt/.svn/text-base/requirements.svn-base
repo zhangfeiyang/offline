@@ -1,0 +1,12 @@
+package SpmtMuonRecTool
+
+use RecCdMuonAlg v* Reconstruction
+
+macro_append SpmtMuonRecTool_shlibflags " -lSpectrum"
+
+apply_pattern install_more_includes more=SpmtMuonRecTool
+
+library SpmtMuonRecTool *.cc
+apply_pattern linker_library library=SpmtMuonRecTool
+apply_pattern install_python_modules
+

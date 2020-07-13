@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE xdd SYSTEM "xdd.dtd">
+
+<xdd>
+    <package name="ElecEvent">
+        <import name="TObject"/> 
+        <import name="vector" std="TRUE"/>
+
+        <class name="ElecFeeChannel"
+            author="fangxiao"
+            desc="ElecSim informaiton of per PMT channel">
+
+            <attribute
+                desc="Amplitude of Waveform"
+                name="adc"
+                type="std::vector&lt;unsigned int&gt;"
+                />
+
+            <attribute
+                desc="Time info of Waveform"
+                name="tdc" 
+                type="std::vector&lt;unsigned int&gt;"
+                getMeth="FALSE"
+                />
+
+            <method
+                name="adc"
+                type="std::vector&lt;unsigned int&gt;&amp; "
+                desc=""
+                >
+                <code>
+                    return m_adc;
+                </code>
+            </method>
+
+            <method
+                name="tdc"
+                type="std::vector&lt;unsigned int&gt;&amp; "
+                desc=""
+                />
+
+            <method
+                name="tdc"
+                type="const std::vector&lt;unsigned int&gt;&amp; "
+                desc=""
+                const="TRUE"
+                />   
+        </class>
+    </package>
+</xdd>
+

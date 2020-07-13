@@ -1,0 +1,22 @@
+package ElecSimV2
+
+use SniperKernel   v*
+use ROOT v* Externals
+use Boost v* Externals
+
+# For Data Buffer and IO
+use EvtNavigator v* DataModel
+use SimEventV2   v* DataModel
+use ElecEvent    v* DataModel
+use DataRegistritionSvc v* DataModel
+
+use Identifier v* Detector
+
+
+apply_pattern install_more_includes more="ElecSimV2"
+
+library ElecSimV2 *.cc
+apply_pattern linker_library library=ElecSimV2
+
+apply_pattern install_python_modules
+

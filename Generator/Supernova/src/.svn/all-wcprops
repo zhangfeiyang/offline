@@ -1,0 +1,71 @@
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/offline/!svn/ver/3129/tags/J18v1r1-Pre1/Generator/Supernova/src
+END
+detector.h
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/offline/!svn/ver/3129/tags/J18v1r1-Pre1/Generator/Supernova/src/detector.h
+END
+def.h
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/offline/!svn/ver/3129/tags/J18v1r1-Pre1/Generator/Supernova/src/def.h
+END
+event.cc
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/offline/!svn/ver/3129/tags/J18v1r1-Pre1/Generator/Supernova/src/event.cc
+END
+event.h
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/offline/!svn/ver/3129/tags/J18v1r1-Pre1/Generator/Supernova/src/event.h
+END
+sneventsoutput.cc
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/offline/!svn/ver/3129/tags/J18v1r1-Pre1/Generator/Supernova/src/sneventsoutput.cc
+END
+dataflux.cc
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/offline/!svn/ver/3129/tags/J18v1r1-Pre1/Generator/Supernova/src/dataflux.cc
+END
+sneventsoutput.h
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/offline/!svn/ver/3129/tags/J18v1r1-Pre1/Generator/Supernova/src/sneventsoutput.h
+END
+detector.cc
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/offline/!svn/ver/3129/tags/J18v1r1-Pre1/Generator/Supernova/src/detector.cc
+END
+sort.h
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/offline/!svn/ver/3129/tags/J18v1r1-Pre1/Generator/Supernova/src/sort.h
+END
+dataflux.h
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/offline/!svn/ver/3129/tags/J18v1r1-Pre1/Generator/Supernova/src/dataflux.h
+END
+genSN.cc
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/offline/!svn/ver/3129/tags/J18v1r1-Pre1/Generator/Supernova/src/genSN.cc
+END

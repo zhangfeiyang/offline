@@ -1,0 +1,17 @@
+package PmtRec
+
+use SniperKernel v*
+use ROOT v* Externals
+use Boost v* Externals
+
+use SimEventV2   v* DataModel
+use CalibEvent   v* DataModel
+use EvtNavigator v* DataModel
+use DataRegistritionSvc v* DataModel
+
+use RandomSvc    v* CommonSvc
+
+use Identifier v* Detector
+
+library PmtRec *.cc
+apply_pattern linker_library library=PmtRec

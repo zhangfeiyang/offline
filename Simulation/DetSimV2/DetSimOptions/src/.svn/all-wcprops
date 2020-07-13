@@ -1,0 +1,107 @@
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/offline/!svn/ver/3129/tags/J18v1r1-Pre1/Simulation/DetSimV2/DetSimOptions/src
+END
+LSExpEventAction.cc
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/svn/offline/!svn/ver/3129/tags/J18v1r1-Pre1/Simulation/DetSimV2/DetSimOptions/src/LSExpEventAction.cc
+END
+LSExpDetectorConstruction.cc
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/svn/offline/!svn/ver/3129/tags/J18v1r1-Pre1/Simulation/DetSimV2/DetSimOptions/src/LSExpDetectorConstruction.cc
+END
+LSExpSteppingAction.cc
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/svn/offline/!svn/ver/3129/tags/J18v1r1-Pre1/Simulation/DetSimV2/DetSimOptions/src/LSExpSteppingAction.cc
+END
+LSExpPrimaryGeneratorAction.cc
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/svn/offline/!svn/ver/3129/tags/J18v1r1-Pre1/Simulation/DetSimV2/DetSimOptions/src/LSExpPrimaryGeneratorAction.cc
+END
+ExpHallConstruction.cc
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/svn/offline/!svn/ver/3129/tags/J18v1r1-Pre1/Simulation/DetSimV2/DetSimOptions/src/ExpHallConstruction.cc
+END
+RockConstruction.cc
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/svn/offline/!svn/ver/3129/tags/J18v1r1-Pre1/Simulation/DetSimV2/DetSimOptions/src/RockConstruction.cc
+END
+OpticalProperty.icc
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/svn/offline/!svn/ver/3129/tags/J18v1r1-Pre1/Simulation/DetSimV2/DetSimOptions/src/OpticalProperty.icc
+END
+LSExpTrackingAction.cc
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/svn/offline/!svn/ver/3129/tags/J18v1r1-Pre1/Simulation/DetSimV2/DetSimOptions/src/LSExpTrackingAction.cc
+END
+LSExpRunAction.cc
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svn/offline/!svn/ver/3129/tags/J18v1r1-Pre1/Simulation/DetSimV2/DetSimOptions/src/LSExpRunAction.cc
+END
+DetPrototypeSvc.cc
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svn/offline/!svn/ver/3129/tags/J18v1r1-Pre1/Simulation/DetSimV2/DetSimOptions/src/DetPrototypeSvc.cc
+END
+DetSim0Svc.cc
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/offline/!svn/ver/3129/tags/J18v1r1-Pre1/Simulation/DetSimV2/DetSimOptions/src/DetSim0Svc.cc
+END
+OpticalSurfaceProperty.icc
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/svn/offline/!svn/ver/3129/tags/J18v1r1-Pre1/Simulation/DetSimV2/DetSimOptions/src/OpticalSurfaceProperty.icc
+END
+GlobalGeomInfo.cc
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svn/offline/!svn/ver/3129/tags/J18v1r1-Pre1/Simulation/DetSimV2/DetSimOptions/src/GlobalGeomInfo.cc
+END
+WaterPoolConstruction.cc
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/svn/offline/!svn/ver/3129/tags/J18v1r1-Pre1/Simulation/DetSimV2/DetSimOptions/src/WaterPoolConstruction.cc
+END
+LSExpDetectorConstructionMaterial.icc
+K 25
+svn:wc:ra_dav:version-url
+V 120
+/svn/offline/!svn/ver/3129/tags/J18v1r1-Pre1/Simulation/DetSimV2/DetSimOptions/src/LSExpDetectorConstructionMaterial.icc
+END
+LSExpParticleGun.cc
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/svn/offline/!svn/ver/3129/tags/J18v1r1-Pre1/Simulation/DetSimV2/DetSimOptions/src/LSExpParticleGun.cc
+END
+LSExpPhysicsList.cc
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/svn/offline/!svn/ver/3129/tags/J18v1r1-Pre1/Simulation/DetSimV2/DetSimOptions/src/LSExpPhysicsList.cc
+END

@@ -1,0 +1,1 @@
+JunoDetectorID_cc_dependencies =  ../src/JunoDetectorID.cc  $(bin)Identifier_deps/JunoDetectorID_cc.stamp

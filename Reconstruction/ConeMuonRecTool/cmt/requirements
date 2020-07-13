@@ -1,0 +1,16 @@
+package ConeMuonRecTool
+
+use RecCdMuonAlg v* Reconstruction
+use SniperKernel v*
+use SimEventV2 v* DataModel
+use EvtNavigator v* DataModel
+use DataRegistritionSvc v* DataModel
+use BufferMemMgr v* CommonSvc
+
+macro_append ConeMuonRecTool_shlibflags " -lMinuit2 -lMinuit"
+
+apply_pattern install_more_includes more=ConeMuonRecTool
+
+library ConeMuonRecTool *.cc
+apply_pattern linker_library library=ConeMuonRecTool
+apply_pattern install_python_modules

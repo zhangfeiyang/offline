@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svn/offline/!svn/ver/3129/tags/J18v1r1-Pre1/Validation/JunoTest/production/IBD-BasicDistribution
+END
+BasicDistribution.cc
+K 25
+svn:wc:ra_dav:version-url
+V 118
+/svn/offline/!svn/ver/3129/tags/J18v1r1-Pre1/Validation/JunoTest/production/IBD-BasicDistribution/BasicDistribution.cc
+END
+gen-eplus.sh
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/svn/offline/!svn/ver/3129/tags/J18v1r1-Pre1/Validation/JunoTest/production/IBD-BasicDistribution/gen-eplus.sh
+END
+gen-neutron.sh
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/svn/offline/!svn/ver/3129/tags/J18v1r1-Pre1/Validation/JunoTest/production/IBD-BasicDistribution/gen-neutron.sh
+END
+prod_IBD-BasicDist.py
+K 25
+svn:wc:ra_dav:version-url
+V 119
+/svn/offline/!svn/ver/3129/tags/J18v1r1-Pre1/Validation/JunoTest/production/IBD-BasicDistribution/prod_IBD-BasicDist.py
+END

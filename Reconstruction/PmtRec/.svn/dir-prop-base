@@ -1,0 +1,19 @@
+K 10
+svn:ignore
+V 88
+InstallArea
+amd64_*
+setup.*sh
+cleanup.*sh
+Makefile
+install.history
+*~
+*.swp
+*.pyc
+*.log
+
+K 13
+svn:mergeinfo
+V 56
+/branches/J14v1r2_MCC15A/Reconstruction/PmtRec:1323-1391
+END

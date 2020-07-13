@@ -1,0 +1,10 @@
+PKG(Deconvolution
+    DEPENDS
+        ElecEvent 
+        CalibEvent 
+        EvtNavigator 
+        DataRegistritionSvc 
+        BufferMemMgr
+        Identifier 
+        RootIOSvc      
+)

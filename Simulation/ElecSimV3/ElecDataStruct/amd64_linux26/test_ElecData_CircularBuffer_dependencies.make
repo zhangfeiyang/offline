@@ -1,0 +1,1 @@
+test_CircularBuffer_cc_dependencies =  ../test/test_CircularBuffer.cc   /junofs/production/public/users/zhangfy/offline_bgd/Simulation/ElecSimV3/ElecDataStruct/ElecDataStruct/CircularBuffer.h  $(bin)test_ElecData_CircularBuffer_deps/test_CircularBuffer_cc.stamp

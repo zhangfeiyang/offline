@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/offline/!svn/ver/3129/tags/J18v1r1-Pre1/Validation/JunoTest/production/ChainMuon
+END
+Muons.ini
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/offline/!svn/ver/3129/tags/J18v1r1-Pre1/Validation/JunoTest/production/ChainMuon/Muons.ini
+END
+prod_Chain_muon.py
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/svn/offline/!svn/ver/3129/tags/J18v1r1-Pre1/Validation/JunoTest/production/ChainMuon/prod_Chain_muon.py
+END
+gen-muon.sh
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svn/offline/!svn/ver/3129/tags/J18v1r1-Pre1/Validation/JunoTest/production/ChainMuon/gen-muon.sh
+END

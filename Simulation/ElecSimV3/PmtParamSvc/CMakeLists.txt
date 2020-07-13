@@ -1,0 +1,4 @@
+PKG(PmtParamSvc
+    DEPENDS
+        Context
+)

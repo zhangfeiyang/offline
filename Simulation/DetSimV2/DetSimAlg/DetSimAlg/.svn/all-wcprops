@@ -1,0 +1,53 @@
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/offline/!svn/ver/3129/tags/J18v1r1-Pre1/Simulation/DetSimV2/DetSimAlg/DetSimAlg
+END
+DetSimAlg.h
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/offline/!svn/ver/3129/tags/J18v1r1-Pre1/Simulation/DetSimV2/DetSimAlg/DetSimAlg/DetSimAlg.h
+END
+MgrOfAnaElem.h
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svn/offline/!svn/ver/3129/tags/J18v1r1-Pre1/Simulation/DetSimV2/DetSimAlg/DetSimAlg/MgrOfAnaElem.h
+END
+IDetElement.h
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svn/offline/!svn/ver/3129/tags/J18v1r1-Pre1/Simulation/DetSimV2/DetSimAlg/DetSimAlg/IDetElement.h
+END
+IDetElementPos.h
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svn/offline/!svn/ver/3129/tags/J18v1r1-Pre1/Simulation/DetSimV2/DetSimAlg/DetSimAlg/IDetElementPos.h
+END
+IPMTElement.h
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svn/offline/!svn/ver/3129/tags/J18v1r1-Pre1/Simulation/DetSimV2/DetSimAlg/DetSimAlg/IPMTElement.h
+END
+IAnalysisElement.h
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/svn/offline/!svn/ver/3129/tags/J18v1r1-Pre1/Simulation/DetSimV2/DetSimAlg/DetSimAlg/IAnalysisElement.h
+END
+IDetSimFactory.h
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svn/offline/!svn/ver/3129/tags/J18v1r1-Pre1/Simulation/DetSimV2/DetSimAlg/DetSimAlg/IDetSimFactory.h
+END
+ISensitiveDetectorElement.h
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/svn/offline/!svn/ver/3129/tags/J18v1r1-Pre1/Simulation/DetSimV2/DetSimAlg/DetSimAlg/ISensitiveDetectorElement.h
+END

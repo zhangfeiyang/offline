@@ -1,0 +1,746 @@
+/cvmfs/juno.ihep.ac.cn/sl6_amd64_gcc447/Release/J17v1r1/ExternalLibs/libmore/0.8.3/com/more/ensdf/ar040k.ens.bz2:2588:1: Unknown symbol RI to relabel.
+40K  CG RI$LABEL=d|s/d|W (MB/SR)
+/cvmfs/juno.ihep.ac.cn/sl6_amd64_gcc447/Release/J17v1r1/ExternalLibs/libmore/0.8.3/com/more/ensdf/ar040ca.ens.bz2:5956:1: Unknown symbol RI to relabel.
+40CA CG RI$LABEL=d|s/d|W (MB/SR) AT 125 DEG
+/cvmfs/juno.ihep.ac.cn/sl6_amd64_gcc447/Release/J17v1r1/ExternalLibs/libmore/0.8.3/com/more/ensdf/ar040ar.ens.bz2:1362:1: Expected ‘,’ or ‘+’ separator in ‘L’ form.
+40AR  L 9504.8    14 1-                8.2 EV   18     3004.4  3.3       4
+Ultimate mother rate: 0.880007 for K-40 level=0 keV [0]
+***** Can not open a macro file <run.mac>
+--- Warning from G4Material::G4Material() define a material with density=0 is not allowed. 
+ The material VacuumT will be constructed with the default minimal density: 1e-25g/cm3
+27 elements:
+0: Gadolinium 64/9.82027e+23 7 isotopes
+1: Carbon 6/7.49605e+22 0 isotopes
+2: Hydrogen 1/6.30392e+21 0 isotopes
+3: Oxygen 8/9.98642e+22 0 isotopes
+4: Nitrogen 7/8.74436e+22 0 isotopes
+5: Silicon 14/1.75324e+23 0 isotopes
+6: Aluminium 13/1.68396e+23 0 isotopes
+7: Iron 26/3.48557e+23 0 isotopes
+8: Magnesium 12/1.517e+23 0 isotopes
+9: Calcium 20/2.50147e+23 0 isotopes
+10: Sodium 11/1.43491e+23 0 isotopes
+11: Potassium 19/2.44032e+23 0 isotopes
+12: Sulfur 16/2.0014e+23 0 isotopes
+13: Fluorine 9/1.18576e+23 0 isotopes
+14: Argon 18/2.49336e+23 0 isotopes
+15: Boron 5/6.7477e+22 0 isotopes
+16: Ni 28/3.66335e+23 0 isotopes
+17: Cr 24/3.24534e+23 0 isotopes
+18: Mn 25/3.42897e+23 0 isotopes
+19: Phosphorus 15/1.93323e+23 0 isotopes
+20: Titanium 22/2.98762e+23 0 isotopes
+21: Galactic 1/6.30392e+21 0 isotopes
+22: Copper 29/3.96648e+23 0 isotopes
+23: Ferrum 26/3.48557e+23 0 isotopes
+24: Iron 26/3.48557e+23 0 isotopes
+25: Cr 24/3.24534e+23 0 isotopes
+26: Ni 28/3.66335e+23 0 isotopes
+
+Warning : Region <PMT_20inch_body_region> does not have specific production cuts,
+even though it appears in the current tracking world.
+Default cuts are used for this region.
+Warning : Region <PMT_3inch_body_region> does not have specific production cuts,
+even though it appears in the current tracking world.
+Default cuts are used for this region.
+Note: File "vector" already loaded
+SysError in <TFile::TFile>: could not delete sample_detsim.root (errno: 2) (No such file or directory)
+
+ *** Break *** segmentation violation
+
+
+
+===========================================================
+There was a crash.
+This is the entire stack trace of all threads:
+===========================================================
+#0  0x0000003dba4ac89e in waitpid () from /lib64/libc.so.6
+#1  0x0000003dba43e4e9 in do_system () from /lib64/libc.so.6
+#2  0x00002b634d2a1da8 in TUnixSystem::StackTrace() () from /cvmfs/juno.ihep.ac.cn/sl6_amd64_gcc447/Pre-Release/J18v1r1-Pre1/ExternalLibs/ROOT/5.34.11/lib/libCore.so
+#3  0x00002b634d2a0c23 in TUnixSystem::DispatchSignals(ESignals) () from /cvmfs/juno.ihep.ac.cn/sl6_amd64_gcc447/Pre-Release/J18v1r1-Pre1/ExternalLibs/ROOT/5.34.11/lib/libCore.so
+#4  <signal handler called>
+#5  0x00002b634ef2bdb3 in RootFileWriter::initialize() () from /junofs/production/public/users/zhangfy/offline_bgd/InstallArea/amd64_linux26/lib/libRootIOUtil.so
+#6  0x00002b634ef2ce25 in RootFileWriter::write(JM::EvtNavigator*) () from /junofs/production/public/users/zhangfy/offline_bgd/InstallArea/amd64_linux26/lib/libRootIOUtil.so
+#7  0x00002b634ed1b1df in RootOutputSvc::write(JM::EvtNavigator*) () from /junofs/production/public/users/zhangfy/offline_bgd/InstallArea/amd64_linux26/lib/libRootIOSvc.so
+#8  0x00002b634ff4d942 in EndEvtHdl::handle(Incident&) () from /junofs/production/public/users/zhangfy/offline_bgd/InstallArea/amd64_linux26/lib/libBufferMemMgr.so
+#9  0x00002b634b2ce7a5 in IncidentMgr::handle(Incident&) () from /cvmfs/juno.ihep.ac.cn/sl6_amd64_gcc447/Pre-Release/J18v1r1-Pre1/sniper/InstallArea/amd64_linux26/lib/libSniperKernel.so
+#10 0x00002b634b2ce0b7 in Incident::fire(std::basic_string<char, std::char_traits<char>, std::allocator<char> > const&) () from /cvmfs/juno.ihep.ac.cn/sl6_amd64_gcc447/Pre-Release/J18v1r1-Pre1/sniper/InstallArea/amd64_linux26/lib/libSniperKernel.so
+#11 0x00002b634b2d0d60 in Task::local_fire(std::basic_string<char, std::char_traits<char>, std::allocator<char> > const&) () from /cvmfs/juno.ihep.ac.cn/sl6_amd64_gcc447/Pre-Release/J18v1r1-Pre1/sniper/InstallArea/amd64_linux26/lib/libSniperKernel.so
+#12 0x00002b634b2d3d04 in Task::execute() () from /cvmfs/juno.ihep.ac.cn/sl6_amd64_gcc447/Pre-Release/J18v1r1-Pre1/sniper/InstallArea/amd64_linux26/lib/libSniperKernel.so
+#13 0x00002b634ae61a23 in TaskWrap::execute() () from /cvmfs/juno.ihep.ac.cn/sl6_amd64_gcc447/Pre-Release/J18v1r1-Pre1/sniper/InstallArea/amd64_linux26/lib/libSniperPython.so
+#14 0x00002b634b2d32b2 in Task::run() () from /cvmfs/juno.ihep.ac.cn/sl6_amd64_gcc447/Pre-Release/J18v1r1-Pre1/sniper/InstallArea/amd64_linux26/lib/libSniperKernel.so
+#15 0x00002b634ae5ff4e in boost::python::objects::caller_py_function_impl<boost::python::detail::caller<bool (TaskWrap::*)(), boost::python::default_call_policies, boost::mpl::vector2<bool, TaskWrap&> > >::operator()(_object*, _object*) () from /cvmfs/juno.ihep.ac.cn/sl6_amd64_gcc447/Pre-Release/J18v1r1-Pre1/sniper/InstallArea/amd64_linux26/lib/libSniperPython.so
+#16 0x00002b634b0a0171 in boost::python::objects::function::call(_object*, _object*) const () from /cvmfs/juno.ihep.ac.cn/sl6_amd64_gcc447/Pre-Release/J18v1r1-Pre1/ExternalLibs/Boost/1.55.0/lib/libboost_python.so.1.55.0
+#17 0x00002b634b0a05f8 in boost::detail::function::void_function_ref_invoker0<boost::python::objects::(anonymous namespace)::bind_return, void>::invoke(boost::detail::function::function_buffer&) () from /cvmfs/juno.ihep.ac.cn/sl6_amd64_gcc447/Pre-Release/J18v1r1-Pre1/ExternalLibs/Boost/1.55.0/lib/libboost_python.so.1.55.0
+#18 0x00002b634b0a8dbb in boost::python::handle_exception_impl(boost::function0<void>) () from /cvmfs/juno.ihep.ac.cn/sl6_amd64_gcc447/Pre-Release/J18v1r1-Pre1/ExternalLibs/Boost/1.55.0/lib/libboost_python.so.1.55.0
+#19 0x00002b634b09e2e8 in function_call () from /cvmfs/juno.ihep.ac.cn/sl6_amd64_gcc447/Pre-Release/J18v1r1-Pre1/ExternalLibs/Boost/1.55.0/lib/libboost_python.so.1.55.0
+#20 0x00002b63449bd9a3 in PyObject_Call (func=0x21407d0, arg=<value optimized out>, kw=<value optimized out>) at Objects/abstract.c:2529
+#21 0x00002b6344a6cac9 in do_call (f=<value optimized out>, throwflag=<value optimized out>) at Python/ceval.c:4239
+#22 call_function (f=<value optimized out>, throwflag=<value optimized out>) at Python/ceval.c:4044
+#23 PyEval_EvalFrameEx (f=<value optimized out>, throwflag=<value optimized out>) at Python/ceval.c:2666
+#24 0x00002b6344a6f16e in PyEval_EvalCodeEx (co=0x2b6344e45530, globals=<value optimized out>, locals=<value optimized out>, args=<value optimized out>, argcount=0, kws=0x0, kwcount=0, defs=0x0, defcount=0, closure=0x0) at Python/ceval.c:3253
+#25 0x00002b6344a6f282 in PyEval_EvalCode (co=<value optimized out>, globals=<value optimized out>, locals=<value optimized out>) at Python/ceval.c:667
+#26 0x00002b6344a8ee30 in run_mod (fp=0x2120440, filename=<value optimized out>, start=<value optimized out>, globals=0x211a970, locals=0x211a970, closeit=1, flags=0x7ffe4c049790) at Python/pythonrun.c:1370
+#27 PyRun_FileExFlags (fp=0x2120440, filename=<value optimized out>, start=<value optimized out>, globals=0x211a970, locals=0x211a970, closeit=1, flags=0x7ffe4c049790) at Python/pythonrun.c:1356
+#28 0x00002b6344a8f00f in PyRun_SimpleFileExFlags (fp=0x2120440, filename=0x7ffe4c04ba2d "/junofs/production/public/users/zhangfy/offline_bgd/Examples/Tutorial/share/tut_detsim.py", closeit=1, flags=0x7ffe4c049790) at Python/pythonrun.c:948
+#29 0x00002b6344aa4b24 in Py_Main (argc=<value optimized out>, argv=<value optimized out>) at Modules/main.c:640
+#30 0x0000003dba41ed20 in __libc_start_main () from /lib64/libc.so.6
+#31 0x0000000000400649 in _start ()
+===========================================================
+
+
+The lines below might hint at the cause of the crash.
+If they do not help you then please submit a bug report at
+http://root.cern.ch/bugs. Please post the ENTIRE stack trace
+from above as an attachment in addition to anything else
+that might help us fixing this issue.
+===========================================================
+#5  0x00002b634ef2bdb3 in RootFileWriter::initialize() () from /junofs/production/public/users/zhangfy/offline_bgd/InstallArea/amd64_linux26/lib/libRootIOUtil.so
+#6  0x00002b634ef2ce25 in RootFileWriter::write(JM::EvtNavigator*) () from /junofs/production/public/users/zhangfy/offline_bgd/InstallArea/amd64_linux26/lib/libRootIOUtil.so
+#7  0x00002b634ed1b1df in RootOutputSvc::write(JM::EvtNavigator*) () from /junofs/production/public/users/zhangfy/offline_bgd/InstallArea/amd64_linux26/lib/libRootIOSvc.so
+#8  0x00002b634ff4d942 in EndEvtHdl::handle(Incident&) () from /junofs/production/public/users/zhangfy/offline_bgd/InstallArea/amd64_linux26/lib/libBufferMemMgr.so
+#9  0x00002b634b2ce7a5 in IncidentMgr::handle(Incident&) () from /cvmfs/juno.ihep.ac.cn/sl6_amd64_gcc447/Pre-Release/J18v1r1-Pre1/sniper/InstallArea/amd64_linux26/lib/libSniperKernel.so
+#10 0x00002b634b2ce0b7 in Incident::fire(std::basic_string<char, std::char_traits<char>, std::allocator<char> > const&) () from /cvmfs/juno.ihep.ac.cn/sl6_amd64_gcc447/Pre-Release/J18v1r1-Pre1/sniper/InstallArea/amd64_linux26/lib/libSniperKernel.so
+#11 0x00002b634b2d0d60 in Task::local_fire(std::basic_string<char, std::char_traits<char>, std::allocator<char> > const&) () from /cvmfs/juno.ihep.ac.cn/sl6_amd64_gcc447/Pre-Release/J18v1r1-Pre1/sniper/InstallArea/amd64_linux26/lib/libSniperKernel.so
+#12 0x00002b634b2d3d04 in Task::execute() () from /cvmfs/juno.ihep.ac.cn/sl6_amd64_gcc447/Pre-Release/J18v1r1-Pre1/sniper/InstallArea/amd64_linux26/lib/libSniperKernel.so
+#13 0x00002b634ae61a23 in TaskWrap::execute() () from /cvmfs/juno.ihep.ac.cn/sl6_amd64_gcc447/Pre-Release/J18v1r1-Pre1/sniper/InstallArea/amd64_linux26/lib/libSniperPython.so
+#14 0x00002b634b2d32b2 in Task::run() () from /cvmfs/juno.ihep.ac.cn/sl6_amd64_gcc447/Pre-Release/J18v1r1-Pre1/sniper/InstallArea/amd64_linux26/lib/libSniperKernel.so
+#15 0x00002b634ae5ff4e in boost::python::objects::caller_py_function_impl<boost::python::detail::caller<bool (TaskWrap::*)(), boost::python::default_call_policies, boost::mpl::vector2<bool, TaskWrap&> > >::operator()(_object*, _object*) () from /cvmfs/juno.ihep.ac.cn/sl6_amd64_gcc447/Pre-Release/J18v1r1-Pre1/sniper/InstallArea/amd64_linux26/lib/libSniperPython.so
+#16 0x00002b634b0a0171 in boost::python::objects::function::call(_object*, _object*) const () from /cvmfs/juno.ihep.ac.cn/sl6_amd64_gcc447/Pre-Release/J18v1r1-Pre1/ExternalLibs/Boost/1.55.0/lib/libboost_python.so.1.55.0
+#17 0x00002b634b0a05f8 in boost::detail::function::void_function_ref_invoker0<boost::python::objects::(anonymous namespace)::bind_return, void>::invoke(boost::detail::function::function_buffer&) () from /cvmfs/juno.ihep.ac.cn/sl6_amd64_gcc447/Pre-Release/J18v1r1-Pre1/ExternalLibs/Boost/1.55.0/lib/libboost_python.so.1.55.0
+#18 0x00002b634b0a8dbb in boost::python::handle_exception_impl(boost::function0<void>) () from /cvmfs/juno.ihep.ac.cn/sl6_amd64_gcc447/Pre-Release/J18v1r1-Pre1/ExternalLibs/Boost/1.55.0/lib/libboost_python.so.1.55.0
+#19 0x00002b634b09e2e8 in function_call () from /cvmfs/juno.ihep.ac.cn/sl6_amd64_gcc447/Pre-Release/J18v1r1-Pre1/ExternalLibs/Boost/1.55.0/lib/libboost_python.so.1.55.0
+#20 0x00002b63449bd9a3 in PyObject_Call (func=0x21407d0, arg=<value optimized out>, kw=<value optimized out>) at Objects/abstract.c:2529
+#21 0x00002b6344a6cac9 in do_call (f=<value optimized out>, throwflag=<value optimized out>) at Python/ceval.c:4239
+#22 call_function (f=<value optimized out>, throwflag=<value optimized out>) at Python/ceval.c:4044
+#23 PyEval_EvalFrameEx (f=<value optimized out>, throwflag=<value optimized out>) at Python/ceval.c:2666
+#24 0x00002b6344a6f16e in PyEval_EvalCodeEx (co=0x2b6344e45530, globals=<value optimized out>, locals=<value optimized out>, args=<value optimized out>, argcount=0, kws=0x0, kwcount=0, defs=0x0, defcount=0, closure=0x0) at Python/ceval.c:3253
+#25 0x00002b6344a6f282 in PyEval_EvalCode (co=<value optimized out>, globals=<value optimized out>, locals=<value optimized out>) at Python/ceval.c:667
+#26 0x00002b6344a8ee30 in run_mod (fp=0x2120440, filename=<value optimized out>, start=<value optimized out>, globals=0x211a970, locals=0x211a970, closeit=1, flags=0x7ffe4c049790) at Python/pythonrun.c:1370
+#27 PyRun_FileExFlags (fp=0x2120440, filename=<value optimized out>, start=<value optimized out>, globals=0x211a970, locals=0x211a970, closeit=1, flags=0x7ffe4c049790) at Python/pythonrun.c:1356
+#28 0x00002b6344a8f00f in PyRun_SimpleFileExFlags (fp=0x2120440, filename=0x7ffe4c04ba2d "/junofs/production/public/users/zhangfy/offline_bgd/Examples/Tutorial/share/tut_detsim.py", closeit=1, flags=0x7ffe4c049790) at Python/pythonrun.c:948
+#29 0x00002b6344aa4b24 in Py_Main (argc=<value optimized out>, argv=<value optimized out>) at Modules/main.c:640
+#30 0x0000003dba41ed20 in __libc_start_main () from /lib64/libc.so.6
+#31 0x0000000000400649 in _start ()
+===========================================================
+
+
+/junofs/production/public/users/zhangfy/offline_bgd/Examples/Tutorial/share/condor/sim_10086.sh: line 5: 53113 Segmentation fault      (core dumped) python /junofs/production/public/users/zhangfy/offline_bgd/Examples/Tutorial/share/tut_detsim.py --no-gdml --evtmax 1000 --seed 10086 --user-output /junofs/production/public/users/zhangfy/offline_bgd/Examples/Tutorial/share/Anchor/K40/evt_10086.root gendecay --nuclear K40 --volume pAnchor
+Warning: alpha decay energy not found, calculate from Qvalue*0.982456 = 8.00735e-13
+Warning: alpha decay energy not found, calculate from Qvalue*0.982456 = 7.9346e-13
+Warning: alpha decay energy not found, calculate from Qvalue*0.982456 = 7.24668e-13
+Warning: alpha decay energy not found, calculate from Qvalue*0.982456 = 7.12655e-13
+/cvmfs/juno.ihep.ac.cn/sl6_amd64_gcc447/Release/J17v1r1/ExternalLibs/libmore/0.8.3/com/more/ensdf/ar216po.ens.bz2:125:0: Multiple normalization records with same index.
+216PO  N2                        1     LE
+/cvmfs/juno.ihep.ac.cn/sl6_amd64_gcc447/Release/J17v1r1/ExternalLibs/libmore/0.8.3/com/more/ensdf/ar216po.ens.bz2:125:0: Multiple normalization records with same index.
+216PO  N2                        1     LE
+error: Ill-formed float ‘10.38E’.
+error: Ill-formed float ‘2.68E’.
+error: Ill-formed float ‘2.08E’.
+error: Ill-formed float ‘|?0’.
+/cvmfs/juno.ihep.ac.cn/sl6_amd64_gcc447/Release/J17v1r1/ExternalLibs/libmore/0.8.3/com/more/ensdf/ar208pb.ens.bz2:7656:0: Unexpected character in ‘L’ form.
+208PB  L 5967.8     8                                  AP 9      0.027    AP
+error: Ill-formed float ‘10.38E’.
+error: Ill-formed float ‘2.68E’.
+error: Ill-formed float ‘2.08E’.
+error: Ill-formed float ‘|?0’.
+/cvmfs/juno.ihep.ac.cn/sl6_amd64_gcc447/Release/J17v1r1/ExternalLibs/libmore/0.8.3/com/more/ensdf/ar208pb.ens.bz2:7656:0: Unexpected character in ‘L’ form.
+208PB  L 5967.8     8                                  AP 9      0.027    AP
+/cvmfs/juno.ihep.ac.cn/sl6_amd64_gcc447/Release/J17v1r1/ExternalLibs/libmore/0.8.3/com/more/ensdf/ar204hg.ens.bz2:1390:0: Ill-formed time in level record.
+204HG  L 443       2                   7.2E+2    22
+/cvmfs/juno.ihep.ac.cn/sl6_amd64_gcc447/Release/J17v1r1/ExternalLibs/libmore/0.8.3/com/more/ensdf/ar204hg.ens.bz2:1391:0: Ill-formed time in level record.
+204HG  L 1140      5                   110       30
+/cvmfs/juno.ihep.ac.cn/sl6_amd64_gcc447/Release/J17v1r1/ExternalLibs/libmore/0.8.3/com/more/ensdf/ar204hg.ens.bz2:1392:0: Ill-formed time in level record.
+204HG  L 1851      7                   52        16                            ?
+error: Ill-formed float ‘10E’.
+/cvmfs/juno.ihep.ac.cn/sl6_amd64_gcc447/Release/J17v1r1/ExternalLibs/libmore/0.8.3/com/more/ensdf/ar208bi.ens.bz2:1541:0: Missing number in ‘L’ form.
+208BI  L 1717       4                                  (6-9)
+/cvmfs/juno.ihep.ac.cn/sl6_amd64_gcc447/Release/J17v1r1/ExternalLibs/libmore/0.8.3/com/more/ensdf/ar208bi.ens.bz2:1546:0: Missing number in ‘L’ form.
+208BI  L 2417       5                                  (6-9)
+/cvmfs/juno.ihep.ac.cn/sl6_amd64_gcc447/Release/J17v1r1/ExternalLibs/libmore/0.8.3/com/more/ensdf/ar204hg.ens.bz2:1390:0: Ill-formed time in level record.
+204HG  L 443       2                   7.2E+2    22
+/cvmfs/juno.ihep.ac.cn/sl6_amd64_gcc447/Release/J17v1r1/ExternalLibs/libmore/0.8.3/com/more/ensdf/ar204hg.ens.bz2:1391:0: Ill-formed time in level record.
+204HG  L 1140      5                   110       30
+/cvmfs/juno.ihep.ac.cn/sl6_amd64_gcc447/Release/J17v1r1/ExternalLibs/libmore/0.8.3/com/more/ensdf/ar204hg.ens.bz2:1392:0: Ill-formed time in level record.
+204HG  L 1851      7                   52        16                            ?
+error: Ill-formed float ‘10E’.
+/cvmfs/juno.ihep.ac.cn/sl6_amd64_gcc447/Release/J17v1r1/ExternalLibs/libmore/0.8.3/com/more/ensdf/ar208bi.ens.bz2:1541:0: Missing number in ‘L’ form.
+208BI  L 1717       4                                  (6-9)
+/cvmfs/juno.ihep.ac.cn/sl6_amd64_gcc447/Release/J17v1r1/ExternalLibs/libmore/0.8.3/com/more/ensdf/ar208bi.ens.bz2:1546:0: Missing number in ‘L’ form.
+208BI  L 2417       5                                  (6-9)
+/cvmfs/juno.ihep.ac.cn/sl6_amd64_gcc447/Release/J17v1r1/ExternalLibs/libmore/0.8.3/com/more/ensdf/ar204hg.ens.bz2:1390:0: Ill-formed time in level record.
+204HG  L 443       2                   7.2E+2    22
+/cvmfs/juno.ihep.ac.cn/sl6_amd64_gcc447/Release/J17v1r1/ExternalLibs/libmore/0.8.3/com/more/ensdf/ar204hg.ens.bz2:1391:0: Ill-formed time in level record.
+204HG  L 1140      5                   110       30
+/cvmfs/juno.ihep.ac.cn/sl6_amd64_gcc447/Release/J17v1r1/ExternalLibs/libmore/0.8.3/com/more/ensdf/ar204hg.ens.bz2:1392:0: Ill-formed time in level record.
+204HG  L 1851      7                   52        16                            ?
+error: Ill-formed float ‘10E’.
+/cvmfs/juno.ihep.ac.cn/sl6_amd64_gcc447/Release/J17v1r1/ExternalLibs/libmore/0.8.3/com/more/ensdf/ar208bi.ens.bz2:1541:0: Missing number in ‘L’ form.
+208BI  L 1717       4                                  (6-9)
+/cvmfs/juno.ihep.ac.cn/sl6_amd64_gcc447/Release/J17v1r1/ExternalLibs/libmore/0.8.3/com/more/ensdf/ar208bi.ens.bz2:1546:0: Missing number in ‘L’ form.
+208BI  L 2417       5                                  (6-9)
+error: Ill-formed float ‘10.38E’.
+error: Ill-formed float ‘2.68E’.
+error: Ill-formed float ‘2.08E’.
+error: Ill-formed float ‘|?0’.
+/cvmfs/juno.ihep.ac.cn/sl6_amd64_gcc447/Release/J17v1r1/ExternalLibs/libmore/0.8.3/com/more/ensdf/ar208pb.ens.bz2:7656:0: Unexpected character in ‘L’ form.
+208PB  L 5967.8     8                                  AP 9      0.027    AP
+/cvmfs/juno.ihep.ac.cn/sl6_amd64_gcc447/Release/J17v1r1/ExternalLibs/libmore/0.8.3/com/more/ensdf/ar204hg.ens.bz2:1390:0: Ill-formed time in level record.
+204HG  L 443       2                   7.2E+2    22
+/cvmfs/juno.ihep.ac.cn/sl6_amd64_gcc447/Release/J17v1r1/ExternalLibs/libmore/0.8.3/com/more/ensdf/ar204hg.ens.bz2:1391:0: Ill-formed time in level record.
+204HG  L 1140      5                   110       30
+/cvmfs/juno.ihep.ac.cn/sl6_amd64_gcc447/Release/J17v1r1/ExternalLibs/libmore/0.8.3/com/more/ensdf/ar204hg.ens.bz2:1392:0: Ill-formed time in level record.
+204HG  L 1851      7                   52        16                            ?
+error: Ill-formed float ‘10E’.
+/cvmfs/juno.ihep.ac.cn/sl6_amd64_gcc447/Release/J17v1r1/ExternalLibs/libmore/0.8.3/com/more/ensdf/ar208bi.ens.bz2:1541:0: Missing number in ‘L’ form.
+208BI  L 1717       4                                  (6-9)
+/cvmfs/juno.ihep.ac.cn/sl6_amd64_gcc447/Release/J17v1r1/ExternalLibs/libmore/0.8.3/com/more/ensdf/ar208bi.ens.bz2:1546:0: Missing number in ‘L’ form.
+208BI  L 2417       5                                  (6-9)
+error: Ill-formed float ‘10.38E’.
+error: Ill-formed float ‘2.68E’.
+error: Ill-formed float ‘2.08E’.
+error: Ill-formed float ‘|?0’.
+/cvmfs/juno.ihep.ac.cn/sl6_amd64_gcc447/Release/J17v1r1/ExternalLibs/libmore/0.8.3/com/more/ensdf/ar208pb.ens.bz2:7656:0: Unexpected character in ‘L’ form.
+208PB  L 5967.8     8                                  AP 9      0.027    AP
+/cvmfs/juno.ihep.ac.cn/sl6_amd64_gcc447/Release/J17v1r1/ExternalLibs/libmore/0.8.3/com/more/ensdf/ar204hg.ens.bz2:1390:0: Ill-formed time in level record.
+204HG  L 443       2                   7.2E+2    22
+/cvmfs/juno.ihep.ac.cn/sl6_amd64_gcc447/Release/J17v1r1/ExternalLibs/libmore/0.8.3/com/more/ensdf/ar204hg.ens.bz2:1391:0: Ill-formed time in level record.
+204HG  L 1140      5                   110       30
+/cvmfs/juno.ihep.ac.cn/sl6_amd64_gcc447/Release/J17v1r1/ExternalLibs/libmore/0.8.3/com/more/ensdf/ar204hg.ens.bz2:1392:0: Ill-formed time in level record.
+204HG  L 1851      7                   52        16                            ?
+error: Ill-formed float ‘10E’.
+/cvmfs/juno.ihep.ac.cn/sl6_amd64_gcc447/Release/J17v1r1/ExternalLibs/libmore/0.8.3/com/more/ensdf/ar208bi.ens.bz2:1541:0: Missing number in ‘L’ form.
+208BI  L 1717       4                                  (6-9)
+/cvmfs/juno.ihep.ac.cn/sl6_amd64_gcc447/Release/J17v1r1/ExternalLibs/libmore/0.8.3/com/more/ensdf/ar208bi.ens.bz2:1546:0: Missing number in ‘L’ form.
+208BI  L 2417       5                                  (6-9)
+error: Ill-formed float ‘10.38E’.
+error: Ill-formed float ‘2.68E’.
+error: Ill-formed float ‘2.08E’.
+error: Ill-formed float ‘|?0’.
+/cvmfs/juno.ihep.ac.cn/sl6_amd64_gcc447/Release/J17v1r1/ExternalLibs/libmore/0.8.3/com/more/ensdf/ar208pb.ens.bz2:7656:0: Unexpected character in ‘L’ form.
+208PB  L 5967.8     8                                  AP 9      0.027    AP
+/cvmfs/juno.ihep.ac.cn/sl6_amd64_gcc447/Release/J17v1r1/ExternalLibs/libmore/0.8.3/com/more/ensdf/ar204hg.ens.bz2:1390:0: Ill-formed time in level record.
+204HG  L 443       2                   7.2E+2    22
+/cvmfs/juno.ihep.ac.cn/sl6_amd64_gcc447/Release/J17v1r1/ExternalLibs/libmore/0.8.3/com/more/ensdf/ar204hg.ens.bz2:1391:0: Ill-formed time in level record.
+204HG  L 1140      5                   110       30
+/cvmfs/juno.ihep.ac.cn/sl6_amd64_gcc447/Release/J17v1r1/ExternalLibs/libmore/0.8.3/com/more/ensdf/ar204hg.ens.bz2:1392:0: Ill-formed time in level record.
+204HG  L 1851      7                   52        16                            ?
+error: Ill-formed float ‘10E’.
+/cvmfs/juno.ihep.ac.cn/sl6_amd64_gcc447/Release/J17v1r1/ExternalLibs/libmore/0.8.3/com/more/ensdf/ar208bi.ens.bz2:1541:0: Missing number in ‘L’ form.
+208BI  L 1717       4                                  (6-9)
+/cvmfs/juno.ihep.ac.cn/sl6_amd64_gcc447/Release/J17v1r1/ExternalLibs/libmore/0.8.3/com/more/ensdf/ar208bi.ens.bz2:1546:0: Missing number in ‘L’ form.
+208BI  L 2417       5                                  (6-9)
+/cvmfs/juno.ihep.ac.cn/sl6_amd64_gcc447/Release/J17v1r1/ExternalLibs/libmore/0.8.3/com/more/ensdf/ar204hg.ens.bz2:1390:0: Ill-formed time in level record.
+204HG  L 443       2                   7.2E+2    22
+/cvmfs/juno.ihep.ac.cn/sl6_amd64_gcc447/Release/J17v1r1/ExternalLibs/libmore/0.8.3/com/more/ensdf/ar204hg.ens.bz2:1391:0: Ill-formed time in level record.
+204HG  L 1140      5                   110       30
+/cvmfs/juno.ihep.ac.cn/sl6_amd64_gcc447/Release/J17v1r1/ExternalLibs/libmore/0.8.3/com/more/ensdf/ar204hg.ens.bz2:1392:0: Ill-formed time in level record.
+204HG  L 1851      7                   52        16                            ?
+error: Ill-formed float ‘10E’.
+/cvmfs/juno.ihep.ac.cn/sl6_amd64_gcc447/Release/J17v1r1/ExternalLibs/libmore/0.8.3/com/more/ensdf/ar208bi.ens.bz2:1541:0: Missing number in ‘L’ form.
+208BI  L 1717       4                                  (6-9)
+/cvmfs/juno.ihep.ac.cn/sl6_amd64_gcc447/Release/J17v1r1/ExternalLibs/libmore/0.8.3/com/more/ensdf/ar208bi.ens.bz2:1546:0: Missing number in ‘L’ form.
+208BI  L 2417       5                                  (6-9)
+error: Ill-formed float ‘10.38E’.
+error: Ill-formed float ‘2.68E’.
+error: Ill-formed float ‘2.08E’.
+error: Ill-formed float ‘|?0’.
+/cvmfs/juno.ihep.ac.cn/sl6_amd64_gcc447/Release/J17v1r1/ExternalLibs/libmore/0.8.3/com/more/ensdf/ar208pb.ens.bz2:7656:0: Unexpected character in ‘L’ form.
+208PB  L 5967.8     8                                  AP 9      0.027    AP
+/cvmfs/juno.ihep.ac.cn/sl6_amd64_gcc447/Release/J17v1r1/ExternalLibs/libmore/0.8.3/com/more/ensdf/ar204hg.ens.bz2:1390:0: Ill-formed time in level record.
+204HG  L 443       2                   7.2E+2    22
+/cvmfs/juno.ihep.ac.cn/sl6_amd64_gcc447/Release/J17v1r1/ExternalLibs/libmore/0.8.3/com/more/ensdf/ar204hg.ens.bz2:1391:0: Ill-formed time in level record.
+204HG  L 1140      5                   110       30
+/cvmfs/juno.ihep.ac.cn/sl6_amd64_gcc447/Release/J17v1r1/ExternalLibs/libmore/0.8.3/com/more/ensdf/ar204hg.ens.bz2:1392:0: Ill-formed time in level record.
+204HG  L 1851      7                   52        16                            ?
+error: Ill-formed float ‘10E’.
+/cvmfs/juno.ihep.ac.cn/sl6_amd64_gcc447/Release/J17v1r1/ExternalLibs/libmore/0.8.3/com/more/ensdf/ar208bi.ens.bz2:1541:0: Missing number in ‘L’ form.
+208BI  L 1717       4                                  (6-9)
+/cvmfs/juno.ihep.ac.cn/sl6_amd64_gcc447/Release/J17v1r1/ExternalLibs/libmore/0.8.3/com/more/ensdf/ar208bi.ens.bz2:1546:0: Missing number in ‘L’ form.
+208BI  L 2417       5                                  (6-9)
+error: Ill-formed float ‘10.38E’.
+error: Ill-formed float ‘2.68E’.
+error: Ill-formed float ‘2.08E’.
+error: Ill-formed float ‘|?0’.
+/cvmfs/juno.ihep.ac.cn/sl6_amd64_gcc447/Release/J17v1r1/ExternalLibs/libmore/0.8.3/com/more/ensdf/ar208pb.ens.bz2:7656:0: Unexpected character in ‘L’ form.
+208PB  L 5967.8     8                                  AP 9      0.027    AP
+/cvmfs/juno.ihep.ac.cn/sl6_amd64_gcc447/Release/J17v1r1/ExternalLibs/libmore/0.8.3/com/more/ensdf/ar204hg.ens.bz2:1390:0: Ill-formed time in level record.
+204HG  L 443       2                   7.2E+2    22
+/cvmfs/juno.ihep.ac.cn/sl6_amd64_gcc447/Release/J17v1r1/ExternalLibs/libmore/0.8.3/com/more/ensdf/ar204hg.ens.bz2:1391:0: Ill-formed time in level record.
+204HG  L 1140      5                   110       30
+/cvmfs/juno.ihep.ac.cn/sl6_amd64_gcc447/Release/J17v1r1/ExternalLibs/libmore/0.8.3/com/more/ensdf/ar204hg.ens.bz2:1392:0: Ill-formed time in level record.
+204HG  L 1851      7                   52        16                            ?
+error: Ill-formed float ‘10E’.
+/cvmfs/juno.ihep.ac.cn/sl6_amd64_gcc447/Release/J17v1r1/ExternalLibs/libmore/0.8.3/com/more/ensdf/ar208bi.ens.bz2:1541:0: Missing number in ‘L’ form.
+208BI  L 1717       4                                  (6-9)
+/cvmfs/juno.ihep.ac.cn/sl6_amd64_gcc447/Release/J17v1r1/ExternalLibs/libmore/0.8.3/com/more/ensdf/ar208bi.ens.bz2:1546:0: Missing number in ‘L’ form.
+208BI  L 2417       5                                  (6-9)
+error: Ill-formed float ‘10.38E’.
+error: Ill-formed float ‘2.68E’.
+error: Ill-formed float ‘2.08E’.
+error: Ill-formed float ‘|?0’.
+/cvmfs/juno.ihep.ac.cn/sl6_amd64_gcc447/Release/J17v1r1/ExternalLibs/libmore/0.8.3/com/more/ensdf/ar208pb.ens.bz2:7656:0: Unexpected character in ‘L’ form.
+208PB  L 5967.8     8                                  AP 9      0.027    AP
+/cvmfs/juno.ihep.ac.cn/sl6_amd64_gcc447/Release/J17v1r1/ExternalLibs/libmore/0.8.3/com/more/ensdf/ar204hg.ens.bz2:1390:0: Ill-formed time in level record.
+204HG  L 443       2                   7.2E+2    22
+/cvmfs/juno.ihep.ac.cn/sl6_amd64_gcc447/Release/J17v1r1/ExternalLibs/libmore/0.8.3/com/more/ensdf/ar204hg.ens.bz2:1391:0: Ill-formed time in level record.
+204HG  L 1140      5                   110       30
+/cvmfs/juno.ihep.ac.cn/sl6_amd64_gcc447/Release/J17v1r1/ExternalLibs/libmore/0.8.3/com/more/ensdf/ar204hg.ens.bz2:1392:0: Ill-formed time in level record.
+204HG  L 1851      7                   52        16                            ?
+error: Ill-formed float ‘10E’.
+/cvmfs/juno.ihep.ac.cn/sl6_amd64_gcc447/Release/J17v1r1/ExternalLibs/libmore/0.8.3/com/more/ensdf/ar208bi.ens.bz2:1541:0: Missing number in ‘L’ form.
+208BI  L 1717       4                                  (6-9)
+/cvmfs/juno.ihep.ac.cn/sl6_amd64_gcc447/Release/J17v1r1/ExternalLibs/libmore/0.8.3/com/more/ensdf/ar208bi.ens.bz2:1546:0: Missing number in ‘L’ form.
+208BI  L 2417       5                                  (6-9)
+error: Ill-formed float ‘10.38E’.
+error: Ill-formed float ‘2.68E’.
+error: Ill-formed float ‘2.08E’.
+error: Ill-formed float ‘|?0’.
+/cvmfs/juno.ihep.ac.cn/sl6_amd64_gcc447/Release/J17v1r1/ExternalLibs/libmore/0.8.3/com/more/ensdf/ar208pb.ens.bz2:7656:0: Unexpected character in ‘L’ form.
+208PB  L 5967.8     8                                  AP 9      0.027    AP
+/cvmfs/juno.ihep.ac.cn/sl6_amd64_gcc447/Release/J17v1r1/ExternalLibs/libmore/0.8.3/com/more/ensdf/ar204hg.ens.bz2:1390:0: Ill-formed time in level record.
+204HG  L 443       2                   7.2E+2    22
+/cvmfs/juno.ihep.ac.cn/sl6_amd64_gcc447/Release/J17v1r1/ExternalLibs/libmore/0.8.3/com/more/ensdf/ar204hg.ens.bz2:1391:0: Ill-formed time in level record.
+204HG  L 1140      5                   110       30
+/cvmfs/juno.ihep.ac.cn/sl6_amd64_gcc447/Release/J17v1r1/ExternalLibs/libmore/0.8.3/com/more/ensdf/ar204hg.ens.bz2:1392:0: Ill-formed time in level record.
+204HG  L 1851      7                   52        16                            ?
+error: Ill-formed float ‘10E’.
+/cvmfs/juno.ihep.ac.cn/sl6_amd64_gcc447/Release/J17v1r1/ExternalLibs/libmore/0.8.3/com/more/ensdf/ar208bi.ens.bz2:1541:0: Missing number in ‘L’ form.
+208BI  L 1717       4                                  (6-9)
+/cvmfs/juno.ihep.ac.cn/sl6_amd64_gcc447/Release/J17v1r1/ExternalLibs/libmore/0.8.3/com/more/ensdf/ar208bi.ens.bz2:1546:0: Missing number in ‘L’ form.
+208BI  L 2417       5                                  (6-9)
+/cvmfs/juno.ihep.ac.cn/sl6_amd64_gcc447/Release/J17v1r1/ExternalLibs/libmore/0.8.3/com/more/ensdf/ar204hg.ens.bz2:1390:0: Ill-formed time in level record.
+204HG  L 443       2                   7.2E+2    22
+/cvmfs/juno.ihep.ac.cn/sl6_amd64_gcc447/Release/J17v1r1/ExternalLibs/libmore/0.8.3/com/more/ensdf/ar204hg.ens.bz2:1391:0: Ill-formed time in level record.
+204HG  L 1140      5                   110       30
+/cvmfs/juno.ihep.ac.cn/sl6_amd64_gcc447/Release/J17v1r1/ExternalLibs/libmore/0.8.3/com/more/ensdf/ar204hg.ens.bz2:1392:0: Ill-formed time in level record.
+204HG  L 1851      7                   52        16                            ?
+error: Ill-formed float ‘10E’.
+/cvmfs/juno.ihep.ac.cn/sl6_amd64_gcc447/Release/J17v1r1/ExternalLibs/libmore/0.8.3/com/more/ensdf/ar208bi.ens.bz2:1541:0: Missing number in ‘L’ form.
+208BI  L 1717       4                                  (6-9)
+/cvmfs/juno.ihep.ac.cn/sl6_amd64_gcc447/Release/J17v1r1/ExternalLibs/libmore/0.8.3/com/more/ensdf/ar208bi.ens.bz2:1546:0: Missing number in ‘L’ form.
+208BI  L 2417       5                                  (6-9)
+/cvmfs/juno.ihep.ac.cn/sl6_amd64_gcc447/Release/J17v1r1/ExternalLibs/libmore/0.8.3/com/more/ensdf/ar204hg.ens.bz2:1390:0: Ill-formed time in level record.
+204HG  L 443       2                   7.2E+2    22
+/cvmfs/juno.ihep.ac.cn/sl6_amd64_gcc447/Release/J17v1r1/ExternalLibs/libmore/0.8.3/com/more/ensdf/ar204hg.ens.bz2:1391:0: Ill-formed time in level record.
+204HG  L 1140      5                   110       30
+/cvmfs/juno.ihep.ac.cn/sl6_amd64_gcc447/Release/J17v1r1/ExternalLibs/libmore/0.8.3/com/more/ensdf/ar204hg.ens.bz2:1392:0: Ill-formed time in level record.
+204HG  L 1851      7                   52        16                            ?
+error: Ill-formed float ‘10E’.
+/cvmfs/juno.ihep.ac.cn/sl6_amd64_gcc447/Release/J17v1r1/ExternalLibs/libmore/0.8.3/com/more/ensdf/ar208bi.ens.bz2:1541:0: Missing number in ‘L’ form.
+208BI  L 1717       4                                  (6-9)
+/cvmfs/juno.ihep.ac.cn/sl6_amd64_gcc447/Release/J17v1r1/ExternalLibs/libmore/0.8.3/com/more/ensdf/ar208bi.ens.bz2:1546:0: Missing number in ‘L’ form.
+208BI  L 2417       5                                  (6-9)
+error: Ill-formed float ‘10.38E’.
+error: Ill-formed float ‘2.68E’.
+error: Ill-formed float ‘2.08E’.
+error: Ill-formed float ‘|?0’.
+/cvmfs/juno.ihep.ac.cn/sl6_amd64_gcc447/Release/J17v1r1/ExternalLibs/libmore/0.8.3/com/more/ensdf/ar208pb.ens.bz2:7656:0: Unexpected character in ‘L’ form.
+208PB  L 5967.8     8                                  AP 9      0.027    AP
+/cvmfs/juno.ihep.ac.cn/sl6_amd64_gcc447/Release/J17v1r1/ExternalLibs/libmore/0.8.3/com/more/ensdf/ar204hg.ens.bz2:1390:0: Ill-formed time in level record.
+204HG  L 443       2                   7.2E+2    22
+/cvmfs/juno.ihep.ac.cn/sl6_amd64_gcc447/Release/J17v1r1/ExternalLibs/libmore/0.8.3/com/more/ensdf/ar204hg.ens.bz2:1391:0: Ill-formed time in level record.
+204HG  L 1140      5                   110       30
+/cvmfs/juno.ihep.ac.cn/sl6_amd64_gcc447/Release/J17v1r1/ExternalLibs/libmore/0.8.3/com/more/ensdf/ar204hg.ens.bz2:1392:0: Ill-formed time in level record.
+204HG  L 1851      7                   52        16                            ?
+error: Ill-formed float ‘10E’.
+/cvmfs/juno.ihep.ac.cn/sl6_amd64_gcc447/Release/J17v1r1/ExternalLibs/libmore/0.8.3/com/more/ensdf/ar208bi.ens.bz2:1541:0: Missing number in ‘L’ form.
+208BI  L 1717       4                                  (6-9)
+/cvmfs/juno.ihep.ac.cn/sl6_amd64_gcc447/Release/J17v1r1/ExternalLibs/libmore/0.8.3/com/more/ensdf/ar208bi.ens.bz2:1546:0: Missing number in ‘L’ form.
+208BI  L 2417       5                                  (6-9)
+error: Ill-formed float ‘10.38E’.
+error: Ill-formed float ‘2.68E’.
+error: Ill-formed float ‘2.08E’.
+error: Ill-formed float ‘|?0’.
+/cvmfs/juno.ihep.ac.cn/sl6_amd64_gcc447/Release/J17v1r1/ExternalLibs/libmore/0.8.3/com/more/ensdf/ar208pb.ens.bz2:7656:0: Unexpected character in ‘L’ form.
+208PB  L 5967.8     8                                  AP 9      0.027    AP
+/cvmfs/juno.ihep.ac.cn/sl6_amd64_gcc447/Release/J17v1r1/ExternalLibs/libmore/0.8.3/com/more/ensdf/ar204hg.ens.bz2:1390:0: Ill-formed time in level record.
+204HG  L 443       2                   7.2E+2    22
+/cvmfs/juno.ihep.ac.cn/sl6_amd64_gcc447/Release/J17v1r1/ExternalLibs/libmore/0.8.3/com/more/ensdf/ar204hg.ens.bz2:1391:0: Ill-formed time in level record.
+204HG  L 1140      5                   110       30
+/cvmfs/juno.ihep.ac.cn/sl6_amd64_gcc447/Release/J17v1r1/ExternalLibs/libmore/0.8.3/com/more/ensdf/ar204hg.ens.bz2:1392:0: Ill-formed time in level record.
+204HG  L 1851      7                   52        16                            ?
+error: Ill-formed float ‘10E’.
+/cvmfs/juno.ihep.ac.cn/sl6_amd64_gcc447/Release/J17v1r1/ExternalLibs/libmore/0.8.3/com/more/ensdf/ar208bi.ens.bz2:1541:0: Missing number in ‘L’ form.
+208BI  L 1717       4                                  (6-9)
+/cvmfs/juno.ihep.ac.cn/sl6_amd64_gcc447/Release/J17v1r1/ExternalLibs/libmore/0.8.3/com/more/ensdf/ar208bi.ens.bz2:1546:0: Missing number in ‘L’ form.
+208BI  L 2417       5                                  (6-9)
+error: Ill-formed float ‘10.38E’.
+error: Ill-formed float ‘2.68E’.
+error: Ill-formed float ‘2.08E’.
+error: Ill-formed float ‘|?0’.
+/cvmfs/juno.ihep.ac.cn/sl6_amd64_gcc447/Release/J17v1r1/ExternalLibs/libmore/0.8.3/com/more/ensdf/ar208pb.ens.bz2:7656:0: Unexpected character in ‘L’ form.
+208PB  L 5967.8     8                                  AP 9      0.027    AP
+/cvmfs/juno.ihep.ac.cn/sl6_amd64_gcc447/Release/J17v1r1/ExternalLibs/libmore/0.8.3/com/more/ensdf/ar204hg.ens.bz2:1390:0: Ill-formed time in level record.
+204HG  L 443       2                   7.2E+2    22
+/cvmfs/juno.ihep.ac.cn/sl6_amd64_gcc447/Release/J17v1r1/ExternalLibs/libmore/0.8.3/com/more/ensdf/ar204hg.ens.bz2:1391:0: Ill-formed time in level record.
+204HG  L 1140      5                   110       30
+/cvmfs/juno.ihep.ac.cn/sl6_amd64_gcc447/Release/J17v1r1/ExternalLibs/libmore/0.8.3/com/more/ensdf/ar204hg.ens.bz2:1392:0: Ill-formed time in level record.
+204HG  L 1851      7                   52        16                            ?
+error: Ill-formed float ‘10E’.
+/cvmfs/juno.ihep.ac.cn/sl6_amd64_gcc447/Release/J17v1r1/ExternalLibs/libmore/0.8.3/com/more/ensdf/ar208bi.ens.bz2:1541:0: Missing number in ‘L’ form.
+208BI  L 1717       4                                  (6-9)
+/cvmfs/juno.ihep.ac.cn/sl6_amd64_gcc447/Release/J17v1r1/ExternalLibs/libmore/0.8.3/com/more/ensdf/ar208bi.ens.bz2:1546:0: Missing number in ‘L’ form.
+208BI  L 2417       5                                  (6-9)
+/cvmfs/juno.ihep.ac.cn/sl6_amd64_gcc447/Release/J17v1r1/ExternalLibs/libmore/0.8.3/com/more/ensdf/ar204hg.ens.bz2:1390:0: Ill-formed time in level record.
+204HG  L 443       2                   7.2E+2    22
+/cvmfs/juno.ihep.ac.cn/sl6_amd64_gcc447/Release/J17v1r1/ExternalLibs/libmore/0.8.3/com/more/ensdf/ar204hg.ens.bz2:1391:0: Ill-formed time in level record.
+204HG  L 1140      5                   110       30
+/cvmfs/juno.ihep.ac.cn/sl6_amd64_gcc447/Release/J17v1r1/ExternalLibs/libmore/0.8.3/com/more/ensdf/ar204hg.ens.bz2:1392:0: Ill-formed time in level record.
+204HG  L 1851      7                   52        16                            ?
+error: Ill-formed float ‘10E’.
+/cvmfs/juno.ihep.ac.cn/sl6_amd64_gcc447/Release/J17v1r1/ExternalLibs/libmore/0.8.3/com/more/ensdf/ar208bi.ens.bz2:1541:0: Missing number in ‘L’ form.
+208BI  L 1717       4                                  (6-9)
+/cvmfs/juno.ihep.ac.cn/sl6_amd64_gcc447/Release/J17v1r1/ExternalLibs/libmore/0.8.3/com/more/ensdf/ar208bi.ens.bz2:1546:0: Missing number in ‘L’ form.
+208BI  L 2417       5                                  (6-9)
+error: Ill-formed float ‘10.38E’.
+error: Ill-formed float ‘2.68E’.
+error: Ill-formed float ‘2.08E’.
+error: Ill-formed float ‘|?0’.
+/cvmfs/juno.ihep.ac.cn/sl6_amd64_gcc447/Release/J17v1r1/ExternalLibs/libmore/0.8.3/com/more/ensdf/ar208pb.ens.bz2:7656:0: Unexpected character in ‘L’ form.
+208PB  L 5967.8     8                                  AP 9      0.027    AP
+/cvmfs/juno.ihep.ac.cn/sl6_amd64_gcc447/Release/J17v1r1/ExternalLibs/libmore/0.8.3/com/more/ensdf/ar204hg.ens.bz2:1390:0: Ill-formed time in level record.
+204HG  L 443       2                   7.2E+2    22
+/cvmfs/juno.ihep.ac.cn/sl6_amd64_gcc447/Release/J17v1r1/ExternalLibs/libmore/0.8.3/com/more/ensdf/ar204hg.ens.bz2:1391:0: Ill-formed time in level record.
+204HG  L 1140      5                   110       30
+/cvmfs/juno.ihep.ac.cn/sl6_amd64_gcc447/Release/J17v1r1/ExternalLibs/libmore/0.8.3/com/more/ensdf/ar204hg.ens.bz2:1392:0: Ill-formed time in level record.
+204HG  L 1851      7                   52        16                            ?
+error: Ill-formed float ‘10E’.
+/cvmfs/juno.ihep.ac.cn/sl6_amd64_gcc447/Release/J17v1r1/ExternalLibs/libmore/0.8.3/com/more/ensdf/ar208bi.ens.bz2:1541:0: Missing number in ‘L’ form.
+208BI  L 1717       4                                  (6-9)
+/cvmfs/juno.ihep.ac.cn/sl6_amd64_gcc447/Release/J17v1r1/ExternalLibs/libmore/0.8.3/com/more/ensdf/ar208bi.ens.bz2:1546:0: Missing number in ‘L’ form.
+208BI  L 2417       5                                  (6-9)
+error: Ill-formed float ‘10.38E’.
+error: Ill-formed float ‘2.68E’.
+error: Ill-formed float ‘2.08E’.
+error: Ill-formed float ‘|?0’.
+/cvmfs/juno.ihep.ac.cn/sl6_amd64_gcc447/Release/J17v1r1/ExternalLibs/libmore/0.8.3/com/more/ensdf/ar208pb.ens.bz2:7656:0: Unexpected character in ‘L’ form.
+208PB  L 5967.8     8                                  AP 9      0.027    AP
+/cvmfs/juno.ihep.ac.cn/sl6_amd64_gcc447/Release/J17v1r1/ExternalLibs/libmore/0.8.3/com/more/ensdf/ar204hg.ens.bz2:1390:0: Ill-formed time in level record.
+204HG  L 443       2                   7.2E+2    22
+/cvmfs/juno.ihep.ac.cn/sl6_amd64_gcc447/Release/J17v1r1/ExternalLibs/libmore/0.8.3/com/more/ensdf/ar204hg.ens.bz2:1391:0: Ill-formed time in level record.
+204HG  L 1140      5                   110       30
+/cvmfs/juno.ihep.ac.cn/sl6_amd64_gcc447/Release/J17v1r1/ExternalLibs/libmore/0.8.3/com/more/ensdf/ar204hg.ens.bz2:1392:0: Ill-formed time in level record.
+204HG  L 1851      7                   52        16                            ?
+error: Ill-formed float ‘10E’.
+/cvmfs/juno.ihep.ac.cn/sl6_amd64_gcc447/Release/J17v1r1/ExternalLibs/libmore/0.8.3/com/more/ensdf/ar208bi.ens.bz2:1541:0: Missing number in ‘L’ form.
+208BI  L 1717       4                                  (6-9)
+/cvmfs/juno.ihep.ac.cn/sl6_amd64_gcc447/Release/J17v1r1/ExternalLibs/libmore/0.8.3/com/more/ensdf/ar208bi.ens.bz2:1546:0: Missing number in ‘L’ form.
+208BI  L 2417       5                                  (6-9)
+/cvmfs/juno.ihep.ac.cn/sl6_amd64_gcc447/Release/J17v1r1/ExternalLibs/libmore/0.8.3/com/more/ensdf/ar204hg.ens.bz2:1390:0: Ill-formed time in level record.
+204HG  L 443       2                   7.2E+2    22
+/cvmfs/juno.ihep.ac.cn/sl6_amd64_gcc447/Release/J17v1r1/ExternalLibs/libmore/0.8.3/com/more/ensdf/ar204hg.ens.bz2:1391:0: Ill-formed time in level record.
+204HG  L 1140      5                   110       30
+/cvmfs/juno.ihep.ac.cn/sl6_amd64_gcc447/Release/J17v1r1/ExternalLibs/libmore/0.8.3/com/more/ensdf/ar204hg.ens.bz2:1392:0: Ill-formed time in level record.
+204HG  L 1851      7                   52        16                            ?
+error: Ill-formed float ‘10E’.
+/cvmfs/juno.ihep.ac.cn/sl6_amd64_gcc447/Release/J17v1r1/ExternalLibs/libmore/0.8.3/com/more/ensdf/ar208bi.ens.bz2:1541:0: Missing number in ‘L’ form.
+208BI  L 1717       4                                  (6-9)
+/cvmfs/juno.ihep.ac.cn/sl6_amd64_gcc447/Release/J17v1r1/ExternalLibs/libmore/0.8.3/com/more/ensdf/ar208bi.ens.bz2:1546:0: Missing number in ‘L’ form.
+208BI  L 2417       5                                  (6-9)
+/cvmfs/juno.ihep.ac.cn/sl6_amd64_gcc447/Release/J17v1r1/ExternalLibs/libmore/0.8.3/com/more/ensdf/ar204hg.ens.bz2:1390:0: Ill-formed time in level record.
+204HG  L 443       2                   7.2E+2    22
+/cvmfs/juno.ihep.ac.cn/sl6_amd64_gcc447/Release/J17v1r1/ExternalLibs/libmore/0.8.3/com/more/ensdf/ar204hg.ens.bz2:1391:0: Ill-formed time in level record.
+204HG  L 1140      5                   110       30
+/cvmfs/juno.ihep.ac.cn/sl6_amd64_gcc447/Release/J17v1r1/ExternalLibs/libmore/0.8.3/com/more/ensdf/ar204hg.ens.bz2:1392:0: Ill-formed time in level record.
+204HG  L 1851      7                   52        16                            ?
+error: Ill-formed float ‘10E’.
+/cvmfs/juno.ihep.ac.cn/sl6_amd64_gcc447/Release/J17v1r1/ExternalLibs/libmore/0.8.3/com/more/ensdf/ar208bi.ens.bz2:1541:0: Missing number in ‘L’ form.
+208BI  L 1717       4                                  (6-9)
+/cvmfs/juno.ihep.ac.cn/sl6_amd64_gcc447/Release/J17v1r1/ExternalLibs/libmore/0.8.3/com/more/ensdf/ar208bi.ens.bz2:1546:0: Missing number in ‘L’ form.
+208BI  L 2417       5                                  (6-9)
+error: Ill-formed float ‘10.38E’.
+error: Ill-formed float ‘2.68E’.
+error: Ill-formed float ‘2.08E’.
+error: Ill-formed float ‘|?0’.
+/cvmfs/juno.ihep.ac.cn/sl6_amd64_gcc447/Release/J17v1r1/ExternalLibs/libmore/0.8.3/com/more/ensdf/ar208pb.ens.bz2:7656:0: Unexpected character in ‘L’ form.
+208PB  L 5967.8     8                                  AP 9      0.027    AP
+/cvmfs/juno.ihep.ac.cn/sl6_amd64_gcc447/Release/J17v1r1/ExternalLibs/libmore/0.8.3/com/more/ensdf/ar204hg.ens.bz2:1390:0: Ill-formed time in level record.
+204HG  L 443       2                   7.2E+2    22
+/cvmfs/juno.ihep.ac.cn/sl6_amd64_gcc447/Release/J17v1r1/ExternalLibs/libmore/0.8.3/com/more/ensdf/ar204hg.ens.bz2:1391:0: Ill-formed time in level record.
+204HG  L 1140      5                   110       30
+/cvmfs/juno.ihep.ac.cn/sl6_amd64_gcc447/Release/J17v1r1/ExternalLibs/libmore/0.8.3/com/more/ensdf/ar204hg.ens.bz2:1392:0: Ill-formed time in level record.
+204HG  L 1851      7                   52        16                            ?
+error: Ill-formed float ‘10E’.
+/cvmfs/juno.ihep.ac.cn/sl6_amd64_gcc447/Release/J17v1r1/ExternalLibs/libmore/0.8.3/com/more/ensdf/ar208bi.ens.bz2:1541:0: Missing number in ‘L’ form.
+208BI  L 1717       4                                  (6-9)
+/cvmfs/juno.ihep.ac.cn/sl6_amd64_gcc447/Release/J17v1r1/ExternalLibs/libmore/0.8.3/com/more/ensdf/ar208bi.ens.bz2:1546:0: Missing number in ‘L’ form.
+208BI  L 2417       5                                  (6-9)
+/cvmfs/juno.ihep.ac.cn/sl6_amd64_gcc447/Release/J17v1r1/ExternalLibs/libmore/0.8.3/com/more/ensdf/ar204hg.ens.bz2:1390:0: Ill-formed time in level record.
+204HG  L 443       2                   7.2E+2    22
+/cvmfs/juno.ihep.ac.cn/sl6_amd64_gcc447/Release/J17v1r1/ExternalLibs/libmore/0.8.3/com/more/ensdf/ar204hg.ens.bz2:1391:0: Ill-formed time in level record.
+204HG  L 1140      5                   110       30
+/cvmfs/juno.ihep.ac.cn/sl6_amd64_gcc447/Release/J17v1r1/ExternalLibs/libmore/0.8.3/com/more/ensdf/ar204hg.ens.bz2:1392:0: Ill-formed time in level record.
+204HG  L 1851      7                   52        16                            ?
+error: Ill-formed float ‘10E’.
+/cvmfs/juno.ihep.ac.cn/sl6_amd64_gcc447/Release/J17v1r1/ExternalLibs/libmore/0.8.3/com/more/ensdf/ar208bi.ens.bz2:1541:0: Missing number in ‘L’ form.
+208BI  L 1717       4                                  (6-9)
+/cvmfs/juno.ihep.ac.cn/sl6_amd64_gcc447/Release/J17v1r1/ExternalLibs/libmore/0.8.3/com/more/ensdf/ar208bi.ens.bz2:1546:0: Missing number in ‘L’ form.
+208BI  L 2417       5                                  (6-9)
+/cvmfs/juno.ihep.ac.cn/sl6_amd64_gcc447/Release/J17v1r1/ExternalLibs/libmore/0.8.3/com/more/ensdf/ar204hg.ens.bz2:1390:0: Ill-formed time in level record.
+204HG  L 443       2                   7.2E+2    22
+/cvmfs/juno.ihep.ac.cn/sl6_amd64_gcc447/Release/J17v1r1/ExternalLibs/libmore/0.8.3/com/more/ensdf/ar204hg.ens.bz2:1391:0: Ill-formed time in level record.
+204HG  L 1140      5                   110       30
+/cvmfs/juno.ihep.ac.cn/sl6_amd64_gcc447/Release/J17v1r1/ExternalLibs/libmore/0.8.3/com/more/ensdf/ar204hg.ens.bz2:1392:0: Ill-formed time in level record.
+204HG  L 1851      7                   52        16                            ?
+error: Ill-formed float ‘10E’.
+/cvmfs/juno.ihep.ac.cn/sl6_amd64_gcc447/Release/J17v1r1/ExternalLibs/libmore/0.8.3/com/more/ensdf/ar208bi.ens.bz2:1541:0: Missing number in ‘L’ form.
+208BI  L 1717       4                                  (6-9)
+/cvmfs/juno.ihep.ac.cn/sl6_amd64_gcc447/Release/J17v1r1/ExternalLibs/libmore/0.8.3/com/more/ensdf/ar208bi.ens.bz2:1546:0: Missing number in ‘L’ form.
+208BI  L 2417       5                                  (6-9)
+error: Ill-formed float ‘10.38E’.
+error: Ill-formed float ‘2.68E’.
+error: Ill-formed float ‘2.08E’.
+error: Ill-formed float ‘|?0’.
+/cvmfs/juno.ihep.ac.cn/sl6_amd64_gcc447/Release/J17v1r1/ExternalLibs/libmore/0.8.3/com/more/ensdf/ar208pb.ens.bz2:7656:0: Unexpected character in ‘L’ form.
+208PB  L 5967.8     8                                  AP 9      0.027    AP
+/cvmfs/juno.ihep.ac.cn/sl6_amd64_gcc447/Release/J17v1r1/ExternalLibs/libmore/0.8.3/com/more/ensdf/ar204hg.ens.bz2:1390:0: Ill-formed time in level record.
+204HG  L 443       2                   7.2E+2    22
+/cvmfs/juno.ihep.ac.cn/sl6_amd64_gcc447/Release/J17v1r1/ExternalLibs/libmore/0.8.3/com/more/ensdf/ar204hg.ens.bz2:1391:0: Ill-formed time in level record.
+204HG  L 1140      5                   110       30
+/cvmfs/juno.ihep.ac.cn/sl6_amd64_gcc447/Release/J17v1r1/ExternalLibs/libmore/0.8.3/com/more/ensdf/ar204hg.ens.bz2:1392:0: Ill-formed time in level record.
+204HG  L 1851      7                   52        16                            ?
+error: Ill-formed float ‘10E’.
+/cvmfs/juno.ihep.ac.cn/sl6_amd64_gcc447/Release/J17v1r1/ExternalLibs/libmore/0.8.3/com/more/ensdf/ar208bi.ens.bz2:1541:0: Missing number in ‘L’ form.
+208BI  L 1717       4                                  (6-9)
+/cvmfs/juno.ihep.ac.cn/sl6_amd64_gcc447/Release/J17v1r1/ExternalLibs/libmore/0.8.3/com/more/ensdf/ar208bi.ens.bz2:1546:0: Missing number in ‘L’ form.
+208BI  L 2417       5                                  (6-9)
+error: Ill-formed float ‘10.38E’.
+error: Ill-formed float ‘2.68E’.
+error: Ill-formed float ‘2.08E’.
+error: Ill-formed float ‘|?0’.
+/cvmfs/juno.ihep.ac.cn/sl6_amd64_gcc447/Release/J17v1r1/ExternalLibs/libmore/0.8.3/com/more/ensdf/ar208pb.ens.bz2:7656:0: Unexpected character in ‘L’ form.
+208PB  L 5967.8     8                                  AP 9      0.027    AP
+error: Ill-formed float ‘10.38E’.
+error: Ill-formed float ‘2.68E’.
+error: Ill-formed float ‘2.08E’.
+error: Ill-formed float ‘|?0’.
+/cvmfs/juno.ihep.ac.cn/sl6_amd64_gcc447/Release/J17v1r1/ExternalLibs/libmore/0.8.3/com/more/ensdf/ar208pb.ens.bz2:7656:0: Unexpected character in ‘L’ form.
+208PB  L 5967.8     8                                  AP 9      0.027    AP
+error: Ill-formed float ‘10.38E’.
+error: Ill-formed float ‘2.68E’.
+error: Ill-formed float ‘2.08E’.
+error: Ill-formed float ‘|?0’.
+/cvmfs/juno.ihep.ac.cn/sl6_amd64_gcc447/Release/J17v1r1/ExternalLibs/libmore/0.8.3/com/more/ensdf/ar208pb.ens.bz2:7656:0: Unexpected character in ‘L’ form.
+208PB  L 5967.8     8                                  AP 9      0.027    AP
+error: Ill-formed float ‘10.38E’.
+error: Ill-formed float ‘2.68E’.
+error: Ill-formed float ‘2.08E’.
+error: Ill-formed float ‘|?0’.
+/cvmfs/juno.ihep.ac.cn/sl6_amd64_gcc447/Release/J17v1r1/ExternalLibs/libmore/0.8.3/com/more/ensdf/ar208pb.ens.bz2:7656:0: Unexpected character in ‘L’ form.
+208PB  L 5967.8     8                                  AP 9      0.027    AP
+error: Ill-formed float ‘10.38E’.
+error: Ill-formed float ‘2.68E’.
+error: Ill-formed float ‘2.08E’.
+error: Ill-formed float ‘|?0’.
+/cvmfs/juno.ihep.ac.cn/sl6_amd64_gcc447/Release/J17v1r1/ExternalLibs/libmore/0.8.3/com/more/ensdf/ar208pb.ens.bz2:7656:0: Unexpected character in ‘L’ form.
+208PB  L 5967.8     8                                  AP 9      0.027    AP
+Warning inexact match for daughter of Tl-208 level=621 keV [0] for gamma of 576.0000(ex)	wanted:45.00000(ex) got:39.858 [0] diff=11.4267%
+Warning inexact match for daughter of Tl-208 level=621 keV [0] for gamma of 620.0000(ex)	wanted:1.000000(ex) got:0 [0] diff=100%
+error: Ill-formed float ‘10.38E’.
+error: Ill-formed float ‘2.68E’.
+error: Ill-formed float ‘2.08E’.
+error: Ill-formed float ‘|?0’.
+/cvmfs/juno.ihep.ac.cn/sl6_amd64_gcc447/Release/J17v1r1/ExternalLibs/libmore/0.8.3/com/more/ensdf/ar208pb.ens.bz2:7656:0: Unexpected character in ‘L’ form.
+208PB  L 5967.8     8                                  AP 9      0.027    AP
+error: Ill-formed float ‘10.38E’.
+error: Ill-formed float ‘2.68E’.
+error: Ill-formed float ‘2.08E’.
+error: Ill-formed float ‘|?0’.
+/cvmfs/juno.ihep.ac.cn/sl6_amd64_gcc447/Release/J17v1r1/ExternalLibs/libmore/0.8.3/com/more/ensdf/ar208pb.ens.bz2:7656:0: Unexpected character in ‘L’ form.
+208PB  L 5967.8     8                                  AP 9      0.027    AP
+error: Ill-formed float ‘10.38E’.
+error: Ill-formed float ‘2.68E’.
+error: Ill-formed float ‘2.08E’.
+error: Ill-formed float ‘|?0’.
+/cvmfs/juno.ihep.ac.cn/sl6_amd64_gcc447/Release/J17v1r1/ExternalLibs/libmore/0.8.3/com/more/ensdf/ar208pb.ens.bz2:7656:0: Unexpected character in ‘L’ form.
+208PB  L 5967.8     8                                  AP 9      0.027    AP
+error: Ill-formed float ‘10.38E’.
+error: Ill-formed float ‘2.68E’.
+error: Ill-formed float ‘2.08E’.
+error: Ill-formed float ‘|?0’.
+/cvmfs/juno.ihep.ac.cn/sl6_amd64_gcc447/Release/J17v1r1/ExternalLibs/libmore/0.8.3/com/more/ensdf/ar208pb.ens.bz2:7656:0: Unexpected character in ‘L’ form.
+208PB  L 5967.8     8                                  AP 9      0.027    AP
+error: Ill-formed float ‘10.38E’.
+error: Ill-formed float ‘2.68E’.
+error: Ill-formed float ‘2.08E’.
+error: Ill-formed float ‘|?0’.
+/cvmfs/juno.ihep.ac.cn/sl6_amd64_gcc447/Release/J17v1r1/ExternalLibs/libmore/0.8.3/com/more/ensdf/ar208pb.ens.bz2:7656:0: Unexpected character in ‘L’ form.
+208PB  L 5967.8     8                                  AP 9      0.027    AP
+error: Ill-formed float ‘10.38E’.
+error: Ill-formed float ‘2.68E’.
+error: Ill-formed float ‘2.08E’.
+error: Ill-formed float ‘|?0’.
+/cvmfs/juno.ihep.ac.cn/sl6_amd64_gcc447/Release/J17v1r1/ExternalLibs/libmore/0.8.3/com/more/ensdf/ar208pb.ens.bz2:7656:0: Unexpected character in ‘L’ form.
+208PB  L 5967.8     8                                  AP 9      0.027    AP
+error: Ill-formed float ‘10.38E’.
+error: Ill-formed float ‘2.68E’.
+error: Ill-formed float ‘2.08E’.
+error: Ill-formed float ‘|?0’.
+/cvmfs/juno.ihep.ac.cn/sl6_amd64_gcc447/Release/J17v1r1/ExternalLibs/libmore/0.8.3/com/more/ensdf/ar208pb.ens.bz2:7656:0: Unexpected character in ‘L’ form.
+208PB  L 5967.8     8                                  AP 9      0.027    AP
+error: Ill-formed float ‘10.38E’.
+error: Ill-formed float ‘2.68E’.
+error: Ill-formed float ‘2.08E’.
+error: Ill-formed float ‘|?0’.
+/cvmfs/juno.ihep.ac.cn/sl6_amd64_gcc447/Release/J17v1r1/ExternalLibs/libmore/0.8.3/com/more/ensdf/ar208pb.ens.bz2:7656:0: Unexpected character in ‘L’ form.
+208PB  L 5967.8     8                                  AP 9      0.027    AP
+error: Ill-formed float ‘10.38E’.
+error: Ill-formed float ‘2.68E’.
+error: Ill-formed float ‘2.08E’.
+error: Ill-formed float ‘|?0’.
+/cvmfs/juno.ihep.ac.cn/sl6_amd64_gcc447/Release/J17v1r1/ExternalLibs/libmore/0.8.3/com/more/ensdf/ar208pb.ens.bz2:7656:0: Unexpected character in ‘L’ form.
+208PB  L 5967.8     8                                  AP 9      0.027    AP
+/cvmfs/juno.ihep.ac.cn/sl6_amd64_gcc447/Release/J17v1r1/ExternalLibs/libmore/0.8.3/com/more/ensdf/ar216po.ens.bz2:125:0: Multiple normalization records with same index.
+216PO  N2                        1     LE
+/cvmfs/juno.ihep.ac.cn/sl6_amd64_gcc447/Release/J17v1r1/ExternalLibs/libmore/0.8.3/com/more/ensdf/ar216po.ens.bz2:125:0: Multiple normalization records with same index.
+216PO  N2                        1     LE
+/cvmfs/juno.ihep.ac.cn/sl6_amd64_gcc447/Release/J17v1r1/ExternalLibs/libmore/0.8.3/com/more/ensdf/ar216po.ens.bz2:125:0: Multiple normalization records with same index.
+216PO  N2                        1     LE
+/cvmfs/juno.ihep.ac.cn/sl6_amd64_gcc447/Release/J17v1r1/ExternalLibs/libmore/0.8.3/com/more/ensdf/ar216po.ens.bz2:125:0: Multiple normalization records with same index.
+216PO  N2                        1     LE
+/cvmfs/juno.ihep.ac.cn/sl6_amd64_gcc447/Release/J17v1r1/ExternalLibs/libmore/0.8.3/com/more/ensdf/ar216po.ens.bz2:125:0: Multiple normalization records with same index.
+216PO  N2                        1     LE
+Warning inexact match for daughter of Th-228 level=2029.84 keV [0] for gamma of 939.87(15)(ex)	wanted:1089.97(22)(ex) got:1091.02 [0] diff=0.0960577%
+Ultimate mother rate: 0.0784463 for Th-232 level=0 keV [0]
+***** Can not open a macro file <run.mac>
+--- Warning from G4Material::G4Material() define a material with density=0 is not allowed. 
+ The material VacuumT will be constructed with the default minimal density: 1e-25g/cm3
+27 elements:
+0: Gadolinium 64/9.82027e+23 7 isotopes
+1: Carbon 6/7.49605e+22 0 isotopes
+2: Hydrogen 1/6.30392e+21 0 isotopes
+3: Oxygen 8/9.98642e+22 0 isotopes
+4: Nitrogen 7/8.74436e+22 0 isotopes
+5: Silicon 14/1.75324e+23 0 isotopes
+6: Aluminium 13/1.68396e+23 0 isotopes
+7: Iron 26/3.48557e+23 0 isotopes
+8: Magnesium 12/1.517e+23 0 isotopes
+9: Calcium 20/2.50147e+23 0 isotopes
+10: Sodium 11/1.43491e+23 0 isotopes
+11: Potassium 19/2.44032e+23 0 isotopes
+12: Sulfur 16/2.0014e+23 0 isotopes
+13: Fluorine 9/1.18576e+23 0 isotopes
+14: Argon 18/2.49336e+23 0 isotopes
+15: Boron 5/6.7477e+22 0 isotopes
+16: Ni 28/3.66335e+23 0 isotopes
+17: Cr 24/3.24534e+23 0 isotopes
+18: Mn 25/3.42897e+23 0 isotopes
+19: Phosphorus 15/1.93323e+23 0 isotopes
+20: Titanium 22/2.98762e+23 0 isotopes
+21: Galactic 1/6.30392e+21 0 isotopes
+22: Copper 29/3.96648e+23 0 isotopes
+23: Ferrum 26/3.48557e+23 0 isotopes
+24: Iron 26/3.48557e+23 0 isotopes
+25: Cr 24/3.24534e+23 0 isotopes
+26: Ni 28/3.66335e+23 0 isotopes
+
+Warning : Region <PMT_20inch_body_region> does not have specific production cuts,
+even though it appears in the current tracking world.
+Default cuts are used for this region.
+Warning : Region <PMT_3inch_body_region> does not have specific production cuts,
+even though it appears in the current tracking world.
+Default cuts are used for this region.
+Note: File "vector" already loaded
+/cvmfs/juno.ihep.ac.cn/sl6_amd64_gcc447/Release/J17v1r1/ExternalLibs/libmore/0.8.3/com/more/ensdf/ar238np.ens.bz2:684:9: warning: Got unknown history element ‘comm’ ↦ ‘CORRECTIONS MADE AND SOME   
+EXPECTED GAMMA TRANSITIONS ADDED’
+Warning inexact match for daughter of Pa-234 level=73.92 keV [24] for gamma of 10.00000(-∞,+0)(ex)	wanted:63.92000(-unknown,+0)(ex) got:73.92 [0] diff=15.6446%
+Using fetcher /junofs/production/public/users/zhangfy/offline_bgd/Simulation/GenDecay/share/lbl-ensdf-fetcher.py
+Fetcher returned 0
+Using fetcher /junofs/production/public/users/zhangfy/offline_bgd/Simulation/GenDecay/share/lbl-ensdf-fetcher.py
+Fetcher returned 0
+Using fetcher /junofs/production/public/users/zhangfy/offline_bgd/Simulation/GenDecay/share/lbl-ensdf-fetcher.py
+Fetcher returned 0
+error: Ill-formed float ‘<10’.
+error: Ill-formed float ‘<10’.
+error: Ill-formed float ‘<10’.
+Using fetcher /junofs/production/public/users/zhangfy/offline_bgd/Simulation/GenDecay/share/lbl-ensdf-fetcher.py
+Fetcher returned 0
+Using fetcher /junofs/production/public/users/zhangfy/offline_bgd/Simulation/GenDecay/share/lbl-ensdf-fetcher.py
+Fetcher returned 0
+error: Ill-formed float ‘<10’.
+error: Ill-formed float ‘<10’.
+error: Ill-formed float ‘<10’.
+error: Ill-formed float ‘<10’.
+error: Ill-formed float ‘<10’.
+error: Ill-formed float ‘<10’.
+error: Ill-formed float ‘<10’.
+error: Ill-formed float ‘<10’.
+error: Ill-formed float ‘<10’.
+error: Ill-formed float ‘<10’.
+error: Ill-formed float ‘<10’.
+error: Ill-formed float ‘<10’.
+error: Ill-formed float ‘<10’.
+error: Ill-formed float ‘<10’.
+Using fetcher /junofs/production/public/users/zhangfy/offline_bgd/Simulation/GenDecay/share/lbl-ensdf-fetcher.py
+Fetcher returned 0
+Using fetcher /junofs/production/public/users/zhangfy/offline_bgd/Simulation/GenDecay/share/lbl-ensdf-fetcher.py
+Fetcher returned 0
+Using fetcher /junofs/production/public/users/zhangfy/offline_bgd/Simulation/GenDecay/share/lbl-ensdf-fetcher.py
+Fetcher returned 0
+Using fetcher /junofs/production/public/users/zhangfy/offline_bgd/Simulation/GenDecay/share/lbl-ensdf-fetcher.py
+Fetcher returned 0
+Using fetcher /junofs/production/public/users/zhangfy/offline_bgd/Simulation/GenDecay/share/lbl-ensdf-fetcher.py
+Fetcher returned 0
+Warning inexact match for daughter of Po-214 level=2266.41 keV [0] for gamma of 61.0(8)(ex)	wanted:2205.4(8)(ex) got:2204.09 [0] diff=0.0598982%
+Warning inexact match for daughter of Po-214 level=3000 keV [0] for gamma of 1723.7(8)(ex)	wanted:1276.3(8)(ex) got:1274.77 [0] diff=0.120191%
+Warning inexact match for daughter of Po-214 level=3053.93 keV [0] for gamma of 1637.0(10)(ex)	wanted:1416.9(10)(ex) got:1415.49 [0] diff=0.101275%
+Warning inexact match for daughter of Po-214 level=3094.01 keV [0] for gamma of 2482.8(4)(ex)	wanted:611.2(5)(ex) got:609.316 [0] diff=0.309877%
+Using fetcher /junofs/production/public/users/zhangfy/offline_bgd/Simulation/GenDecay/share/lbl-ensdf-fetcher.py
+Fetcher returned 0
+Using fetcher /junofs/production/public/users/zhangfy/offline_bgd/Simulation/GenDecay/share/lbl-ensdf-fetcher.py
+Fetcher returned 0
+Warning inexact match for daughter of U-234 level=1592.38 keV [0] for gamma of 781.37(10)(ex)	wanted:811.01(12)(ex) got:809.907 [0] diff=0.136003%
+Warning inexact match for daughter of U-234 level=1592.38 keV [0] for gamma of 1550.0(10)(ex)	wanted:42.4(10)(ex) got:43.4981 [0] diff=2.63827%
+Warning inexact match for daughter of U-234 level=1796.4 keV [0] for gamma of 338.1(8)(ex)	wanted:1458.3(10)(ex) got:1457.16 [0] diff=0.0781732%
+Warning inexact match for daughter of U-234 level=1796.4 keV [0] for gamma of 362.8(10)(ex)	wanted:1433.6(12)(ex) got:1435.38 [0] diff=0.124163%
+warning: Unknown entity ‘|’
+
+warning: Unknown entity ‘|’
+
+warning: String termination at entity.
+warning: String termination at entity.
+Warning inexact match for daughter of U-234 level=1782.6 keV [0] for gamma of 1485.40(20)(ex)	wanted:297.2(4)(ex) got:296.072 [0] diff=0.379542%
+Warning inexact match for daughter of U-234 level=1782.6 keV [0] for gamma of 1638.10(10)(ex)	wanted:144.5(3)(ex) got:143.352 [0] diff=0.794464%
+Warning inexact match for daughter of U-234 level=1793.1 keV [0] for gamma of 1496.00(20)(ex)	wanted:297.1(6)(ex) got:296.072 [0] diff=0.346011%
+Warning inexact match for daughter of U-234 level=1958.8 keV [0] for gamma of 1110.60(10)(ex)	wanted:848.2(4)(ex) got:849.266 [0] diff=0.125678%
+Ultimate mother rate: 0.245803 for U-238 level=0 keV [0]
+***** Can not open a macro file <run.mac>
+--- Warning from G4Material::G4Material() define a material with density=0 is not allowed. 
+ The material VacuumT will be constructed with the default minimal density: 1e-25g/cm3
+27 elements:
+0: Gadolinium 64/9.82027e+23 7 isotopes
+1: Carbon 6/7.49605e+22 0 isotopes
+2: Hydrogen 1/6.30392e+21 0 isotopes
+3: Oxygen 8/9.98642e+22 0 isotopes
+4: Nitrogen 7/8.74436e+22 0 isotopes
+5: Silicon 14/1.75324e+23 0 isotopes
+6: Aluminium 13/1.68396e+23 0 isotopes
+7: Iron 26/3.48557e+23 0 isotopes
+8: Magnesium 12/1.517e+23 0 isotopes
+9: Calcium 20/2.50147e+23 0 isotopes
+10: Sodium 11/1.43491e+23 0 isotopes
+11: Potassium 19/2.44032e+23 0 isotopes
+12: Sulfur 16/2.0014e+23 0 isotopes
+13: Fluorine 9/1.18576e+23 0 isotopes
+14: Argon 18/2.49336e+23 0 isotopes
+15: Boron 5/6.7477e+22 0 isotopes
+16: Ni 28/3.66335e+23 0 isotopes
+17: Cr 24/3.24534e+23 0 isotopes
+18: Mn 25/3.42897e+23 0 isotopes
+19: Phosphorus 15/1.93323e+23 0 isotopes
+20: Titanium 22/2.98762e+23 0 isotopes
+21: Galactic 1/6.30392e+21 0 isotopes
+22: Copper 29/3.96648e+23 0 isotopes
+23: Ferrum 26/3.48557e+23 0 isotopes
+24: Iron 26/3.48557e+23 0 isotopes
+25: Cr 24/3.24534e+23 0 isotopes
+26: Ni 28/3.66335e+23 0 isotopes
+
+Warning : Region <PMT_20inch_body_region> does not have specific production cuts,
+even though it appears in the current tracking world.
+Default cuts are used for this region.
+Warning : Region <PMT_3inch_body_region> does not have specific production cuts,
+even though it appears in the current tracking world.
+Default cuts are used for this region.
+Note: File "vector" already loaded

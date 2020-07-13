@@ -1,0 +1,1 @@
+IGenTool_cc_dependencies =  ../src/IGenTool.cc   /junofs/production/public/users/zhangfy/offline_bgd/Simulation/GenTools/GenTools/IGenTool.h  $(bin)GenTools_deps/IGenTool_cc.stamp

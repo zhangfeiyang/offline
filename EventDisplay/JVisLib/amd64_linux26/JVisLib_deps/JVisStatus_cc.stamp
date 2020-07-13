@@ -1,0 +1,1 @@
+JVisStatus_cc_dependencies =  ../src/JVisStatus.cc   /junofs/production/public/users/zhangfy/offline_bgd/EventDisplay/JVisLib/JVisLib/JVisStatus.h  $(bin)JVisLib_deps/JVisStatus_cc.stamp

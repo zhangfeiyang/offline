@@ -1,0 +1,12 @@
+package LsqMuonRecTool
+
+use RecCdMuonAlg v* Reconstruction
+
+macro_append LsqMuonRecTool_shlibflags " -lMinuit2"
+
+apply_pattern install_more_includes more=LsqMuonRecTool
+
+library LsqMuonRecTool *.cc
+apply_pattern linker_library library=LsqMuonRecTool
+apply_pattern install_python_modules
+

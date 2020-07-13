@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/offline/!svn/ver/3129/tags/J18v1r1-Pre1/Simulation/ElecSimV3/ElecDataStruct/src
+END
+EventKeeper.cc
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svn/offline/!svn/ver/3129/tags/J18v1r1-Pre1/Simulation/ElecSimV3/ElecDataStruct/src/EventKeeper.cc
+END
+Event.cc
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/offline/!svn/ver/3129/tags/J18v1r1-Pre1/Simulation/ElecSimV3/ElecDataStruct/src/Event.cc
+END
+Hit.cc
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/offline/!svn/ver/3129/tags/J18v1r1-Pre1/Simulation/ElecSimV3/ElecDataStruct/src/Hit.cc
+END
+Pulse.cc
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/offline/!svn/ver/3129/tags/J18v1r1-Pre1/Simulation/ElecSimV3/ElecDataStruct/src/Pulse.cc
+END

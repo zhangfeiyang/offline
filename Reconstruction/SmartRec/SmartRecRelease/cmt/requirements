@@ -1,0 +1,7 @@
+package SmartRecRelease
+
+use SmartRecHelperSvc v* Reconstruction/SmartRec
+use ChargeCenterAlg v* Reconstruction/SmartRec
+use SmartRecAlg v* Reconstruction/SmartRec
+use PosRecTimeLikeAlgV3 v* Reconstruction/SmartRec
+use NpmtLikeRecAlg v* Reconstruction/SmartRec

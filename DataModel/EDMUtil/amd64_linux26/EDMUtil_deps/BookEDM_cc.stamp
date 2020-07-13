@@ -1,0 +1,1 @@
+BookEDM_cc_dependencies =  ../src/BookEDM.cc   /junofs/production/public/users/zhangfy/offline_bgd/DataModel/EDMUtil/include/BookEDM.h   /junofs/production/public/users/zhangfy/offline_bgd/DataModel/EDMUtil/include/EDMManager.h  $(bin)EDMUtil_deps/BookEDM_cc.stamp

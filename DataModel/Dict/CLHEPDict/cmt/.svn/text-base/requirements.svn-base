@@ -1,0 +1,16 @@
+package CLHEPDict
+
+use SniperPolicy
+use ROOT v* Externals
+use CLHEP v* Externals
+use XmlObjDesc v* -no_auto_imports
+
+apply_pattern cint_dictionary files=../src/CLHEPInc.h
+
+macro_append CLHEPInc_cintflags " `clhep-config --include` -p "
+
+library CLHEPDict *.cc
+apply_pattern linker_library library=CLHEPDict
+
+macro_prepend CLHEPDict_linkopts " -Wl,--no-as-needed "
+macro_append CLHEPDict_linkopts " -Wl,--as-needed "

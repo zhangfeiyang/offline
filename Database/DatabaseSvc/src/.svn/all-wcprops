@@ -1,0 +1,65 @@
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/offline/!svn/ver/3129/tags/J18v1r1-Pre1/Database/DatabaseSvc/src
+END
+DBITableRowLinkDef.h
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/offline/!svn/ver/3129/tags/J18v1r1-Pre1/Database/DatabaseSvc/src/DBITableRowLinkDef.h
+END
+DBI.cc
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/offline/!svn/ver/3129/tags/J18v1r1-Pre1/Database/DatabaseSvc/src/DBI.cc
+END
+DBITableRow.cc
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/offline/!svn/ver/3129/tags/J18v1r1-Pre1/Database/DatabaseSvc/src/DBITableRow.cc
+END
+DatabaseSvc.cc
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/offline/!svn/ver/3129/tags/J18v1r1-Pre1/Database/DatabaseSvc/src/DatabaseSvc.cc
+END
+DBITableRowDict.cc
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/offline/!svn/ver/3129/tags/J18v1r1-Pre1/Database/DatabaseSvc/src/DBITableRowDict.cc
+END
+DBIResultPtr.cc
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/offline/!svn/ver/3129/tags/J18v1r1-Pre1/Database/DatabaseSvc/src/DBIResultPtr.cc
+END
+DBITableRowDict.h
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/offline/!svn/ver/3129/tags/J18v1r1-Pre1/Database/DatabaseSvc/src/DBITableRowDict.h
+END
+MySQLInterface.cc
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/offline/!svn/ver/3129/tags/J18v1r1-Pre1/Database/DatabaseSvc/src/MySQLInterface.cc
+END
+SqlString.cc
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/offline/!svn/ver/3129/tags/J18v1r1-Pre1/Database/DatabaseSvc/src/SqlString.cc
+END
+DBIRollbackDates.cc
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/offline/!svn/ver/3129/tags/J18v1r1-Pre1/Database/DatabaseSvc/src/DBIRollbackDates.cc
+END

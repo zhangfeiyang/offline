@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE xdd SYSTEM "xdd.dtd">
+
+<xdd>
+    <package name="ElecEvent">
+        <import name="TObject"/>
+        <import name="Event/ElecFeeChannel"/>
+        <import name="Context/TimeStamp.h"/>
+        <import name="vector" std="TRUE"/>
+        <import name="map" std="TRUE"/>
+
+        <class name="ElecFeeCrate"
+            author="Fang Xiao"
+            desc="">
+
+            <base name="TObject"/>
+
+
+            <attribute
+                name="channelData"
+                desc="It's a map between PmtId and ElecFeeChannel"
+                type="std::map&lt;int,JM::ElecFeeChannel&gt;"
+                />
+
+            <attribute
+                name="TimeStamp_v1"
+                desc="the time stamp of this event"
+                type="double"
+                />
+
+
+            <attribute
+                name="EvtTimeStamp"
+                desc="the time stamp of this event"
+                type="TimeStamp"
+                />
+
+            <attribute
+                name="TriggerTime"
+                desc="simple trigger time for ElecSimV3"
+                type="TimeStamp"
+                />
+
+            <attribute
+                name="triggerTime"
+                desc="simple trigger time "
+                type="std::vector&lt;int&gt;"
+                />
+
+            
+            <method
+                name="channelData"
+                type="std::map&lt;int,JM::ElecFeeChannel&gt;&amp; "
+                desc=""
+                >
+                <code>
+                    return m_channelData;
+                </code>
+            </method>
+
+
+            <method 
+                name="triggerTime" 
+                type="std::vector&lt;int&gt;&amp; " 
+                desc="" 
+                > 
+                <code> 
+                    return m_triggerTime; 
+                </code> 
+            </method> 
+
+
+        </class>
+    </package>
+</xdd>
+

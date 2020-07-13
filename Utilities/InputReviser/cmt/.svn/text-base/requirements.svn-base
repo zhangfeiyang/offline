@@ -1,0 +1,10 @@
+package InputReviser
+
+use SniperKernel v*
+use BufferMemMgr v* CommonSvc
+use RootIOSvc v* RootIO
+
+apply_pattern install_more_includes more=InputReviser
+
+library InputReviser *.cc
+apply_pattern linker_library library=InputReviser

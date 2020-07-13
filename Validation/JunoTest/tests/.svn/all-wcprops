@@ -1,0 +1,53 @@
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/offline/!svn/ver/3129/tags/J18v1r1-Pre1/Validation/JunoTest/tests
+END
+test_workflow.py
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/offline/!svn/ver/3129/tags/J18v1r1-Pre1/Validation/JunoTest/tests/test_workflow.py
+END
+test_example.py
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/offline/!svn/ver/3129/tags/J18v1r1-Pre1/Validation/JunoTest/tests/test_example.py
+END
+test_plotref.py
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/offline/!svn/ver/3129/tags/J18v1r1-Pre1/Validation/JunoTest/tests/test_plotref.py
+END
+run_fatal.py
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/offline/!svn/ver/3129/tags/J18v1r1-Pre1/Validation/JunoTest/tests/run_fatal.py
+END
+run_sleep.py
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/offline/!svn/ver/3129/tags/J18v1r1-Pre1/Validation/JunoTest/tests/run_sleep.py
+END
+test_logParser.py
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/offline/!svn/ver/3129/tags/J18v1r1-Pre1/Validation/JunoTest/tests/test_logParser.py
+END
+run_hist.C
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/offline/!svn/ver/3129/tags/J18v1r1-Pre1/Validation/JunoTest/tests/run_hist.C
+END
+test_monitor.py
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/offline/!svn/ver/3129/tags/J18v1r1-Pre1/Validation/JunoTest/tests/test_monitor.py
+END

@@ -1,0 +1,1 @@
+GenEventBuffer_cc_dependencies =  ../src/GenEventBuffer.cc   /cvmfs/juno.ihep.ac.cn/sl6_amd64_gcc447/Pre-Release/J18v1r1-Pre1/ExternalLibs/Boost/1.55.0/include/boost/shared_ptr.hpp   /junofs/production/public/users/zhangfy/offline_bgd/Simulation/GenTools/GenTools/GenEventBuffer.h  $(bin)GenTools_deps/GenEventBuffer_cc.stamp

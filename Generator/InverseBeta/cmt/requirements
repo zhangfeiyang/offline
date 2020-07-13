@@ -1,0 +1,6 @@
+package InverseBeta
+
+use ROOT  v* Externals
+use CLHEP v* Externals
+
+application IBD *.cc

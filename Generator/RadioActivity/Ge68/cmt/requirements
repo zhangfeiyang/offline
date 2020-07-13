@@ -1,0 +1,6 @@
+package Ge68
+
+use ROOT  v* Externals
+use CLHEP v* Externals
+
+application  Ge68   *.cc

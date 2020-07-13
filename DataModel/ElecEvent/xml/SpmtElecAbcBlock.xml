@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE xdd SYSTEM "xdd.dtd">
+
+<xdd>
+    <package name="ElecEvent">
+        <import name="TObject"/> 
+
+        <class name="SpmtElecAbcBlock"
+            author="Pietro Chimenti"
+            desc="SpmtElecSim information of Abc Card data block">
+
+            <base name="TObject"/>
+
+
+            <attribute
+                desc="type as from CatiROC"
+                name="type"
+                type="UChar_t"
+                />
+
+            <attribute
+                desc="High or Low catiroc gain"
+                name="gain"
+                type="Bool_t"
+                />
+
+            <attribute
+                desc="board number"
+                name="board_num"
+                type="UShort_t"
+                />
+
+            <attribute
+                desc="per board channel number"
+                name="ch_num"
+                type="UShort_t"
+                />
+
+            <attribute
+                desc="4-byte coarse time info"
+                name="coarse_time"
+                type="UInt_t"
+                />
+
+            <attribute
+                desc="Per channel Catiroc Event counter"
+                name="event_counter"
+                type="UShort_t"
+                />
+
+            <attribute
+                desc="2-byte fine time info"
+                name="fine_time"
+                type="UShort_t"
+                />
+
+            <attribute
+                desc="2-byte charge info"
+                name="charge"
+                type="UInt_t"
+                />
+
+        </class>
+    </package>
+</xdd>

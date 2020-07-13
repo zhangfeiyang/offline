@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE xdd SYSTEM "xdd.dtd" >
+
+<xdd>
+  <package name="ReadoutEvent">
+
+    <import name="TObject"/>
+    <class name="ReadoutRpcChannel"
+      author="Jinyan Liu"
+      desc="Readout data for one channel (strip) in the RPC electronics">
+
+      <attribute
+        desc="Front-End Card Channel ID"
+        name="channelId" init="0"
+        type="int"/>
+      <attribute
+        desc="Rpc channel was hit?"
+        name="hit"
+        type="bool"/>
+      <attribute
+        desc="Reference to readout board which contains this data"
+        name="readoutBoard" init="0"
+        type="int"/>
+
+    </class>
+  </package>
+</xdd>

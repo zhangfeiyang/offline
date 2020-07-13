@@ -1,0 +1,18 @@
+package GeneratorRelease
+
+use InverseBeta v* Generator
+use Muon        v* Generator
+use K40         v* Generator/RadioActivity
+use Co60        v* Generator/RadioActivity
+use Ge68        v* Generator/RadioActivity
+use Cf252        v* Generator/RadioActivity
+use AmC         v* Generator/RadioActivity
+use AmBe         v* Generator/RadioActivity
+use Cs137       v* Generator/RadioActivity
+use PuC         v* Generator/RadioActivity
+#use Thorium     v* Generator/RadioActivity
+#use Uranium     v* Generator/RadioActivity
+
+use Supernova   v* Generator
+use NuSolGen    v* Generator
+use DSNB        v* Generator

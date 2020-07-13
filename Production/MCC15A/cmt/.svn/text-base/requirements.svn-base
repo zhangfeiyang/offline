@@ -1,0 +1,5 @@
+package MCC15A
+
+use Tutorial   v* Examples
+
+apply_pattern install_python_modules

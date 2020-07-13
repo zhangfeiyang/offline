@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE xdd SYSTEM "xdd.dtd">
+
+<xdd>
+ <package name="ReadoutEvent">
+    <import name="TObject"/>
+    
+    <import name="Readout" soft="TRUE"/>
+    
+    <class name="ReadoutHeader"
+	   author="Jinyan Liu"
+	   desc="Top level header for all detector Readout data"
+	   >
+	
+      <base name="TObject"/>
+
+      <attribute
+	 name="readout"
+	 desc="Readout Data associated with one trigger in one detector"
+	 type="JM::Readout*" init="0"
+	 />
+      <attribute
+         getMeth="FALSE"
+	 name="daqCrate"
+	 desc="Readout Data associated with one trigger in one detector"
+	 type="double" init="0"
+	 />
+     
+    </class>
+  </package>
+</xdd>

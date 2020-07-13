@@ -1,0 +1,80 @@
+10
+
+dir
+3129
+http://juno.ihep.ac.cn/svn/offline/tags/J18v1r1-Pre1/Simulation/DetSimV2/DetSimOptions
+http://juno.ihep.ac.cn/svn/offline
+
+
+
+2017-12-27T00:37:34.418000Z
+3122
+lintao
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+aa2a40f7-5b9f-4796-82c0-4247cb6b7b64
+
+python
+dir
+
+share
+dir
+
+cmt
+dir
+
+include
+dir
+
+src
+dir
+
+data
+dir
+
+CMakeLists.txt
+file
+
+
+
+
+2017-12-28T05:25:42.000000Z
+8ac930dd16fa48b635e449243c61ad99
+2017-04-06T08:22:24.535080Z
+2727
+lintao
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+263
+

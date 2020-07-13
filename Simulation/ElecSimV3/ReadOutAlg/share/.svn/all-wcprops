@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/offline/!svn/ver/3129/tags/J18v1r1-Pre1/Simulation/ElecSimV3/ReadOutAlg/share
+END
+ReadOut.py
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/offline/!svn/ver/3129/tags/J18v1r1-Pre1/Simulation/ElecSimV3/ReadOutAlg/share/ReadOut.py
+END
+draw_waveform.py
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svn/offline/!svn/ver/3129/tags/J18v1r1-Pre1/Simulation/ElecSimV3/ReadOutAlg/share/draw_waveform.py
+END
+PmtData.root
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/offline/!svn/ver/3129/tags/J18v1r1-Pre1/Simulation/ElecSimV3/ReadOutAlg/share/PmtData.root
+END

@@ -1,0 +1,95 @@
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/offline/!svn/ver/3129/tags/J18v1r1-Pre1/Database/DatabaseSvc/DatabaseSvc
+END
+DBIRollbackDates.h
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/offline/!svn/ver/3129/tags/J18v1r1-Pre1/Database/DatabaseSvc/DatabaseSvc/DBIRollbackDates.h
+END
+mysql_public_iface.h
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svn/offline/!svn/ver/3129/tags/J18v1r1-Pre1/Database/DatabaseSvc/DatabaseSvc/mysql_public_iface.h
+END
+Con_Info.h
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/offline/!svn/ver/3129/tags/J18v1r1-Pre1/Database/DatabaseSvc/DatabaseSvc/Con_Info.h
+END
+DBIResult.h
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/offline/!svn/ver/3129/tags/J18v1r1-Pre1/Database/DatabaseSvc/DatabaseSvc/DBIResult.h
+END
+DBITableRow.h
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/offline/!svn/ver/3129/tags/J18v1r1-Pre1/Database/DatabaseSvc/DatabaseSvc/DBITableRow.h
+END
+DBI.h
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/offline/!svn/ver/3129/tags/J18v1r1-Pre1/Database/DatabaseSvc/DatabaseSvc/DBI.h
+END
+DBInterfaceBase.h
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/offline/!svn/ver/3129/tags/J18v1r1-Pre1/Database/DatabaseSvc/DatabaseSvc/DBInterfaceBase.h
+END
+DBIRequest.h
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/offline/!svn/ver/3129/tags/J18v1r1-Pre1/Database/DatabaseSvc/DatabaseSvc/DBIRequest.h
+END
+DatabaseSvc.h
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/offline/!svn/ver/3129/tags/J18v1r1-Pre1/Database/DatabaseSvc/DatabaseSvc/DatabaseSvc.h
+END
+DBWriter.h
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/offline/!svn/ver/3129/tags/J18v1r1-Pre1/Database/DatabaseSvc/DatabaseSvc/DBWriter.h
+END
+DBIResultPtr.h
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/offline/!svn/ver/3129/tags/J18v1r1-Pre1/Database/DatabaseSvc/DatabaseSvc/DBIResultPtr.h
+END
+DB_TableRow.h
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/offline/!svn/ver/3129/tags/J18v1r1-Pre1/Database/DatabaseSvc/DatabaseSvc/DB_TableRow.h
+END
+Context.h
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/offline/!svn/ver/3129/tags/J18v1r1-Pre1/Database/DatabaseSvc/DatabaseSvc/Context.h
+END
+SqlString.h
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/offline/!svn/ver/3129/tags/J18v1r1-Pre1/Database/DatabaseSvc/DatabaseSvc/SqlString.h
+END
+MySQLInterface.h
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/offline/!svn/ver/3129/tags/J18v1r1-Pre1/Database/DatabaseSvc/DatabaseSvc/MySQLInterface.h
+END

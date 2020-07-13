@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/offline/!svn/ver/3129/tags/J18v1r1-Pre1/Detector/Parameter/src
+END
+ChimGeomPar.cc
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/offline/!svn/ver/3129/tags/J18v1r1-Pre1/Detector/Parameter/src/ChimGeomPar.cc
+END
+CdGeomPar.cc
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/offline/!svn/ver/3129/tags/J18v1r1-Pre1/Detector/Parameter/src/CdGeomPar.cc
+END
+WpGeomPar.cc
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/offline/!svn/ver/3129/tags/J18v1r1-Pre1/Detector/Parameter/src/WpGeomPar.cc
+END
+TTGeomPar.cc
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/offline/!svn/ver/3129/tags/J18v1r1-Pre1/Detector/Parameter/src/TTGeomPar.cc
+END
+ExpHallGeomPar.cc
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/offline/!svn/ver/3129/tags/J18v1r1-Pre1/Detector/Parameter/src/ExpHallGeomPar.cc
+END

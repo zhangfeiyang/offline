@@ -1,0 +1,17 @@
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/offline/!svn/ver/3129/tags/J18v1r1-Pre1/installation/junoenv/packages/patches
+END
+root-5.34.patch
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svn/offline/!svn/ver/3129/tags/J18v1r1-Pre1/installation/junoenv/packages/patches/root-5.34.patch
+END
+libmore-0.8.3.patch
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/svn/offline/!svn/ver/3129/tags/J18v1r1-Pre1/installation/junoenv/packages/patches/libmore-0.8.3.patch
+END

@@ -1,0 +1,17 @@
+package DataModelRelease
+
+use BaseEvent    v* DataModel
+
+use GenEventV2   v* DataModel
+use SimEventV2   v* DataModel
+use ElecEvent    v* DataModel
+
+use RecEvent     v* DataModel
+use CalibEvent   v* DataModel
+
+use PhyEvent     v* DataModel
+
+use EvtNavigator v* DataModel
+
+use DataRegistritionSvc v* DataModel
+use EDMUtil             v* DataModel

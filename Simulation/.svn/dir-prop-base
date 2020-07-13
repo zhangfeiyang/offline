@@ -1,0 +1,20 @@
+K 10
+svn:ignore
+V 88
+InstallArea
+amd64_*
+setup.*sh
+cleanup.*sh
+Makefile
+install.history
+*~
+*.swp
+*.pyc
+*.log
+
+K 13
+svn:mergeinfo
+V 71
+/branches/offline-spmt/Simulation:2499-2673
+/people/lintao/Simulation:6
+END

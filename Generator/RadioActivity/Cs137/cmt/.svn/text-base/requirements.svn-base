@@ -1,0 +1,7 @@
+package Cesium137  
+
+use ROOT   v*  Externals
+use CLHEP     v* Externals 
+
+application  Cs137   *.cc
+

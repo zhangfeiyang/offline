@@ -1,0 +1,16 @@
+K 10
+svn:ignore
+V 89
+InstallArea
+amd64_*
+setup.*sh
+cleanup.*sh
+Makefile
+install.history
+*~
+*.swp
+*.pyc
+*.log
+
+
+END

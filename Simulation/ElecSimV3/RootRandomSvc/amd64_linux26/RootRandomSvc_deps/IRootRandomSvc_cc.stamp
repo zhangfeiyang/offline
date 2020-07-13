@@ -1,0 +1,1 @@
+IRootRandomSvc_cc_dependencies =  ../src/IRootRandomSvc.cc   /junofs/production/public/users/zhangfy/offline_bgd/Simulation/ElecSimV3/RootRandomSvc/RootRandomSvc/IRootRandomSvc.h  $(bin)RootRandomSvc_deps/IRootRandomSvc_cc.stamp

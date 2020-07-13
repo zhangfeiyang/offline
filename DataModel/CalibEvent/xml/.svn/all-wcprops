@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/offline/!svn/ver/3129/tags/J18v1r1-Pre1/DataModel/CalibEvent/xml
+END
+CalibHeader.xml
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/offline/!svn/ver/3129/tags/J18v1r1-Pre1/DataModel/CalibEvent/xml/CalibHeader.xml
+END
+CalibPMTChannel.xml
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/offline/!svn/ver/3129/tags/J18v1r1-Pre1/DataModel/CalibEvent/xml/CalibPMTChannel.xml
+END
+TTCalibEvent.xml
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/offline/!svn/ver/3129/tags/J18v1r1-Pre1/DataModel/CalibEvent/xml/TTCalibEvent.xml
+END
+CalibTTChannel.xml
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/offline/!svn/ver/3129/tags/J18v1r1-Pre1/DataModel/CalibEvent/xml/CalibTTChannel.xml
+END
+CalibEvent.xml
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/offline/!svn/ver/3129/tags/J18v1r1-Pre1/DataModel/CalibEvent/xml/CalibEvent.xml
+END

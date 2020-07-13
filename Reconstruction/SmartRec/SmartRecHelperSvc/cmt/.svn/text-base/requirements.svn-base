@@ -1,0 +1,16 @@
+package SmartRecHelperSvc
+
+use SniperKernel v*
+use CalibEvent v* DataModel
+use ROOT v* Externals
+use Boost v* Externals
+use Identifier v* Detector
+use Geometry v* Detector
+
+macro_append Boost_linkopts " -lboost_filesystem -lboost_system "
+
+library SmartRecHelperSvc *.cc
+apply_pattern linker_library library=SmartRecHelperSvc
+
+apply_pattern install_more_includes more=SmartRecHelperSvc
+apply_pattern install_python_modules

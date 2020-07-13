@@ -1,0 +1,24 @@
+#export JUNOTOP=/afs/ihep.ac.cn/soft/juno/JUNO-ALL-SLC6/Pre-Release/J18v1r1-Pre1
+export JUNOTOP=/cvmfs/juno.ihep.ac.cn/sl6_amd64_gcc447/Pre-Release/J18v1r1-Pre1
+pushd $JUNOTOP >& /dev/null
+source bashrc.sh
+
+pushd ExternalInterface/EIRelease/cmt/ >& /dev/null
+source setup.sh
+popd >& /dev/null
+
+pushd sniper/SniperRelease/cmt >& /dev/null
+source setup.sh
+popd >& /dev/null
+popd >& /dev/null
+export WORKTOP=/junofs/users/zhukangfu/workdesktop/
+export CMTPROJECTPATH=$WORKTOP:$CMTPROJECTPATH
+pushd $WORKTOP/offline/Examples/Tutorial/cmt/
+source setup.sh
+popd
+
+source /afs/ihep.ac.cn/soft/juno/JUNO-ALL-SLC6/contrib/compat/bashrc
+
+echo "nothing to declare"
+#echo "K+ decay progress has been killed"
+#echo "pion decay progress has been killed"

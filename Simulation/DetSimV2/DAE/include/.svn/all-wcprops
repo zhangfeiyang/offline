@@ -1,0 +1,137 @@
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/offline/!svn/ver/3129/tags/J18v1r1-Pre1/Simulation/DetSimV2/DAE/include
+END
+G4DAEUtil.hh
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/offline/!svn/ver/3129/tags/J18v1r1-Pre1/Simulation/DetSimV2/DAE/include/G4DAEUtil.hh
+END
+G4DAEReadParamvol.hh
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svn/offline/!svn/ver/3129/tags/J18v1r1-Pre1/Simulation/DetSimV2/DAE/include/G4DAEReadParamvol.hh
+END
+G4DAEReadMaterials.hh
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svn/offline/!svn/ver/3129/tags/J18v1r1-Pre1/Simulation/DetSimV2/DAE/include/G4DAEReadMaterials.hh
+END
+G4DAEPolyhedron.hh
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/offline/!svn/ver/3129/tags/J18v1r1-Pre1/Simulation/DetSimV2/DAE/include/G4DAEPolyhedron.hh
+END
+G4DAEReadDefine.hh
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/offline/!svn/ver/3129/tags/J18v1r1-Pre1/Simulation/DetSimV2/DAE/include/G4DAEReadDefine.hh
+END
+G4DAEReadSolids.hh
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/offline/!svn/ver/3129/tags/J18v1r1-Pre1/Simulation/DetSimV2/DAE/include/G4DAEReadSolids.hh
+END
+G4DAEWriteEffects.hh
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svn/offline/!svn/ver/3129/tags/J18v1r1-Pre1/Simulation/DetSimV2/DAE/include/G4DAEWriteEffects.hh
+END
+G4DAEWriteAsset.hh
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/offline/!svn/ver/3129/tags/J18v1r1-Pre1/Simulation/DetSimV2/DAE/include/G4DAEWriteAsset.hh
+END
+G4DAEWrite.hh
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/offline/!svn/ver/3129/tags/J18v1r1-Pre1/Simulation/DetSimV2/DAE/include/G4DAEWrite.hh
+END
+G4DAEParser.icc
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/offline/!svn/ver/3129/tags/J18v1r1-Pre1/Simulation/DetSimV2/DAE/include/G4DAEParser.icc
+END
+G4DAEReadStructure.hh
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svn/offline/!svn/ver/3129/tags/J18v1r1-Pre1/Simulation/DetSimV2/DAE/include/G4DAEReadStructure.hh
+END
+G4DAEReadSetup.hh
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/offline/!svn/ver/3129/tags/J18v1r1-Pre1/Simulation/DetSimV2/DAE/include/G4DAEReadSetup.hh
+END
+G4DAEParser.hh
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/offline/!svn/ver/3129/tags/J18v1r1-Pre1/Simulation/DetSimV2/DAE/include/G4DAEParser.hh
+END
+G4DAEWriteMaterials.hh
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svn/offline/!svn/ver/3129/tags/J18v1r1-Pre1/Simulation/DetSimV2/DAE/include/G4DAEWriteMaterials.hh
+END
+G4DAEWriteParamvol.hh
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svn/offline/!svn/ver/3129/tags/J18v1r1-Pre1/Simulation/DetSimV2/DAE/include/G4DAEWriteParamvol.hh
+END
+G4DAEEvaluator.hh
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/offline/!svn/ver/3129/tags/J18v1r1-Pre1/Simulation/DetSimV2/DAE/include/G4DAEEvaluator.hh
+END
+G4DAEParameterisation.hh
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svn/offline/!svn/ver/3129/tags/J18v1r1-Pre1/Simulation/DetSimV2/DAE/include/G4DAEParameterisation.hh
+END
+G4DAEWriteSolids.hh
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/offline/!svn/ver/3129/tags/J18v1r1-Pre1/Simulation/DetSimV2/DAE/include/G4DAEWriteSolids.hh
+END
+G4STRead.hh
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/offline/!svn/ver/3129/tags/J18v1r1-Pre1/Simulation/DetSimV2/DAE/include/G4STRead.hh
+END
+G4DAERead.hh
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/offline/!svn/ver/3129/tags/J18v1r1-Pre1/Simulation/DetSimV2/DAE/include/G4DAERead.hh
+END
+G4DAEWriteSetup.hh
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/offline/!svn/ver/3129/tags/J18v1r1-Pre1/Simulation/DetSimV2/DAE/include/G4DAEWriteSetup.hh
+END
+G4DAEWriteStructure.hh
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svn/offline/!svn/ver/3129/tags/J18v1r1-Pre1/Simulation/DetSimV2/DAE/include/G4DAEWriteStructure.hh
+END

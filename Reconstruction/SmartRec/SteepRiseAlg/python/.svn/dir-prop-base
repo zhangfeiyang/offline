@@ -1,0 +1,15 @@
+K 10
+svn:ignore
+V 89
+setup.*sh
+cleanup.*sh
+install.history
+Makefile
+*.pdf
+*~
+.*.sw*
+*.root
+*.log
+Linux-x86_64
+
+END

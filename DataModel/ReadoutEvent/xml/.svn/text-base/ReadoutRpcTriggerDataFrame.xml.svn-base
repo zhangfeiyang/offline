@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE xdd SYSTEM "xdd.dtd" >
+
+<xdd>
+  <package name="ReadoutEvent">
+    <import name="ReadoutTriggerDataFrame"/>
+   
+  <import name="TObject"/>
+    <class name="ReadoutRpcTriggerDataFrame"
+      author="Jinyan Liu"
+      desc="Trigger Data Frame for RPCs">
+
+      <base name="ReadoutTriggerDataFrame"/>
+
+      <attribute name="inTriggers"
+        desc=""
+        type="int"/>
+      <attribute name="outTriggers"
+        desc=""
+        type="int"/>
+
+    </class>
+  </package>
+</xdd>

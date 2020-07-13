@@ -1,0 +1,10 @@
+package JunoTimer
+
+use SniperRelease v*
+use Boost v* Externals
+
+apply_pattern install_more_includes more="JunoTimer"
+library JunoTimer *.cc ../binding/JunoTimerBinding.cc
+apply_pattern linker_library library=JunoTimer
+apply_pattern install_python_modules
+

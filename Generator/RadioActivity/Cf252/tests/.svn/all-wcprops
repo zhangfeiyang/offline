@@ -1,0 +1,17 @@
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/offline/!svn/ver/3129/tags/J18v1r1-Pre1/Generator/RadioActivity/Cf252/tests
+END
+test_seed.py
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/offline/!svn/ver/3129/tags/J18v1r1-Pre1/Generator/RadioActivity/Cf252/tests/test_seed.py
+END
+test_nuwahelp.ref
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svn/offline/!svn/ver/3129/tags/J18v1r1-Pre1/Generator/RadioActivity/Cf252/tests/test_nuwahelp.ref
+END

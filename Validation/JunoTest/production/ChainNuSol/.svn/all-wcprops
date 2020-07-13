@@ -1,0 +1,17 @@
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/offline/!svn/ver/3129/tags/J18v1r1-Pre1/Validation/JunoTest/production/ChainNuSol
+END
+gen-uniform.sh
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svn/offline/!svn/ver/3129/tags/J18v1r1-Pre1/Validation/JunoTest/production/ChainNuSol/gen-uniform.sh
+END
+prod_Chain_uniform.py
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/svn/offline/!svn/ver/3129/tags/J18v1r1-Pre1/Validation/JunoTest/production/ChainNuSol/prod_Chain_uniform.py
+END

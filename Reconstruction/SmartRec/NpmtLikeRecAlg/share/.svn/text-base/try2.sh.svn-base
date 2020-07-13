@@ -1,0 +1,1 @@
+python tut_calib2rec.py --evtmax 1 --input /storage/gpfs_data/juno/junofs/production/public/users/dingxf/Tutorial/singlePoint/Electron/center/e-_0.6298MeV/calib/calib-671.root --method=clusterized-point --elec yes --output one.root

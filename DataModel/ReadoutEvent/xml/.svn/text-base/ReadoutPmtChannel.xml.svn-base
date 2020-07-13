@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE xdd SYSTEM "xdd.dtd">
+
+<xdd>
+    <package name="ReadoutEvent">
+        <import name="TObject"/>
+        <import name="vector" std="TRUE"/>
+
+        <class name="ReadoutPmtChannel"
+            author="Jinyan Liu"
+            desc="on channel in PMT electronics">
+
+            <base name="TObject"/>
+
+            <attribute
+              desc="Fee mode: kPeakFinding=0x1, kWaveform=0x2, kFADC=0x4"
+              name="mode" init="0x0"
+              type="int"/>
+            <attribute
+              desc="Front-End Electronics Channel ID"
+              name="channelId" init="0"
+              type="int"/>
+
+            <attribute
+              desc="Vector of ADC values"
+              name="adc"
+              type="std::vector&lt;int&gt;"
+              nonconstaccessor="TRUE"/>
+            <attribute
+              desc="Vector of pedestal"
+              name="pedestal"
+              type="std::vector&lt;int&gt;"
+              nonconstaccessor="TRUE"/>
+            <attribute
+              desc="Vector of ADC ranges"
+              name="adcRange"
+              type="std::vector&lt;int&gt;"
+              nonconstaccessor="TRUE"/>
+            <attribute
+              desc="Vector of ADC peaking cycles"
+              name="adcCycle"
+              type="std::vector&lt;int&gt;"
+              nonconstaccessor="TRUE"/>
+            <attribute
+              desc="Vector of TDC values [in clock cycles since readout start]"
+              name="tdc"
+              type="std::vector&lt;int&gt;"
+              nonconstaccessor="TRUE"/>
+            <attribute
+              desc="Vector of TDC Hit Counts"
+              name="tdcHitCount"
+              type="std::vector&lt;int&gt;"
+              nonconstaccessor="TRUE"/>
+            <attribute
+              desc="Vector of waveform ADC values in high range"
+              name="waveAdcHigh"
+              type="std::vector&lt;int&gt;"/>
+            <attribute
+              desc="Vector of waveform ADC values in low range"
+              name="waveAdcLow"
+              type="std::vector&lt;int&gt;"/>
+            <attribute
+              desc="Vector of waveform ADC cycles"
+              name="waveAdcCycle"
+              type="std::vector&lt;int&gt;"/>
+
+
+        </class>
+
+
+    </package>
+</xdd>

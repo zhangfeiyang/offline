@@ -1,0 +1,58 @@
+<?xml version = "1.0" encoding = "UTF-8"?>
+<!DOCTYPE xdd SYSTEM "xdd.dtd">
+
+<xdd>
+    <package name = "CalibEvent">
+
+        <import name="Event/HeaderObject"/>
+        <import name="Event/CalibEvent"/>
+	<import name="Event/TTCalibEvent"/>
+
+        <class name = "CalibHeader"
+            author="ZHANG Kun"
+            desc = "Calibration header">
+
+            <base name="HeaderObject"/>
+
+            <SmartRelation type = "JM::CalibEvent"
+                name = "event"
+                desc = "Smart pointer to the CalibEvent"
+                nonconstaccessor = "TRUE"/>
+
+	    <SmartRelation type = "JM::TTCalibEvent"
+		name = "TTEvent"
+		desc = "Smart pointer to the TTCalibEvent"
+		nonconstaccessor = "TRUE"/>
+
+            <!--
+            <constructor
+                desc = "default constructor">
+                <code>
+                    m_event = new JM::CalibEvent;
+                </code>
+            </constructor>
+            -->
+
+            <method
+                name="getCalibPmtChannel"
+                desc="Get a pmt channel via pmtid"
+                argList="unsigned int pmtid"
+                type="const JM::CalibPMTChannel*">
+                <code>
+                    return event()->getCalibPmtChannel(pmtid);
+                </code>
+            </method>
+
+            <method
+                name="addCalibPmtChannel"
+                desc="Add a Calibrate pmt channel to this event"
+                argList="unsigned int pmtid"
+                type="JM::CalibPMTChannel*">
+                <code>
+                    return event()->addCalibPmtChannel(pmtid);
+                </code>
+            </method>
+
+        </class>
+    </package>
+</xdd>

@@ -1,0 +1,4 @@
+PKG( ElecDataStruct
+    DEPENDS
+        Context
+)

@@ -1,0 +1,1 @@
+HepEvt2HepMC_cc_dependencies =  ../src/HepEvt2HepMC.cc   ../src/HepEvt2HepMC.h  $(bin)GenTools_deps/HepEvt2HepMC_cc.stamp

@@ -1,0 +1,27 @@
+package GenEventV2
+
+use ROOT v* Externals
+use BaseEvent v* DataModel
+use EDMUtil v* DataModel
+use HepMC v* Externals
+
+apply_pattern install_more_includes more=Event
+
+macro_append GenHeader_cintflags " -p "
+macro_append GenHeader_cintflags " -I$(GENEVENTV2ROOT) "
+macro_append GenHeader_cintflags " -I$(BASEEVENTROOT) "
+macro_append GenHeader_cintflags " -I$(EDMUTILROOT) "
+macro_append GenHeader_cintflags " $(HepMC_cppflags) "
+
+macro_append GenEvent_cintflags " -p "
+macro_append GenEvent_cintflags " -I$(GENEVENTV2ROOT) "
+macro_append GenEvent_cintflags " -I$(BASEEVENTROOT) "
+macro_append GenEvent_cintflags " $(HepMC_cppflags) "
+
+apply_pattern cint_dictionary files="../Event/GenHeader.h ../Event/GenEvent.h"
+
+include_dirs $(GENEVENTV2ROOT)/
+include_dirs $(GENEVENTV2ROOT)/Event
+library GenEventV2 *.cc
+apply_pattern linker_library library=GenEventV2
+

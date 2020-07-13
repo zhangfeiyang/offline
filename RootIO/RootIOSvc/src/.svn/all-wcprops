@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/offline/!svn/ver/3129/tags/J18v1r1-Pre1/RootIO/RootIOSvc/src
+END
+RootInputSvc.cc
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/offline/!svn/ver/3129/tags/J18v1r1-Pre1/RootIO/RootIOSvc/src/RootInputSvc.cc
+END
+NavInputStream.cc
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/offline/!svn/ver/3129/tags/J18v1r1-Pre1/RootIO/RootIOSvc/src/NavInputStream.cc
+END
+RootOutputStream.cc
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/offline/!svn/ver/3129/tags/J18v1r1-Pre1/RootIO/RootIOSvc/src/RootOutputStream.cc
+END
+RootOutputSvc.cc
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/offline/!svn/ver/3129/tags/J18v1r1-Pre1/RootIO/RootIOSvc/src/RootOutputSvc.cc
+END

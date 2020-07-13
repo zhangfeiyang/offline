@@ -1,0 +1,77 @@
+10
+
+dir
+3129
+http://juno.ihep.ac.cn/svn/offline/tags/J18v1r1-Pre1/XmlObjDesc
+http://juno.ihep.ac.cn/svn/offline
+
+
+
+2017-04-15T09:35:58.759995Z
+2811
+lintao
+has-props
+
+
+
+
+
+
+
+
+
+
+
+
+
+aa2a40f7-5b9f-4796-82c0-4247cb6b7b64
+
+xml_files
+dir
+
+cmt
+dir
+
+fragments
+dir
+
+scripts
+dir
+
+CMakeLists.txt
+file
+
+
+
+
+2017-12-28T05:25:51.000000Z
+72d87438ae066838ec0f887a13cc0c28
+2017-04-07T13:19:56.691590Z
+2764
+lintao
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+28
+
+templates
+dir
+

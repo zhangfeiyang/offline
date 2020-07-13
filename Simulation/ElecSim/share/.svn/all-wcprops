@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/offline/!svn/ver/3129/tags/J18v1r1-Pre1/Simulation/ElecSim/share
+END
+detsim2elecsim.py
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/offline/!svn/ver/3129/tags/J18v1r1-Pre1/Simulation/ElecSim/share/detsim2elecsim.py
+END
+tut_detsim.py
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/offline/!svn/ver/3129/tags/J18v1r1-Pre1/Simulation/ElecSim/share/tut_detsim.py
+END
+draw_waveform.py
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/offline/!svn/ver/3129/tags/J18v1r1-Pre1/Simulation/ElecSim/share/draw_waveform.py
+END
+tut_det2elec.py
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/offline/!svn/ver/3129/tags/J18v1r1-Pre1/Simulation/ElecSim/share/tut_det2elec.py
+END
+PmtData.root
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/offline/!svn/ver/3129/tags/J18v1r1-Pre1/Simulation/ElecSim/share/PmtData.root
+END

@@ -1,0 +1,35 @@
+package RootIOTest
+
+use RootIOSvc v* RootIO
+use SniperKernel v*
+use ROOT v* Externals
+use BaseEvent v* DataModel
+use EDMUtil v* DataModel
+use EvtNavigator v* DataModel
+use BufferMemMgr v* CommonSvc
+
+use SimEventV2 v* DataModel
+use RecEvent   v* DataModel
+#use TestEvent v* DataModel 
+
+use JunoTest v* Validation
+
+apply_pattern install_more_includes more=Event
+
+macro Dummy_cintflags " -I$(ROOTIOTESTROOT) -I$(BASEEVENTROOT) -I$(EDMUTILROOT) "
+
+macro_append DummyHeader_cintflags "$(Dummy_cintflags)"
+macro_append DummyEvent_cintflags "$(Dummy_cintflags)"
+macro_append DummyPMTHit_cintflags "$(Dummy_cintflags)"
+macro_append DummyTTHit_cintflags "$(Dummy_cintflags)"
+macro_append DummyTrack_cintflags "$(Dummy_cintflags)"
+
+apply_pattern cint_dictionary files="../Event/*.h"
+
+include_dirs $(ROOTIOTESTROOT)/
+include_dirs $(ROOTIOTESTROOT)/Event
+
+library RootIOTest *.cc
+apply_pattern linker_library library=RootIOTest
+apply_pattern install_python_modules
+

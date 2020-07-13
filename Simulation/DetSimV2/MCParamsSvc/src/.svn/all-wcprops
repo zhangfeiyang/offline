@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/offline/!svn/ver/3129/tags/J18v1r1-Pre1/Simulation/DetSimV2/MCParamsSvc/src
+END
+MCParamsFileSvc.cc
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svn/offline/!svn/ver/3129/tags/J18v1r1-Pre1/Simulation/DetSimV2/MCParamsSvc/src/MCParamsFileSvc.cc
+END
+MCParamsFileSvc.hh
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svn/offline/!svn/ver/3129/tags/J18v1r1-Pre1/Simulation/DetSimV2/MCParamsSvc/src/MCParamsFileSvc.hh
+END
+utils.hh
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/offline/!svn/ver/3129/tags/J18v1r1-Pre1/Simulation/DetSimV2/MCParamsSvc/src/utils.hh
+END

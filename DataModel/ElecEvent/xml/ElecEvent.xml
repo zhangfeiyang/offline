@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE xdd SYSTEM "xdd.dtd">
+
+<xdd>
+    <package name="ElecEvent">
+
+        <import name="Event/EventObject"/> 
+        <import name="Event/ElecFeeCrate"/>
+
+        <class name="ElecEvent"
+            author="fangxiao"
+            desc="">
+
+            <base name="EventObject"/>
+
+            <attribute
+                name="elecFeeCrate"
+                desc=""
+                type="JM::ElecFeeCrate"/>
+
+        </class>
+    </package>
+</xdd>
+

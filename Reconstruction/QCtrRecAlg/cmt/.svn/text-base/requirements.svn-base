@@ -1,0 +1,14 @@
+package QCtrRecAlg
+
+use SniperKernel   v*
+use RootWriter     v*
+use SimEvent       v* DataModel
+use RecEvent       v* DataModel
+use Identifier     v* Detector
+use Geometry       v* Detector
+
+apply_pattern install_more_includes more="QCtrRecAlg"
+
+library QCtrRecAlg *.cc
+apply_pattern linker_library library=QCtrRecAlg
+

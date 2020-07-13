@@ -1,0 +1,17 @@
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/offline/!svn/ver/3129/tags/J18v1r1-Pre1/CommonSvc/RandomSvc/share
+END
+load_random_svc_with_new.py
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svn/offline/!svn/ver/3129/tags/J18v1r1-Pre1/CommonSvc/RandomSvc/share/load_random_svc_with_new.py
+END
+cmp_seed_and_seed_status.sh
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svn/offline/!svn/ver/3129/tags/J18v1r1-Pre1/CommonSvc/RandomSvc/share/cmp_seed_and_seed_status.sh
+END

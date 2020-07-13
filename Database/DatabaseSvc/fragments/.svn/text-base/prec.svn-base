@@ -1,0 +1,5 @@
+${CONSTITUENT}::${FULLNAME}
+	cd ${src}; python try.py ${FILENAME} 
+${CONSTITUENT}clean ::
+	cd ${src}; rm ${NAME}.cc ${NAME}.h ${NAME}LinkDef.h createtable_${NAME}.sql\
+        ${NAME}Includes.h operator_${NAME}.h

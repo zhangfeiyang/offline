@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE xdd SYSTEM "xdd.dtd">
+
+<xdd>
+    <package name="CalibEvent">
+
+        <import name="TObject"/>
+  
+        <class name="CalibTTChannel"
+            author="A.Meregaglia"
+            desc="Calibration TT header">
+
+            <base name="TObject"/>
+
+            <attribute  
+                desc="Number of PE"
+                name="nPE"
+                init="0.0"
+                type="double"
+                />
+            <attribute  
+                desc="Number of ADC"
+                name="nADC"
+                init="0.0"
+                type="double"
+                />
+            <attribute                   
+                desc="Id of the pmt"
+                name="pmtId"
+                init="0"
+                type="unsigned int"
+                />
+	    <attribute                   
+                desc="x of pmt"
+                name="x"
+                init="0"
+                type="double"
+	       />
+	    <attribute                   
+                desc="y of pmt"
+                name="y"
+                init="0"
+                type="double"
+	       />
+	    <attribute                   
+                desc="z of pmt"
+                name="z"
+                init="0"
+                type="double"
+	       />
+	    <constructor 
+               desc = "constructor with channelid"
+               argList = "unsigned int channelid">
+              <code>
+                m_pmtId = channelid;
+              </code>
+            </constructor>
+        </class>
+    </package>
+</xdd>

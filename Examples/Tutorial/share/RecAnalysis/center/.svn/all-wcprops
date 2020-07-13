@@ -1,0 +1,53 @@
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/offline/!svn/ver/3129/tags/J18v1r1-Pre1/Examples/Tutorial/share/RecAnalysis/center
+END
+resolution.c
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svn/offline/!svn/ver/3129/tags/J18v1r1-Pre1/Examples/Tutorial/share/RecAnalysis/center/resolution.c
+END
+sim_run.sh
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svn/offline/!svn/ver/3129/tags/J18v1r1-Pre1/Examples/Tutorial/share/RecAnalysis/center/sim_run.sh
+END
+rec_run.sh
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svn/offline/!svn/ver/3129/tags/J18v1r1-Pre1/Examples/Tutorial/share/RecAnalysis/center/rec_run.sh
+END
+job
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/offline/!svn/ver/3129/tags/J18v1r1-Pre1/Examples/Tutorial/share/RecAnalysis/center/job
+END
+cal_run.sh
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svn/offline/!svn/ver/3129/tags/J18v1r1-Pre1/Examples/Tutorial/share/RecAnalysis/center/cal_run.sh
+END
+gdml.sh
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/offline/!svn/ver/3129/tags/J18v1r1-Pre1/Examples/Tutorial/share/RecAnalysis/center/gdml.sh
+END
+RecAnalysis.c
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svn/offline/!svn/ver/3129/tags/J18v1r1-Pre1/Examples/Tutorial/share/RecAnalysis/center/RecAnalysis.c
+END
+gdmljob
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/offline/!svn/ver/3129/tags/J18v1r1-Pre1/Examples/Tutorial/share/RecAnalysis/center/gdmljob
+END

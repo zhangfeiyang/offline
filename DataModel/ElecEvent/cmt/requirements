@@ -1,0 +1,31 @@
+package ElecEvent
+version v0
+
+branches cmt src xml Event
+
+use XmlObjDesc v* -no_auto_imports
+use SniperKernel v*
+use ROOT v* Externals
+use BaseEvent v* DataModel
+use EDMUtil v* DataModel
+use Context v* DataModel
+
+include_dirs $(ELECEVENTROOT)/Event
+
+macro_append XODflags " -n JM "
+
+macro_append ElecEvent_cintflags "-I$(CMTINSTALLAREA)/include"
+macro_append ElecHeader_cintflags "-I$(CMTINSTALLAREA)/include"
+macro_append ElecFeeCrate_cintflags "-I$(CMTINSTALLAREA)/include"
+macro_append ElecFeeChannel_cintflags "-I$(CMTINSTALLAREA)/include"
+macro_append SpmtElecEvent_cintflags  "-I$(CMTINSTALLAREA)/include"
+macro_append SpmtElecAbcBlock_cintflags   "-I$(CMTINSTALLAREA)/include"
+
+apply_pattern xod_headers files=../xml/*.xml
+apply_pattern install_more_includes more=Event
+apply_pattern cint_dictionary files=../Event/*.h
+
+apply_pattern xod_srcs files=../Event/*.h
+
+library ElecEvent *.cc
+apply_pattern linker_library library=ElecEvent

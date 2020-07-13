@@ -1,0 +1,6 @@
+package Thorium
+
+macro for gfortran
+macro fflags " -ffixed-line-length-none -fPIC -fno-automatic "
+application Thorium *.f
+macro_append Thorium_linkopts " `cernlib pawlib mathlib` "

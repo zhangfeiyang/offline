@@ -1,0 +1,17 @@
+package SmartRec
+
+use SniperRelease   v*
+use SniperKernel v*
+use RecEvent v* DataModel
+use CalibEvent v* DataModel
+use Identifier v* Detector
+use EvtNavigator v* DataModel
+use DataRegistritionSvc v* DataModel
+use RootIOSvc      v*  RootIO
+use SmartRecHelperSvc v* Reconstruction/SmartRec
+use ClusterEvent v* Reconstruction/SmartRec/DataModel
+use ROOT v* Externals
+
+library SmartRec *.cc
+apply_pattern linker_library library=SmartRec
+apply_pattern install_python_modules

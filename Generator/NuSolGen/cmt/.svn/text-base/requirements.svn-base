@@ -1,0 +1,12 @@
+package NuSolGen
+
+use ROOT  v* Externals
+use Geant4 v* Externals
+use CLHEP v* Externals
+use HepMC v* Externals
+use SniperKernel v*
+use GenTools v* Simulation
+
+library NuSolGen *.cc
+apply_pattern linker_library library=NuSolGen
+apply_pattern install_python_modules

@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/offline/!svn/ver/3129/tags/J18v1r1-Pre1/Validation/JunoTest/production/ChainAlpha
+END
+gen-alpha-uniform.sh
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/svn/offline/!svn/ver/3129/tags/J18v1r1-Pre1/Validation/JunoTest/production/ChainAlpha/gen-alpha-uniform.sh
+END
+gen-alpha-center.sh
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/svn/offline/!svn/ver/3129/tags/J18v1r1-Pre1/Validation/JunoTest/production/ChainAlpha/gen-alpha-center.sh
+END
+prod_Alpha-uniform.py
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/svn/offline/!svn/ver/3129/tags/J18v1r1-Pre1/Validation/JunoTest/production/ChainAlpha/prod_Alpha-uniform.py
+END
+prod_Alpha-center.py
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/svn/offline/!svn/ver/3129/tags/J18v1r1-Pre1/Validation/JunoTest/production/ChainAlpha/prod_Alpha-center.py
+END

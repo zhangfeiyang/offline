@@ -1,0 +1,53 @@
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/offline/!svn/ver/3129/tags/J18v1r1-Pre1/Detector/Geometry/src
+END
+TTGeomSvc.cc
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/offline/!svn/ver/3129/tags/J18v1r1-Pre1/Detector/Geometry/src/TTGeomSvc.cc
+END
+PMTParamSvc.cc
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/offline/!svn/ver/3129/tags/J18v1r1-Pre1/Detector/Geometry/src/PMTParamSvc.cc
+END
+RecGeomSvc.cc
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/offline/!svn/ver/3129/tags/J18v1r1-Pre1/Detector/Geometry/src/RecGeomSvc.cc
+END
+CdGeom.cc
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/offline/!svn/ver/3129/tags/J18v1r1-Pre1/Detector/Geometry/src/CdGeom.cc
+END
+WpGeom.cc
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/offline/!svn/ver/3129/tags/J18v1r1-Pre1/Detector/Geometry/src/WpGeom.cc
+END
+TtGeom.cc
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/offline/!svn/ver/3129/tags/J18v1r1-Pre1/Detector/Geometry/src/TtGeom.cc
+END
+GeoUtil.cc
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/offline/!svn/ver/3129/tags/J18v1r1-Pre1/Detector/Geometry/src/GeoUtil.cc
+END
+PmtGeom.cc
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/offline/!svn/ver/3129/tags/J18v1r1-Pre1/Detector/Geometry/src/PmtGeom.cc
+END

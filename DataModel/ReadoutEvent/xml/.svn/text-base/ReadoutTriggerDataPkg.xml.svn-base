@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE xdd SYSTEM "xdd.dtd" >
+
+<xdd>
+  <package name="ReadoutEvent">
+    <import name="Readout" soft="TRUE"/>
+  <import name="TObject"/>
+    <import name="ReadoutTriggerDataFrame" soft="TRUE"/>
+  
+    <import name="vector" std="TRUE"/>
+
+    <class name="ReadoutTriggerDataPkg"
+      author="Jinyan Liu"
+      desc="Trigger Data Package">
+      <attribute
+        name="frames"
+        desc="Collection of trigger frames"
+        type="std::vector&lt;JM::ReadoutTriggerDataFrame*&gt;"/>
+      <attribute
+        name="readout"
+        desc="Readout in which this lives"
+        type="JM::Readout*" init="0"/>
+      <attribute
+        desc="The detector associated with this data pacakge"
+        name="detector" init="0"
+        type="int"/>
+      <attribute
+        desc="Internal Local Trigger Number"
+        name="trigNumber" init="0"
+        type="int"/>
+      <attribute
+        desc="Number of sub triggers"
+        name="numSubTriggers" init="0"
+        type="int"/>
+      <attribute
+        desc="Board Status"
+        name="boardStatus"
+        type="int"/>
+      <attribute
+        desc="Local Trigger Sequence Number"
+        name="localSN" init="0"
+        type="int"/>
+      
+    </class>
+  </package>
+</xdd>

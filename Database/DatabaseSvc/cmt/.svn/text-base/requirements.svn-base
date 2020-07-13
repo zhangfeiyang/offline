@@ -1,0 +1,29 @@
+package DatabaseSvc
+
+use SniperKernel v*
+use MySQL v* Externals
+use ROOT v* Externals
+use XmlObjDesc v*
+use Context v* DataModel
+
+make_fragment prec -header=prec_header
+
+pattern rowclassgenerate \
+   document prec <package>Rowclass <files>
+
+#apply_pattern cint_dictionary files=../DatabaseSvc/roottest.h
+apply_pattern cint_dictionary files=../DatabaseSvc/DBITableRow.h
+
+macro DatabaseSvc_cintflags " -I/afs/ihep.ac.cn/users/h/huangwh/Databasetest/DatabaseSvc "
+#macro_append roottest_cintflags " $(DatabaseSvc_cintflags) "
+macro_append DBITableRow_cintflags " $(DatabaseSvc_cintflags) "
+macro_append DBITableRow_cintflags " -I$(SNIPERKERNELROOT) "
+
+apply_pattern install_more_includes more="DatabaseSvc"
+apply_pattern install_python_modules
+include_dirs $(DATABASESVCROOT)/DatabaseSvc
+include_dirs $(SNIPERKERNELROOT)
+
+#library DatabaseSvc DatabaseSvc.cc MySQLInterface.cc SqlString.cc DBIResultPtr.cc DBI.cc DBIRollbackDates.cc DBITableRow.cc roottest.cpp
+library DatabaseSvc *.cc
+apply_pattern linker_library library=DatabaseSvc

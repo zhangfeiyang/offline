@@ -1,0 +1,89 @@
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/offline/!svn/ver/3129/tags/J18v1r1-Pre1/Simulation/GenDecay/src
+END
+Radiation.h
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/offline/!svn/ver/3129/tags/J18v1r1-Pre1/Simulation/GenDecay/src/Radiation.h
+END
+NucDecay.h
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/offline/!svn/ver/3129/tags/J18v1r1-Pre1/Simulation/GenDecay/src/NucDecay.h
+END
+GtDecayerator.h
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/offline/!svn/ver/3129/tags/J18v1r1-Pre1/Simulation/GenDecay/src/GtDecayerator.h
+END
+NucUtil.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/offline/!svn/ver/3129/tags/J18v1r1-Pre1/Simulation/GenDecay/src/NucUtil.cpp
+END
+DecayRates.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/offline/!svn/ver/3129/tags/J18v1r1-Pre1/Simulation/GenDecay/src/DecayRates.cpp
+END
+NucVisitor.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/offline/!svn/ver/3129/tags/J18v1r1-Pre1/Simulation/GenDecay/src/NucVisitor.cpp
+END
+NucState.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/offline/!svn/ver/3129/tags/J18v1r1-Pre1/Simulation/GenDecay/src/NucState.cpp
+END
+NucUtil.h
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/offline/!svn/ver/3129/tags/J18v1r1-Pre1/Simulation/GenDecay/src/NucUtil.h
+END
+DecayRates.h
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/offline/!svn/ver/3129/tags/J18v1r1-Pre1/Simulation/GenDecay/src/DecayRates.h
+END
+NucVisitor.h
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/offline/!svn/ver/3129/tags/J18v1r1-Pre1/Simulation/GenDecay/src/NucVisitor.h
+END
+Radiation.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/offline/!svn/ver/3129/tags/J18v1r1-Pre1/Simulation/GenDecay/src/Radiation.cpp
+END
+NucDecay.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/offline/!svn/ver/3129/tags/J18v1r1-Pre1/Simulation/GenDecay/src/NucDecay.cpp
+END
+NucState.h
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/offline/!svn/ver/3129/tags/J18v1r1-Pre1/Simulation/GenDecay/src/NucState.h
+END
+GtDecayerator.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/offline/!svn/ver/3129/tags/J18v1r1-Pre1/Simulation/GenDecay/src/GtDecayerator.cpp
+END

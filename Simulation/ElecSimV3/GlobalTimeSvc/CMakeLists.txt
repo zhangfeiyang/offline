@@ -1,0 +1,4 @@
+PKG(GlobalTimeSvc
+    DEPENDS
+        Context
+)

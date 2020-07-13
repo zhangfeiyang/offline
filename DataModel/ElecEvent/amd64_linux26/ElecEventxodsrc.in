@@ -1,0 +1,9 @@
+document xodsrc ElecEventxodsrc ../Event/*.h
+make_fragment make_header /cvmfs/juno.ihep.ac.cn/sl6_amd64_gcc447/Release/J17v1r1/ExternalLibs/CMT/v1r26/mgr/fragments/make_header
+make_fragment dependencies /cvmfs/juno.ihep.ac.cn/sl6_amd64_gcc447/Release/J17v1r1/ExternalLibs/CMT/v1r26/mgr/fragments/dependencies
+make_fragment cleanup_header /cvmfs/juno.ihep.ac.cn/sl6_amd64_gcc447/Release/J17v1r1/ExternalLibs/CMT/v1r26/mgr/fragments/cleanup_header
+make_fragment xodsrc -header=xodsrc_header -trailer=xodsrc_trailer /junofs/production/public/users/zhangfy/offline_bgd/XmlObjDesc/fragments/xodsrc
+make_fragment xodsrc_header /junofs/production/public/users/zhangfy/offline_bgd/XmlObjDesc/fragments/xodsrc_header
+make_fragment xodsrc_trailer /junofs/production/public/users/zhangfy/offline_bgd/XmlObjDesc/fragments/xodsrc_trailer
+make_fragment document_header /cvmfs/juno.ihep.ac.cn/sl6_amd64_gcc447/Release/J17v1r1/ExternalLibs/CMT/v1r26/mgr/fragments/document_header
+make_fragment dependency /cvmfs/juno.ihep.ac.cn/sl6_amd64_gcc447/Release/J17v1r1/ExternalLibs/CMT/v1r26/mgr/fragments/dependency

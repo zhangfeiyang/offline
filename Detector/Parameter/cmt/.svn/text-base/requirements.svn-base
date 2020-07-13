@@ -1,0 +1,14 @@
+package Parameter
+
+use SniperKernel   v*
+use ROOT           v* Externals
+
+macro_append ROOT_linkopts " `root-config --evelibs` "
+set JUNO_PARAMETER_PATH "${PARAMETERROOT}"
+
+apply_pattern install_more_includes more="Parameter"
+
+library Parameter *.cc
+apply_pattern linker_library library=Parameter
+apply_pattern install_python_modules
+

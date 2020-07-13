@@ -1,0 +1,17 @@
+package VisClient
+
+use SniperKernel v*
+use ROOT         v* Externals
+use JVisLib      v* EventDisplay
+
+include_dirs $(VISCLIENTROOT)/VisClient
+
+apply_pattern cint_dictionary files=../VisClient/VisClient.h
+apply_pattern install_more_includes more="VisClient"
+
+library VisClient *.cc
+apply_pattern linker_library library=VisClient
+
+application serena jvis.C
+macro_append serena_dependencies VisClient
+

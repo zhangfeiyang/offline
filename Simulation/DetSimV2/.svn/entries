@@ -1,0 +1,122 @@
+10
+
+dir
+3129
+http://juno.ihep.ac.cn/svn/offline/tags/J18v1r1-Pre1/Simulation/DetSimV2
+http://juno.ihep.ac.cn/svn/offline
+
+
+
+2017-12-27T00:37:34.418000Z
+3122
+lintao
+has-props
+
+
+
+
+
+
+
+
+
+
+
+
+
+aa2a40f7-5b9f-4796-82c0-4247cb6b7b64
+
+MCParamsSvc
+dir
+
+GenSim
+dir
+
+CentralDetector
+dir
+
+G4Svc
+dir
+
+SimUtil
+dir
+
+DAE
+dir
+
+Chimney
+dir
+
+OpticalProperty
+dir
+
+DetSimOptions
+dir
+
+DetSimPolicy
+dir
+
+PhysiSim
+dir
+
+G4Opticks
+dir
+
+DetSimAlg
+dir
+
+PMTSim
+dir
+
+CalibUnit
+dir
+
+MCGlobalTimeSvc
+dir
+
+Opticks
+dir
+
+CMakeLists.txt
+file
+
+
+
+
+2017-12-28T05:25:47.000000Z
+ae0a365c84a104e14975649152e87fa2
+2017-04-01T14:52:21.985814Z
+2702
+lintao
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+521
+
+G4DAEChroma
+dir
+
+AnalysisCode
+dir
+
+TopTracker
+dir
+

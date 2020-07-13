@@ -1,0 +1,34 @@
+package EvtMixingAlg
+
+use SniperKernel   v*
+use ROOT v* Externals
+use Boost v* Externals
+
+
+# For Data Buffer and IO
+use SimEventV2 v* DataModel 
+use ElecEvent v* DataModel 
+use EvtNavigator v* DataModel
+use Identifier v* Detector
+use BufferMemMgr v* CommonSvc
+use Context v* DataModel
+use DataRegistritionSvc v* DataModel
+
+use InputReviser v* Utilities
+
+use ElecDataStruct v* Simulation/ElecSimV3
+use RootRandomSvc v* Simulation/ElecSimV3
+use GlobalTimeSvc v* Simulation/ElecSimV3
+
+
+library EvtMixingAlg *.cc
+apply_pattern linker_library library = EvtMixingAlg
+apply_pattern install_python_modules
+
+
+
+
+
+
+
+

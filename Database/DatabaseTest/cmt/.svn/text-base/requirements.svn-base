@@ -1,0 +1,15 @@
+package DatabaseTest
+
+use SniperKernel v*
+use DatabaseSvc v*
+use ROOT v* Externals
+
+apply_pattern cint_dictionary files=../src/TableRowExample.h
+macro_append TableRowExample_cintflags " $(DatabaseSvc_cintflags) "
+apply_pattern cint_dictionary files=../src/test.h
+macro_append test_cintflags " $(DatabaseSvc_cintflags) "
+
+library DatabaseSvcAlg *.cc
+apply_pattern install_python_modules
+apply_pattern linker_library library=DatabaseSvcAlg
+

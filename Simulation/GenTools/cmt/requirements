@@ -1,0 +1,27 @@
+package GenTools
+
+use SniperKernel   v*
+use RootWriter     v* SniperSvc
+use Boost v* Externals
+use HepMC v* Externals
+use CLHEP v* Externals
+use ROOT  v* Externals
+use Geant4 v* Externals
+
+use RandomSvc v* CommonSvc
+
+use MCGlobalTimeSvc v* Simulation/DetSimV2
+
+# For Data Buffer and IO
+use EvtNavigator v* DataModel
+use GenEventV2   v* DataModel
+
+apply_pattern install_more_includes more="GenTools"
+
+macro_append Boost_linkopts " -lboost_regex "
+
+library GenTools *.cc
+macro_append GenTools_use_linkopts " -lEG "
+apply_pattern linker_library library=GenTools
+
+apply_pattern install_python_modules

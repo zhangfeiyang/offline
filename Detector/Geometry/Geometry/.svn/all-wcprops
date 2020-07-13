@@ -1,0 +1,53 @@
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/offline/!svn/ver/3129/tags/J18v1r1-Pre1/Detector/Geometry/Geometry
+END
+TTGeomSvc.h
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/offline/!svn/ver/3129/tags/J18v1r1-Pre1/Detector/Geometry/Geometry/TTGeomSvc.h
+END
+PMTParamSvc.h
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/offline/!svn/ver/3129/tags/J18v1r1-Pre1/Detector/Geometry/Geometry/PMTParamSvc.h
+END
+RecGeomSvc.h
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/offline/!svn/ver/3129/tags/J18v1r1-Pre1/Detector/Geometry/Geometry/RecGeomSvc.h
+END
+CdGeom.h
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/offline/!svn/ver/3129/tags/J18v1r1-Pre1/Detector/Geometry/Geometry/CdGeom.h
+END
+WpGeom.h
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/offline/!svn/ver/3129/tags/J18v1r1-Pre1/Detector/Geometry/Geometry/WpGeom.h
+END
+TtGeom.h
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/offline/!svn/ver/3129/tags/J18v1r1-Pre1/Detector/Geometry/Geometry/TtGeom.h
+END
+GeoUtil.h
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/offline/!svn/ver/3129/tags/J18v1r1-Pre1/Detector/Geometry/Geometry/GeoUtil.h
+END
+PmtGeom.h
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/offline/!svn/ver/3129/tags/J18v1r1-Pre1/Detector/Geometry/Geometry/PmtGeom.h
+END

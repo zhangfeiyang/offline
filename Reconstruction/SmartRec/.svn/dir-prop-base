@@ -1,0 +1,29 @@
+K 18
+svn:global-ignores
+V 88
+InstallArea
+amd64_*
+setup.*sh
+cleanup.*sh
+Makefile
+install.history
+*~
+*.swp
+*.pyc
+*.log
+
+K 10
+svn:ignore
+V 89
+setup.*sh
+cleanup.*sh
+install.history
+Makefile
+*.pdf
+*~
+.*.sw*
+*.root
+*.log
+Linux-x86_64
+
+END

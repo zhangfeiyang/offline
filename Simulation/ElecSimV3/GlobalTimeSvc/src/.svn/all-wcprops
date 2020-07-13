@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/offline/!svn/ver/3129/tags/J18v1r1-Pre1/Simulation/ElecSimV3/GlobalTimeSvc/src
+END
+GlobalTimeSvc.cc
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svn/offline/!svn/ver/3129/tags/J18v1r1-Pre1/Simulation/ElecSimV3/GlobalTimeSvc/src/GlobalTimeSvc.cc
+END
+GlobalTimeSvc.h
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svn/offline/!svn/ver/3129/tags/J18v1r1-Pre1/Simulation/ElecSimV3/GlobalTimeSvc/src/GlobalTimeSvc.h
+END
+IGlobalTimeSvc.cc
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svn/offline/!svn/ver/3129/tags/J18v1r1-Pre1/Simulation/ElecSimV3/GlobalTimeSvc/src/IGlobalTimeSvc.cc
+END

@@ -1,0 +1,172 @@
+10
+
+dir
+3129
+http://juno.ihep.ac.cn/svn/offline/tags/J18v1r1-Pre1/Validation/JunoTest/production
+http://juno.ihep.ac.cn/svn/offline
+
+
+
+2017-10-27T07:41:31.501417Z
+3067
+lintao
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+aa2a40f7-5b9f-4796-82c0-4247cb6b7b64
+
+ChainMuon
+dir
+
+Chain
+dir
+
+Extra_config.ini
+file
+
+
+
+
+2017-12-28T05:25:52.000000Z
+f10278058326ded0aa1099dbaae7f660
+2017-04-24T09:29:42.604380Z
+2853
+cgenster
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+1776
+
+ChainDecay
+dir
+
+ChainAlpha
+dir
+
+libs
+dir
+
+ChainAny
+dir
+
+test.ini
+file
+
+
+
+
+2017-12-28T05:25:52.000000Z
+ae4e3e00a4d4a22f799847e6e9986806
+2017-03-30T00:41:37.106754Z
+2674
+lintao
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+831
+
+ana_test
+dir
+
+ChainIBD
+dir
+
+Parameters
+dir
+
+ChainNuSol
+dir
+
+Co60
+dir
+
+validation.ini
+file
+
+
+
+
+2017-12-28T05:25:52.000000Z
+08e8d80bccc07835ebe3c2848e5f971e
+2017-10-27T07:41:31.501417Z
+3067
+lintao
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+2446
+
+ChainCalib
+dir
+
+Positron
+dir
+
+IBD-BasicDistribution
+dir
+

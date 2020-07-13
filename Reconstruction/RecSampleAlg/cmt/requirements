@@ -1,0 +1,15 @@
+package RecSampleAlg
+
+use SniperKernel v*
+use RecEvent v* DataModel
+use CalibEvent v* DataModel
+use Identifier v* Detector
+use Geometry v* Detector
+use EvtNavigator v* DataModel
+use DataRegistritionSvc v* DataModel
+use BufferMemMgr v* CommonSvc
+
+library RecSampleAlg *.cc
+apply_pattern linker_library library=RecSampleAlg
+apply_pattern install_python_modules
+

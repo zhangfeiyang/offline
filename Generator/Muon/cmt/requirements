@@ -1,0 +1,6 @@
+package Muon
+
+use ROOT  v* Externals
+use CLHEP v* Externals
+
+application Muon *.cc

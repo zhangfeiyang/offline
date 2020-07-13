@@ -1,0 +1,5 @@
+package MemoryCheck
+
+use SniperRelease
+
+apply_pattern install_python_modules

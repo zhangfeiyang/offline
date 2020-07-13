@@ -1,0 +1,24 @@
+package TTCalib
+
+use ROOT v* Externals
+use Boost v* Externals
+use SniperKernel v*
+use SimEventV2 v* DataModel
+use RecEvent v* DataModel
+use CalibEvent v* DataModel
+use Identifier v* Detector
+use Geometry v* Detector
+use EvtNavigator v* DataModel
+use DataRegistritionSvc v* DataModel
+use BufferMemMgr v* CommonSvc
+use RootIOSvc      v*  RootIO
+use RootWriter      v*   SniperSvc
+
+macro_append TTCalibAlg_shlibflags " -lMinuit "
+
+macro_append Boost_linkopts " -lboost_filesystem -lboost_system "
+
+library TTCalibAlg *.cc
+apply_pattern linker_library library=TTCalibAlg
+apply_pattern install_python_modules
+

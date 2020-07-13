@@ -1,0 +1,7 @@
+package RootIORelease
+
+use RootIOUtil v* RootIO
+use RootIOSvc v* RootIO
+use RootIOTest v* RootIO
+use RootIOTools v* RootIO
+

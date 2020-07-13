@@ -1,0 +1,39 @@
+--- core/base/src/TUUID.cxx   2015-11-27 09:32:52.000000000 +0800
++++ core/base/src/TUUID.cxx   2015-11-27 09:32:37.000000000 +0800
+@@ -144,6 +144,7 @@
+ #else
+          srandom(seed);
+ #endif
++         firstTime = kFALSE;
+       }
+       GetCurrentTime(&time_last);
+ #ifdef R__WIN32
+@@ -151,7 +152,6 @@
+ #else
+       clockseq = 1+(UShort_t)(65536*random()/(RAND_MAX+1.0));
+ #endif
+-      firstTime = kFALSE;
+    }
+
+    uuid_time_t timestamp;
+
+--- io/io/src/TDirectoryFile.cxx   2013-10-31 23:46:31.000000001 +0800
++++ io/io/src/TDirectoryFile.cxx   2016-09-22 09:13:18.000000000 +0800
+@@ -690,7 +690,16 @@
+ //*-*-*-*-*-*-*-*-*-*-*-*Encode directory header into output buffer*-*-*-*-*-*
+ //*-*                    =========================================
+    Version_t version = TDirectoryFile::Class_Version();
+-   if (fSeekKeys > TFile::kStartBigFile) version += 1000;
++   if (fSeekDir > TFile::kStartBigFile ||
++       fSeekParent > TFile::kStartBigFile ||
++       fSeekKeys > TFile::kStartBigFile )
++   {
++      // One of the address is larger than 2GB we need to use longer onfile
++      // integer, thus we increase the verison number.
++      // Note that fSeekDir and fSeekKey are not necessarily correlated, if
++      // some object are 'removed' from the file and the holes are reused.
++      version += 1000;
++   }
+    tobuf(buffer, version);
+    fDatimeC.FillBuffer(buffer);
+    fDatimeM.FillBuffer(buffer);

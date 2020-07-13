@@ -1,0 +1,13 @@
+package HepMCDict
+
+use SniperPolicy
+use ROOT v* Externals
+use HepMC v* Externals
+use XmlObjDesc v* -no_auto_imports
+
+apply_pattern cint_dictionary files=../src/HepMCInc.h
+macro_append HepMCInc_cintflags " -p "
+macro_append HepMCInc_cintflags " -I$(HepMC_home)/include "
+
+library HepMCDict *.cc
+apply_pattern linker_library library=HepMCDict

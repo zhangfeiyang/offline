@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/offline/!svn/ver/3129/tags/J18v1r1-Pre1/CommonSvc/RandomSvc/src
+END
+RandomSvc.cc
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/offline/!svn/ver/3129/tags/J18v1r1-Pre1/CommonSvc/RandomSvc/src/RandomSvc.cc
+END
+RandomSvc.h
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/offline/!svn/ver/3129/tags/J18v1r1-Pre1/CommonSvc/RandomSvc/src/RandomSvc.h
+END
+IRandomSvc.cc
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/offline/!svn/ver/3129/tags/J18v1r1-Pre1/CommonSvc/RandomSvc/src/IRandomSvc.cc
+END
+RandomSeedRecorder.cc
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/offline/!svn/ver/3129/tags/J18v1r1-Pre1/CommonSvc/RandomSvc/src/RandomSeedRecorder.cc
+END
+RandomSeedRecorder.h
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/offline/!svn/ver/3129/tags/J18v1r1-Pre1/CommonSvc/RandomSvc/src/RandomSeedRecorder.h
+END

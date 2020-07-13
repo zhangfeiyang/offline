@@ -1,0 +1,155 @@
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/offline/!svn/ver/3129/tags/J18v1r1-Pre1/Simulation/DetSimV2/PhysiSim/include
+END
+DsPhysConsHadron.h
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svn/offline/!svn/ver/3129/tags/J18v1r1-Pre1/Simulation/DetSimV2/PhysiSim/include/DsPhysConsHadron.h
+END
+DsG4RadioactiveDecay.hh
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/svn/offline/!svn/ver/3129/tags/J18v1r1-Pre1/Simulation/DetSimV2/PhysiSim/include/DsG4RadioactiveDecay.hh
+END
+DsPhysConsGeneral.h
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svn/offline/!svn/ver/3129/tags/J18v1r1-Pre1/Simulation/DetSimV2/PhysiSim/include/DsPhysConsGeneral.h
+END
+DsG4OpAbsReemit.h
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svn/offline/!svn/ver/3129/tags/J18v1r1-Pre1/Simulation/DetSimV2/PhysiSim/include/DsG4OpAbsReemit.h
+END
+DsG4GdNeutronHPCaptureFS.h
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/svn/offline/!svn/ver/3129/tags/J18v1r1-Pre1/Simulation/DetSimV2/PhysiSim/include/DsG4GdNeutronHPCaptureFS.h
+END
+DsG4Cerenkov.h
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/offline/!svn/ver/3129/tags/J18v1r1-Pre1/Simulation/DetSimV2/PhysiSim/include/DsG4Cerenkov.h
+END
+DsG4Scintillation.h
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svn/offline/!svn/ver/3129/tags/J18v1r1-Pre1/Simulation/DetSimV2/PhysiSim/include/DsG4Scintillation.h
+END
+DsG4NeutronHPThermalScatteringNames.hh
+K 25
+svn:wc:ra_dav:version-url
+V 120
+/svn/offline/!svn/ver/3129/tags/J18v1r1-Pre1/Simulation/DetSimV2/PhysiSim/include/DsG4NeutronHPThermalScatteringNames.hh
+END
+DsG4RadioactiveDecaymessenger.hh
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/svn/offline/!svn/ver/3129/tags/J18v1r1-Pre1/Simulation/DetSimV2/PhysiSim/include/DsG4RadioactiveDecaymessenger.hh
+END
+DsG4OpBoundaryProcess.h
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/svn/offline/!svn/ver/3129/tags/J18v1r1-Pre1/Simulation/DetSimV2/PhysiSim/include/DsG4OpBoundaryProcess.h
+END
+DsPhysConsIon.h
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svn/offline/!svn/ver/3129/tags/J18v1r1-Pre1/Simulation/DetSimV2/PhysiSim/include/DsPhysConsIon.h
+END
+DsG4NeutronHPThermalScatteringData.hh
+K 25
+svn:wc:ra_dav:version-url
+V 119
+/svn/offline/!svn/ver/3129/tags/J18v1r1-Pre1/Simulation/DetSimV2/PhysiSim/include/DsG4NeutronHPThermalScatteringData.hh
+END
+DsPhysConsOptical.h
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svn/offline/!svn/ver/3129/tags/J18v1r1-Pre1/Simulation/DetSimV2/PhysiSim/include/DsPhysConsOptical.h
+END
+DsG4ScintSimple.h
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svn/offline/!svn/ver/3129/tags/J18v1r1-Pre1/Simulation/DetSimV2/PhysiSim/include/DsG4ScintSimple.h
+END
+DsG4NeutronHPThermalScattering.hh
+K 25
+svn:wc:ra_dav:version-url
+V 115
+/svn/offline/!svn/ver/3129/tags/J18v1r1-Pre1/Simulation/DetSimV2/PhysiSim/include/DsG4NeutronHPThermalScattering.hh
+END
+DsG4NNDCCaptureGammas.h
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/svn/offline/!svn/ver/3129/tags/J18v1r1-Pre1/Simulation/DetSimV2/PhysiSim/include/DsG4NNDCCaptureGammas.h
+END
+DsPhysConsElectroNu.h
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/svn/offline/!svn/ver/3129/tags/J18v1r1-Pre1/Simulation/DetSimV2/PhysiSim/include/DsPhysConsElectroNu.h
+END
+DsPhysConsEM.h
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/offline/!svn/ver/3129/tags/J18v1r1-Pre1/Simulation/DetSimV2/PhysiSim/include/DsPhysConsEM.h
+END
+Li9He8Decay.hh
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/offline/!svn/ver/3129/tags/J18v1r1-Pre1/Simulation/DetSimV2/PhysiSim/include/Li9He8Decay.hh
+END
+DsG4NNDCNeutronHPCaptureFS.h
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/svn/offline/!svn/ver/3129/tags/J18v1r1-Pre1/Simulation/DetSimV2/PhysiSim/include/DsG4NNDCNeutronHPCaptureFS.h
+END
+DsG4MuNuclearInteraction.icc
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/svn/offline/!svn/ver/3129/tags/J18v1r1-Pre1/Simulation/DetSimV2/PhysiSim/include/DsG4MuNuclearInteraction.icc
+END
+DsG4OpRayleigh.h
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svn/offline/!svn/ver/3129/tags/J18v1r1-Pre1/Simulation/DetSimV2/PhysiSim/include/DsG4OpRayleigh.h
+END
+DsG4MuNuclearInteraction.hh
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/svn/offline/!svn/ver/3129/tags/J18v1r1-Pre1/Simulation/DetSimV2/PhysiSim/include/DsG4MuNuclearInteraction.hh
+END
+DsG4GdCaptureGammas.h
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/svn/offline/!svn/ver/3129/tags/J18v1r1-Pre1/Simulation/DetSimV2/PhysiSim/include/DsG4GdCaptureGammas.h
+END
+DsG4NeutronHPCapture.h
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/svn/offline/!svn/ver/3129/tags/J18v1r1-Pre1/Simulation/DetSimV2/PhysiSim/include/DsG4NeutronHPCapture.h
+END

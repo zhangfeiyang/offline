@@ -1,0 +1,7 @@
+package JunoTest
+
+use SniperPolicy v*
+use ROOT v* Externals
+
+application BasicDistribution ../production/IBD-BasicDistribution/BasicDistribution.cc
+apply_pattern install_python_modules

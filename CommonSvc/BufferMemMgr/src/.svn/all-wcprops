@@ -1,0 +1,53 @@
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/offline/!svn/ver/3129/tags/J18v1r1-Pre1/CommonSvc/BufferMemMgr/src
+END
+BeginEvtHdl.cc
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/offline/!svn/ver/3129/tags/J18v1r1-Pre1/CommonSvc/BufferMemMgr/src/BeginEvtHdl.cc
+END
+BeginEvtHdl.h
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/offline/!svn/ver/3129/tags/J18v1r1-Pre1/CommonSvc/BufferMemMgr/src/BeginEvtHdl.h
+END
+EndEvtHdl.cc
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/offline/!svn/ver/3129/tags/J18v1r1-Pre1/CommonSvc/BufferMemMgr/src/EndEvtHdl.cc
+END
+BufferMemMgr.cc
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/offline/!svn/ver/3129/tags/J18v1r1-Pre1/CommonSvc/BufferMemMgr/src/BufferMemMgr.cc
+END
+EndEvtHdl.h
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/offline/!svn/ver/3129/tags/J18v1r1-Pre1/CommonSvc/BufferMemMgr/src/EndEvtHdl.h
+END
+BufferMemMgr.h
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/offline/!svn/ver/3129/tags/J18v1r1-Pre1/CommonSvc/BufferMemMgr/src/BufferMemMgr.h
+END
+FullStateNavBuf.cc
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/offline/!svn/ver/3129/tags/J18v1r1-Pre1/CommonSvc/BufferMemMgr/src/FullStateNavBuf.cc
+END
+FullStateNavBuf.h
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/offline/!svn/ver/3129/tags/J18v1r1-Pre1/CommonSvc/BufferMemMgr/src/FullStateNavBuf.h
+END

@@ -1,0 +1,41 @@
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/offline/!svn/ver/3129/tags/J18v1r1-Pre1/DataModel/TestEvent/xml
+END
+ATestEventA.xml
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/offline/!svn/ver/3129/tags/J18v1r1-Pre1/DataModel/TestEvent/xml/ATestEventA.xml
+END
+ATestEventB.xml
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/offline/!svn/ver/3129/tags/J18v1r1-Pre1/DataModel/TestEvent/xml/ATestEventB.xml
+END
+BTestEventA.xml
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/offline/!svn/ver/3129/tags/J18v1r1-Pre1/DataModel/TestEvent/xml/BTestEventA.xml
+END
+BTestEventB.xml
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/offline/!svn/ver/3129/tags/J18v1r1-Pre1/DataModel/TestEvent/xml/BTestEventB.xml
+END
+TestHeaderA.xml
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/offline/!svn/ver/3129/tags/J18v1r1-Pre1/DataModel/TestEvent/xml/TestHeaderA.xml
+END
+TestHeaderB.xml
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/offline/!svn/ver/3129/tags/J18v1r1-Pre1/DataModel/TestEvent/xml/TestHeaderB.xml
+END

@@ -1,0 +1,26 @@
+package TestEvent
+
+branches cmt src xml Event
+
+use XmlObjDesc v* -no_auto_imports
+use ROOT v* Externals
+use BaseEvent v* DataModel
+use RootIOUtil v* RootIO
+
+macro_append XODflags " -n JM "
+macro_append ATestEventA_cintflags "-I$(CMTINSTALLAREA)/include"
+macro_append ATestEventB_cintflags "-I$(CMTINSTALLAREA)/include"
+macro_append BTestEventA_cintflags "-I$(CMTINSTALLAREA)/include"
+macro_append BTestEventB_cintflags "-I$(CMTINSTALLAREA)/include"
+macro_append TestHeaderA_cintflags "-I$(CMTINSTALLAREA)/include"
+macro_append TestHeaderB_cintflags "-I$(CMTINSTALLAREA)/include"
+
+apply_pattern xod_headers files=../xml/*.xml
+apply_pattern install_more_includes more=Event
+apply_pattern cint_dictionary files=../Event/*.h
+
+apply_pattern xod_srcs files=../Event/*.h
+
+include_dirs $(TESTEVENTROOT)/Event
+library TestEvent *.cc
+apply_pattern linker_library library=TestEvent

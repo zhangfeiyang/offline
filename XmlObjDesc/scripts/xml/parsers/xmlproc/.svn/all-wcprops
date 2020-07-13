@@ -1,0 +1,89 @@
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/offline/!svn/ver/3129/tags/J18v1r1-Pre1/XmlObjDesc/scripts/xml/parsers/xmlproc
+END
+dtdparser.py
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/offline/!svn/ver/3129/tags/J18v1r1-Pre1/XmlObjDesc/scripts/xml/parsers/xmlproc/dtdparser.py
+END
+catalog.py
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/offline/!svn/ver/3129/tags/J18v1r1-Pre1/XmlObjDesc/scripts/xml/parsers/xmlproc/catalog.py
+END
+errors.py
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/offline/!svn/ver/3129/tags/J18v1r1-Pre1/XmlObjDesc/scripts/xml/parsers/xmlproc/errors.py
+END
+namespace.py
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/offline/!svn/ver/3129/tags/J18v1r1-Pre1/XmlObjDesc/scripts/xml/parsers/xmlproc/namespace.py
+END
+xmldtd.py
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/offline/!svn/ver/3129/tags/J18v1r1-Pre1/XmlObjDesc/scripts/xml/parsers/xmlproc/xmldtd.py
+END
+_outputters.py
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svn/offline/!svn/ver/3129/tags/J18v1r1-Pre1/XmlObjDesc/scripts/xml/parsers/xmlproc/_outputters.py
+END
+__init__.py
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/offline/!svn/ver/3129/tags/J18v1r1-Pre1/XmlObjDesc/scripts/xml/parsers/xmlproc/__init__.py
+END
+utils.py
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/offline/!svn/ver/3129/tags/J18v1r1-Pre1/XmlObjDesc/scripts/xml/parsers/xmlproc/utils.py
+END
+xmlapp.py
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/offline/!svn/ver/3129/tags/J18v1r1-Pre1/XmlObjDesc/scripts/xml/parsers/xmlproc/xmlapp.py
+END
+xmlutils.py
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/offline/!svn/ver/3129/tags/J18v1r1-Pre1/XmlObjDesc/scripts/xml/parsers/xmlproc/xmlutils.py
+END
+xcatalog.py
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/offline/!svn/ver/3129/tags/J18v1r1-Pre1/XmlObjDesc/scripts/xml/parsers/xmlproc/xcatalog.py
+END
+charconv.py
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/offline/!svn/ver/3129/tags/J18v1r1-Pre1/XmlObjDesc/scripts/xml/parsers/xmlproc/charconv.py
+END
+xmlval.py
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/offline/!svn/ver/3129/tags/J18v1r1-Pre1/XmlObjDesc/scripts/xml/parsers/xmlproc/xmlval.py
+END
+xmlproc.py
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/offline/!svn/ver/3129/tags/J18v1r1-Pre1/XmlObjDesc/scripts/xml/parsers/xmlproc/xmlproc.py
+END

@@ -1,0 +1,9 @@
+package Supernova
+
+use ROOT  v* Externals
+
+macro_append ROOT_linkopts " -lMathMore "
+macro_append cppdebugflags " -O2 -DNDEBUG "
+
+application SN *.cc
+application readSN ../test/*.cc

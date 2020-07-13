@@ -1,0 +1,65 @@
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/offline/!svn/ver/3129/tags/J18v1r1-Pre1/Examples/Tutorial/share
+END
+vis.mac
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/offline/!svn/ver/3129/tags/J18v1r1-Pre1/Examples/Tutorial/share/vis.mac
+END
+tut_vis.sh
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/offline/!svn/ver/3129/tags/J18v1r1-Pre1/Examples/Tutorial/share/tut_vis.sh
+END
+tut_detsim.py
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/offline/!svn/ver/3129/tags/J18v1r1-Pre1/Examples/Tutorial/share/tut_detsim.py
+END
+tut_elec2calib.py
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/offline/!svn/ver/3129/tags/J18v1r1-Pre1/Examples/Tutorial/share/tut_elec2calib.py
+END
+tut_sim2rec_mu.py
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/offline/!svn/ver/3129/tags/J18v1r1-Pre1/Examples/Tutorial/share/tut_sim2rec_mu.py
+END
+tut_calib2rec.py
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/offline/!svn/ver/3129/tags/J18v1r1-Pre1/Examples/Tutorial/share/tut_calib2rec.py
+END
+tut_detsim_mu.py
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/offline/!svn/ver/3129/tags/J18v1r1-Pre1/Examples/Tutorial/share/tut_detsim_mu.py
+END
+tut_det2elec.py
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/offline/!svn/ver/3129/tags/J18v1r1-Pre1/Examples/Tutorial/share/tut_det2elec.py
+END
+tut_det2calib.py
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/offline/!svn/ver/3129/tags/J18v1r1-Pre1/Examples/Tutorial/share/tut_det2calib.py
+END
+tut_muonToyMC.py
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/offline/!svn/ver/3129/tags/J18v1r1-Pre1/Examples/Tutorial/share/tut_muonToyMC.py
+END

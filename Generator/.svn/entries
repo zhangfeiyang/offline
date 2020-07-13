@@ -1,0 +1,83 @@
+10
+
+dir
+3129
+http://juno.ihep.ac.cn/svn/offline/tags/J18v1r1-Pre1/Generator
+http://juno.ihep.ac.cn/svn/offline
+
+
+
+2017-11-03T03:26:00.535790Z
+3085
+lintao
+has-props
+
+
+
+
+
+
+
+
+
+
+
+
+
+aa2a40f7-5b9f-4796-82c0-4247cb6b7b64
+
+Supernova
+dir
+
+DSNB
+dir
+
+GeneratorRelease
+dir
+
+InverseBeta
+dir
+
+NuSolGen
+dir
+
+RadioActivity
+dir
+
+CMakeLists.txt
+file
+
+
+
+
+2017-12-28T05:25:51.000000Z
+f213f0576bceafb418e9dee9c39f7860
+2017-04-07T02:02:29.453347Z
+2748
+lintao
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+143
+
+Muon
+dir
+

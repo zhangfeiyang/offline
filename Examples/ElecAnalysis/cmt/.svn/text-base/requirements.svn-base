@@ -1,0 +1,24 @@
+package ElecAnalysis
+
+use SniperKernel   v*
+use SniperRelease  v*
+use ROOT v* Externals
+use Boost v* Externals
+
+# For Data Buffer and IO
+use EvtNavigator v* DataModel
+use SimEventV2   v* DataModel
+use ElecEvent    v* DataModel
+use DataRegistritionSvc v* DataModel
+use BufferMemMgr v* CommonSvc
+use Context v* DataModel
+use DataRegistritionSvc v* DataModel
+
+use Identifier v* Detector
+
+apply_pattern install_more_includes more="ElecAnalysis"
+
+library ElecAnalysis *.cc
+apply_pattern linker_library library=ElecAnalysis
+apply_pattern install_python_modules
+

@@ -1,0 +1,12 @@
+package FirstAlg
+
+use SniperKernel v*
+use EvtNavigator v* DataModel
+use PhyEvent     v* DataModel
+use DataRegistritionSvc  v*  DataModel
+use BufferMemMgr v* CommonSvc
+
+library FirstAlg *.cc
+apply_pattern linker_library library=FirstAlg
+apply_pattern install_python_modules
+

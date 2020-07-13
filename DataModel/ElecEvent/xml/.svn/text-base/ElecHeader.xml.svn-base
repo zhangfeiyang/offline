@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE xdd SYSTEM "xdd.dtd">
+
+<xdd>
+    <package name="ElecEvent">
+        <import name="Event/HeaderObject"/>
+        <import name="Event/ElecEvent"/>
+        <import name="Event/SpmtElecEvent"/>
+
+        <class name="ElecHeader"
+            author="fangxiao"
+            desc="">
+
+            <base name="HeaderObject"/>
+
+            <SmartRelation  type="JM::ElecEvent"
+                            name="event"
+                            desc="SmartRef to the Elec Event"
+                            nonconstaccessor="TRUE"/>
+            <SmartRelation  type="JM::SpmtElecEvent"
+                            name="spmtEvent"
+                            desc="SmartRef to the SPMT Elec Event"
+                            nonconstaccessor="TRUE"/>
+
+
+        </class>
+    </package>
+</xdd>
+

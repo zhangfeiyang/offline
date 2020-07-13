@@ -1,0 +1,15 @@
+package TemplateFitAlg
+
+use SniperKernel   v*
+use RootWriter     v* SniperSvc
+use ROOT v* Externals
+
+use ElecEvent v* DataModel
+use CalibEvent v* DataModel
+use EvtNavigator v* DataModel
+use DataRegistritionSvc v* DataModel
+
+use Identifier v* Detector
+
+library TemplateFitAlg *.cc *.cxx
+apply_pattern linker_library library=TemplateFitAlg

@@ -1,0 +1,93 @@
+diff --git a/more/Makefile.am b/more/Makefile.am
+index b4f7e3a..7206087 100644
+--- a/more/Makefile.am
++++ b/more/Makefile.am
+@@ -91,4 +91,5 @@ more-clean-local:
+ .PHONY: more-clean-local
+ 
+ bits/conf.h: bits/config.h
+-	sed 's/\(#define\|#undef\) */\1 MORE_CONF_/' $< >$@
++	sed -e 's/\(#define\) */\1 MORE_CONF_/' \
++	    -e 's/\(#undef\) */\1 MORE_CONF_/' $< >$@
+diff --git a/more/io/fdstreambuf.cc b/more/io/fdstreambuf.cc
+index cb09abe..085807e 100644
+--- a/more/io/fdstreambuf.cc
++++ b/more/io/fdstreambuf.cc
+@@ -64,14 +64,14 @@ namespace io {
+ 	  /* if no buffer, make one, otherwise empty it */
+ 	  if (!this->pptr()) {
+ 	      CharT* buf = new CharT[nbuf_put];
+-	      setp(buf, buf + nbuf_put);
++	      this->setp(buf, buf + nbuf_put);
+ 	  }
+ 	  else if (this->pbase() != this->pptr()) {
+ 	      int n_wish = this->pptr() - this->pbase();
+ 	      int n = ::write(fd_out, this->pbase(), n_wish*sizeof(CharT));
+ 	      if (n != n_wish)
+ 		  return Traits::eof();
+-	      setp(this->pbase(), this->epptr());
++	      this->setp(this->pbase(), this->epptr());
+ 	  }
+ 
+ 	  if (Traits::eq_int_type(c, Traits::eof()))
+@@ -93,7 +93,7 @@ namespace io {
+ 				     "Not capable of input.");
+ 	  if (!this->eback()) {
+ 	      CharT* p = new CharT[nbuf_get];
+-	      setg(p, p, p);
++	      this->setg(p, p, p);
+ 	  }
+ 	  int nread = ::read(fd_in, this->eback(), nbuf_get*sizeof(CharT));
+ 	  if (nread <= 0)
+diff --git a/more/io/fstream.cc b/more/io/fstream.cc
+index e5f80d0..45cc794 100644
+--- a/more/io/fstream.cc
++++ b/more/io/fstream.cc
+@@ -289,7 +289,7 @@ namespace io {
+ #endif
+ 	    break;
+ 	}
+-	init(m_buf);
++	this->init(m_buf);
+ 	return m_buf;
+     }
+ 
+diff --git a/more/io/ipstream.cc b/more/io/ipstream.cc
+index c697fdf..6b089a1 100644
+--- a/more/io/ipstream.cc
++++ b/more/io/ipstream.cc
+@@ -38,7 +38,7 @@ namespace io {
+     basic_ipstreambuf(char const* cmd)
+ 	: m_fp(popen(cmd, "r")) //, m_buf(new char_type[s_nbuf])
+     {
+-	setg(m_buf, m_buf, m_buf);
++	this->setg(m_buf, m_buf, m_buf);
+     }
+ 
+   template<typename Char, typename Traits>
+diff --git a/more/io/opstream.cc b/more/io/opstream.cc
+index 342df08..f784bfc 100644
+--- a/more/io/opstream.cc
++++ b/more/io/opstream.cc
+@@ -40,7 +40,7 @@ namespace io {
+     basic_opstreambuf(char const* cmd)
+ 	: m_fp(popen(cmd, "w")), m_buf(new CharT[s_nbuf])
+     {
+-	if (m_buf)  setp(m_buf, m_buf + s_nbuf);
++	if (m_buf)  this->setp(m_buf, m_buf + s_nbuf);
+     }
+ 
+   template<typename CharT, typename Traits>
+diff --git a/more/sys/date.cc b/more/sys/date.cc
+index 11bdc10..bf2c648 100644
+--- a/more/sys/date.cc
++++ b/more/sys/date.cc
+@@ -85,7 +85,7 @@ namespace sys {
+       m_tm.tm_sec = s;
+ 
+       mktime(&m_tm);
+-      ::time_t t_ignore;
++      ::time_t t_ignore = 0;
+       localtime(&t_ignore); // sets ::timezone
+       m_tz = ::timezone;
+ 

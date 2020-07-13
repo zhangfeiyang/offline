@@ -1,0 +1,1 @@
+IRandomSvc_cc_dependencies =  ../src/IRandomSvc.cc   /junofs/production/public/users/zhangfy/offline_bgd/CommonSvc/RandomSvc/RandomSvc/IRandomSvc.h  $(bin)RandomSvc_deps/IRandomSvc_cc.stamp

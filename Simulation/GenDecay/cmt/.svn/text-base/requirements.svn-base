@@ -1,0 +1,16 @@
+package GenDecay
+
+use SniperKernel   v*
+use GenTools v* Simulation
+use Boost v* Externals
+use HepMC v* Externals
+use CLHEP v* Externals
+use ROOT  v* Externals
+use More  v* Externals
+
+use RandomSvc v* CommonSvc
+
+library GenDecay *.cpp
+macro_append GenDecay_use_linkopts " -lEG "
+apply_pattern linker_library library=GenDecay
+set MORE_PHYS_FETCHER ${GENDECAYROOT}/share/lbl-ensdf-fetcher.py

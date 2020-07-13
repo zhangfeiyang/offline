@@ -1,0 +1,27 @@
+package ElecBufferMgrSvc
+
+
+use SniperKernel   v*
+use ROOT v* Externals
+
+use Context v* DataModel
+use ElecDataStruct v* Simulation/ElecSimV3
+
+use EvtNavigator v* DataModel
+use SimEventV2   v* DataModel
+use ElecEvent    v* DataModel
+use DataRegistritionSvc v* DataModel
+
+use Identifier v* Detector
+
+
+
+library ElecBufferMgrSvc *.cc
+
+
+apply_pattern install_more_includes more="ElecBufferMgrSvc"
+
+apply_pattern linker_library library = ElecBufferMgrSvc
+apply_pattern install_python_modules
+
+

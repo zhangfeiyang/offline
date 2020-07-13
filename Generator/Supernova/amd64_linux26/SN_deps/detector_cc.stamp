@@ -1,0 +1,1 @@
+detector_cc_dependencies =  ../src/detector.cc   /cvmfs/juno.ihep.ac.cn/sl6_amd64_gcc447/Pre-Release/J18v1r1-Pre1/ExternalLibs/ROOT/5.34.11/include/Math/InterpolationTypes.h   /cvmfs/juno.ihep.ac.cn/sl6_amd64_gcc447/Pre-Release/J18v1r1-Pre1/ExternalLibs/ROOT/5.34.11/include/Math/Interpolator.h   ../src/def.h   ../src/detector.h  $(bin)SN_deps/detector_cc.stamp

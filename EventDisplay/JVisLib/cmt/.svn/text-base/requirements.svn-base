@@ -1,0 +1,18 @@
+package JVisLib
+
+use SniperKernel v*
+use EvtNavigator v* DataModel
+use SimEventV2 v* DataModel
+use CalibEvent v* DataModel
+use RecEvent   v* DataModel
+use CLHEPDict  v* DataModel/Dict
+use Identifier v* Detector
+use Geometry   v* Detector
+use ROOT       v* Externals
+
+apply_pattern install_more_includes more="JVisLib"
+
+library JVisLib *.cc
+apply_pattern linker_library library=JVisLib
+
+

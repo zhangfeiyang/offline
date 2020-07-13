@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE xdd SYSTEM "xdd.dtd">
+
+<xdd>
+    <package name="ElecEvent">
+
+        <import name="Event/EventObject"/> 
+        <import name="Event/SpmtElecAbcBlock"/>
+
+        <class name="SpmtElecEvent"
+            author="Pietro Chimenti"
+            desc="">
+
+            <base name="EventObject"/>
+
+            <attribute
+                name="spmtBlocks"
+                desc=""
+                type="std::vector&lt;JM::SpmtElecAbcBlock&gt;"/>
+
+
+        </class>
+    </package>
+</xdd>
+

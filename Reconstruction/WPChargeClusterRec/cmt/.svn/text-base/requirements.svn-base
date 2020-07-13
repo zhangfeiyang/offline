@@ -1,0 +1,23 @@
+package WPChargeClusterRec
+
+use SniperKernel v*
+use CLHEP v* Externals
+
+use SimEventV2 v* DataModel
+use RecEvent v* DataModel
+use CalibEvent v* DataModel
+use EvtNavigator v* DataModel
+use DataRegistritionSvc v* DataModel
+use BufferMemMgr v* CommonSvc
+use RootWriter v* SniperSvc
+
+use Geometry v* Detector
+use Identifier v* Detector
+
+macro_append WPChargeClusterRec_shlibflags " -lMinuit2 -lMinuit"
+
+apply_pattern install_more_includes more=WPChargeClusterRec
+
+library WPChargeClusterRec *.cc
+apply_pattern linker_library library=WPChargeClusterRec
+apply_pattern install_python_modules

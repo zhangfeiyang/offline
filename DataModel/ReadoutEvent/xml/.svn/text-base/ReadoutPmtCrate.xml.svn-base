@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE xdd SYSTEM "xdd.dtd" >
+
+<xdd>
+  <package name="ReadoutEvent">
+    <import name="TObject"/>
+        <import name="ReadoutPmtChannel"/>
+        <import name="map" std="TRUE"/>
+    <class name="ReadoutPmtCrate"
+      author="Jinyan Liu"
+      desc="PMT Crate Readout">
+
+      <base name="TObject"/>
+
+      
+     <attribute
+         desc="The set of channels in this readout."
+         name="channelReadout"
+         type="std::map&lt;int,JM::ReadoutPmtChannel&gt;"/>
+
+
+      <attribute
+        desc="The set of fadcReadouts in this readout."
+        name="fadcReadout"
+        nonconstaccessor="TRUE"
+        type="int"/>
+      <attribute
+        desc="Trigger Data Package"
+        name="triggerDataPkg" init="0"
+        type="double"/>
+      
+    </class>
+  </package>
+</xdd>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE xdd SYSTEM "xdd.dtd">
+
+<xdd>
+    <package name = "ClusterEvent">
+
+        <import name="Event/HeaderObject"/>
+        <import name="Event/ClusterEvent"/>
+        <!--<import name="CLHEP/Matrix/Matrix" />-->
+
+        <class name = "ClusterHeader"
+            author = "DING Xuefeng"
+            desc = "Cluster Header Class">
+
+            <base name = "HeaderObject"/>
+            <SmartRelation type = "JM::ClusterEvent"
+                name = "event"
+                desc = "Smart pointer to the ClusterEvent"
+                nonconstaccessor = "TRUE"/>
+        </class>
+    </package>
+</xdd>

@@ -1,0 +1,22 @@
+package ClusterEvent
+
+branches cmt src xml Event
+
+use BaseEvent  v*  DataModel
+use EDMUtil    v*  DataModel
+
+macro_append XODflags " -n JM "
+macro_append ClusterEvent_cintflags " -I$(includes)"
+macro_append ClusterHeader_cintflags " -I$(includes)"
+
+apply_pattern install_more_includes more=Event
+
+apply_pattern xod_headers files=../xml/*.xml
+apply_pattern xod_srcs files=../Event/*.h
+apply_pattern cint_dictionary files=../Event/*.h
+
+include_dirs $(CLUSTEREVENTROOT)/Event
+
+library ClusterEvent *.cc
+apply_pattern linker_library library=ClusterEvent
+

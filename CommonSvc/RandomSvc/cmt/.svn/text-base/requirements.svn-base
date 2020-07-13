@@ -1,0 +1,13 @@
+package RandomSvc
+
+use SniperKernel v*
+use Boost v* Externals
+use CLHEP v* Externals
+use ROOT  v* Externals
+
+apply_pattern install_more_includes more="RandomSvc"
+
+library RandomSvc *.cc ../binding/RandomSvcBinding.cc
+apply_pattern linker_library library=RandomSvc
+
+apply_pattern install_python_modules

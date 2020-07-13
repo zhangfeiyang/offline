@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE xdd SYSTEM "xdd.dtd" >
+
+<xdd>
+  <package name="ReadoutEvent">
+    
+     <import name="TObject"/>
+    
+    <import name="ReadoutHeader" soft="TRUE"/>
+    
+    <class name="Readout"
+	   author="Jinyan Liu"
+	   desc="Generic Electronics Readout">
+
+      <attribute
+        desc="The detector associated with this readout"
+        name="detector" init="0"
+        type="unsigned int"/>
+      <attribute
+        desc="The count of the trigger command from this detector"
+        name="triggerNumber" init="0"
+        type="unsigned int"/>
+      <attribute
+        desc="The absolute time of the trigger command"
+        name="triggerTime" init="0"
+        type="double"/>
+      <attribute
+        desc="The type of trigger conditions which produced this readout"
+        name="triggerType" init="0"
+        type="unsigned int"/>
+      <attribute
+        desc="The raw data block for this readout"
+        name="eventReadout" init="0"
+        type="double"/>
+      <attribute
+        desc="The readout header associated with this readout"
+        name="header" init="0"
+        type="JM::ReadoutHeader*"/>
+
+      
+     
+    </class>
+  </package>
+</xdd>

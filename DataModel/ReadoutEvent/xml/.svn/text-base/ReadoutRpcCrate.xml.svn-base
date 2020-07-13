@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE xdd SYSTEM "xdd.dtd" >
+
+<xdd>
+  <package name="ReadoutEvent">
+     <import name="TObject"/>
+     <import name="ReadoutRpcChannel"/>
+   
+
+    <class name="ReadoutRpcCrate"
+      author="Jinyan Liu"
+      desc="RPC Crate Readout">
+
+      <base name="TObject"/>
+
+
+      <attribute
+        desc="The set of FEC boards in this readout."
+        name="fecReadouts"
+        type="unsigned int"/>
+      <attribute
+        desc="Trigger Data Package"
+        name="triggerDataPkg" init="0"
+        type="int"/> 
+
+    </class>
+  </package>
+</xdd>

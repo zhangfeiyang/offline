@@ -1,0 +1,17 @@
+package WaveFitAlg
+
+use SniperKernel   v*
+use ROOT v* Externals
+macro_append ROOT_linkopts " -lSpectrum "
+macro_append ROOT_linkopts " -lMinuit "
+use Boost v* Externals
+
+use ElecEvent v* DataModel
+use CalibEvent v* DataModel
+use EvtNavigator v* DataModel
+use DataRegistritionSvc v* DataModel
+
+use Identifier v* Detector
+
+library WaveFit *.cc *.cxx
+apply_pattern linker_library library=WaveFit

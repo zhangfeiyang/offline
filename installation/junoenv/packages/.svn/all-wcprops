@@ -1,0 +1,167 @@
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/offline/!svn/ver/3129/tags/J18v1r1-Pre1/installation/junoenv/packages
+END
+subversion-binding.sh
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/offline/!svn/ver/3129/tags/J18v1r1-Pre1/installation/junoenv/packages/subversion-binding.sh
+END
+tbb.sh
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/offline/!svn/ver/3129/tags/J18v1r1-Pre1/installation/junoenv/packages/tbb.sh
+END
+qt4.sh
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/offline/!svn/ver/3129/tags/J18v1r1-Pre1/installation/junoenv/packages/qt4.sh
+END
+swig.sh
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/offline/!svn/ver/3129/tags/J18v1r1-Pre1/installation/junoenv/packages/swig.sh
+END
+gccxml.sh
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/offline/!svn/ver/3129/tags/J18v1r1-Pre1/installation/junoenv/packages/gccxml.sh
+END
+mysql-connector-c.sh
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/offline/!svn/ver/3129/tags/J18v1r1-Pre1/installation/junoenv/packages/mysql-connector-c.sh
+END
+mysql-connector-cpp.sh
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svn/offline/!svn/ver/3129/tags/J18v1r1-Pre1/installation/junoenv/packages/mysql-connector-cpp.sh
+END
+zeromq.sh
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/offline/!svn/ver/3129/tags/J18v1r1-Pre1/installation/junoenv/packages/zeromq.sh
+END
+cernlib.sh
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/offline/!svn/ver/3129/tags/J18v1r1-Pre1/installation/junoenv/packages/cernlib.sh
+END
+python-virtualenv.sh
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/offline/!svn/ver/3129/tags/J18v1r1-Pre1/installation/junoenv/packages/python-virtualenv.sh
+END
+cmake.sh
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/offline/!svn/ver/3129/tags/J18v1r1-Pre1/installation/junoenv/packages/cmake.sh
+END
+python.sh
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/offline/!svn/ver/3129/tags/J18v1r1-Pre1/installation/junoenv/packages/python.sh
+END
+geant4.sh
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/offline/!svn/ver/3129/tags/J18v1r1-Pre1/installation/junoenv/packages/geant4.sh
+END
+cernlib-slc6.sh
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/offline/!svn/ver/3129/tags/J18v1r1-Pre1/installation/junoenv/packages/cernlib-slc6.sh
+END
+git.sh
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/offline/!svn/ver/3129/tags/J18v1r1-Pre1/installation/junoenv/packages/git.sh
+END
+cmt.sh
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/offline/!svn/ver/3129/tags/J18v1r1-Pre1/installation/junoenv/packages/cmt.sh
+END
+ROOT.sh
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/offline/!svn/ver/3129/tags/J18v1r1-Pre1/installation/junoenv/packages/ROOT.sh
+END
+gsl.sh
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/offline/!svn/ver/3129/tags/J18v1r1-Pre1/installation/junoenv/packages/gsl.sh
+END
+boost.sh
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/offline/!svn/ver/3129/tags/J18v1r1-Pre1/installation/junoenv/packages/boost.sh
+END
+libmore.sh
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/offline/!svn/ver/3129/tags/J18v1r1-Pre1/installation/junoenv/packages/libmore.sh
+END
+fftw3.sh
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/offline/!svn/ver/3129/tags/J18v1r1-Pre1/installation/junoenv/packages/fftw3.sh
+END
+clhep.sh
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/offline/!svn/ver/3129/tags/J18v1r1-Pre1/installation/junoenv/packages/clhep.sh
+END
+hepmc.sh
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/offline/!svn/ver/3129/tags/J18v1r1-Pre1/installation/junoenv/packages/hepmc.sh
+END
+xercesc.sh
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/offline/!svn/ver/3129/tags/J18v1r1-Pre1/installation/junoenv/packages/xercesc.sh
+END
+subversion.sh
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/offline/!svn/ver/3129/tags/J18v1r1-Pre1/installation/junoenv/packages/subversion.sh
+END
+mpich.sh
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/offline/!svn/ver/3129/tags/J18v1r1-Pre1/installation/junoenv/packages/mpich.sh
+END
+libmore-data.sh
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/offline/!svn/ver/3129/tags/J18v1r1-Pre1/installation/junoenv/packages/libmore-data.sh
+END

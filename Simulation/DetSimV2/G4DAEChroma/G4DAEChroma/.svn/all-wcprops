@@ -1,0 +1,101 @@
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/offline/!svn/ver/3129/tags/J18v1r1-Pre1/Simulation/DetSimV2/G4DAEChroma/G4DAEChroma
+END
+G4DAEArrayHolder.hh
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/svn/offline/!svn/ver/3129/tags/J18v1r1-Pre1/Simulation/DetSimV2/G4DAEChroma/G4DAEChroma/G4DAEArrayHolder.hh
+END
+G4DAEMap.hh
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svn/offline/!svn/ver/3129/tags/J18v1r1-Pre1/Simulation/DetSimV2/G4DAEChroma/G4DAEChroma/G4DAEMap.hh
+END
+G4DAEArray.hh
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/svn/offline/!svn/ver/3129/tags/J18v1r1-Pre1/Simulation/DetSimV2/G4DAEChroma/G4DAEChroma/G4DAEArray.hh
+END
+G4DAEMetadata.hh
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/svn/offline/!svn/ver/3129/tags/J18v1r1-Pre1/Simulation/DetSimV2/G4DAEChroma/G4DAEChroma/G4DAEMetadata.hh
+END
+G4DAECommon.hh
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/svn/offline/!svn/ver/3129/tags/J18v1r1-Pre1/Simulation/DetSimV2/G4DAEChroma/G4DAEChroma/G4DAECommon.hh
+END
+numpy.hpp
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svn/offline/!svn/ver/3129/tags/J18v1r1-Pre1/Simulation/DetSimV2/G4DAEChroma/G4DAEChroma/numpy.hpp
+END
+G4DAEMaterialMap.hh
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/svn/offline/!svn/ver/3129/tags/J18v1r1-Pre1/Simulation/DetSimV2/G4DAEChroma/G4DAEChroma/G4DAEMaterialMap.hh
+END
+G4DAETime.hh
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svn/offline/!svn/ver/3129/tags/J18v1r1-Pre1/Simulation/DetSimV2/G4DAEChroma/G4DAEChroma/G4DAETime.hh
+END
+G4DAEScintillationStepList.hh
+K 25
+svn:wc:ra_dav:version-url
+V 118
+/svn/offline/!svn/ver/3129/tags/J18v1r1-Pre1/Simulation/DetSimV2/G4DAEChroma/G4DAEChroma/G4DAEScintillationStepList.hh
+END
+G4DAECerenkovStepList.hh
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/svn/offline/!svn/ver/3129/tags/J18v1r1-Pre1/Simulation/DetSimV2/G4DAEChroma/G4DAEChroma/G4DAECerenkovStepList.hh
+END
+G4DAESerializable.hh
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/svn/offline/!svn/ver/3129/tags/J18v1r1-Pre1/Simulation/DetSimV2/G4DAEChroma/G4DAEChroma/G4DAESerializable.hh
+END
+md5digest.h
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svn/offline/!svn/ver/3129/tags/J18v1r1-Pre1/Simulation/DetSimV2/G4DAEChroma/G4DAEChroma/md5digest.h
+END
+G4DAEScintillationStep.hh
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/svn/offline/!svn/ver/3129/tags/J18v1r1-Pre1/Simulation/DetSimV2/G4DAEChroma/G4DAEChroma/G4DAEScintillationStep.hh
+END
+G4DAECerenkovStep.hh
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/svn/offline/!svn/ver/3129/tags/J18v1r1-Pre1/Simulation/DetSimV2/G4DAEChroma/G4DAEChroma/G4DAECerenkovStep.hh
+END
+G4DAEBuffer.hh
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/svn/offline/!svn/ver/3129/tags/J18v1r1-Pre1/Simulation/DetSimV2/G4DAEChroma/G4DAEChroma/G4DAEBuffer.hh
+END
+G4DAEList.hh
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svn/offline/!svn/ver/3129/tags/J18v1r1-Pre1/Simulation/DetSimV2/G4DAEChroma/G4DAEChroma/G4DAEList.hh
+END

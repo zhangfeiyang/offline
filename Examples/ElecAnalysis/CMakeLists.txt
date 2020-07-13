@@ -1,0 +1,10 @@
+PKG(ElecAnalysis
+    Depends
+        EvtNavigator
+        SimEventV2   
+        ElecEvent    
+        DataRegistritionSvc 
+        BufferMemMgr 
+        Identifier 
+        Context 
+)

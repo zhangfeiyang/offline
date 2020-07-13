@@ -1,0 +1,10 @@
+package cJSON
+version v1
+
+use SniperRelease       v*
+macro_append cflags " -fPIC "
+library    cJSON      *.cc *.c
+
+apply_pattern linker_library       library=cJSON
+apply_pattern install_more_includes more=cJSON
+

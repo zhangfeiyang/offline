@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/offline/!svn/ver/3129/tags/J18v1r1-Pre1/Reconstruction/RecSampleAlg/src
+END
+checkOutput.C
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/offline/!svn/ver/3129/tags/J18v1r1-Pre1/Reconstruction/RecSampleAlg/src/checkOutput.C
+END
+RecSampleAlg.cc
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/offline/!svn/ver/3129/tags/J18v1r1-Pre1/Reconstruction/RecSampleAlg/src/RecSampleAlg.cc
+END
+createInput.C
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/offline/!svn/ver/3129/tags/J18v1r1-Pre1/Reconstruction/RecSampleAlg/src/createInput.C
+END
+RecSampleAlg.h
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/offline/!svn/ver/3129/tags/J18v1r1-Pre1/Reconstruction/RecSampleAlg/src/RecSampleAlg.h
+END

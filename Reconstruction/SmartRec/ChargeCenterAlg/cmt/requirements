@@ -1,0 +1,15 @@
+package ChargeCenterAlg
+
+use SniperKernel v*
+use RecEvent v* DataModel
+use CalibEvent v* DataModel
+use Identifier v* Detector
+use EvtNavigator v* DataModel
+use DataRegistritionSvc v* DataModel
+use RootIOSvc      v*  RootIO
+use SmartRecHelperSvc v* Reconstruction/SmartRec
+use ROOT v* Externals
+
+library ChargeCenterAlg *.cc
+apply_pattern linker_library library=ChargeCenterAlg
+apply_pattern install_python_modules

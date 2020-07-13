@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/offline/!svn/ver/3129/tags/J18v1r1-Pre1/Generator/NuSolGen/app
+END
+G4SystemOfUnits.hh
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/offline/!svn/ver/3129/tags/J18v1r1-Pre1/Generator/NuSolGen/app/G4SystemOfUnits.hh
+END
+main.cc
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/offline/!svn/ver/3129/tags/J18v1r1-Pre1/Generator/NuSolGen/app/main.cc
+END
+setup.sh
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/offline/!svn/ver/3129/tags/J18v1r1-Pre1/Generator/NuSolGen/app/setup.sh
+END
+Makefile
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/offline/!svn/ver/3129/tags/J18v1r1-Pre1/Generator/NuSolGen/app/Makefile
+END

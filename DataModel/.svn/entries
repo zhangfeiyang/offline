@@ -1,0 +1,107 @@
+10
+
+dir
+3129
+http://juno.ihep.ac.cn/svn/offline/tags/J18v1r1-Pre1/DataModel
+http://juno.ihep.ac.cn/svn/offline
+
+
+
+2017-11-03T13:16:18.081212Z
+3087
+lintao
+has-props
+
+
+
+
+
+
+
+
+
+
+
+
+
+aa2a40f7-5b9f-4796-82c0-4247cb6b7b64
+
+TestEvent
+dir
+
+GenEventV2
+dir
+
+Dict
+dir
+
+Context
+dir
+
+DataRegistritionSvc
+dir
+
+DataModelRelease
+dir
+
+SimEventV2
+dir
+
+PhyEvent
+dir
+
+EDMUtil
+dir
+
+ReadoutEvent
+dir
+
+EvtNavigator
+dir
+
+ElecEvent
+dir
+
+RecEvent
+dir
+
+CalibEvent
+dir
+
+BaseEvent
+dir
+
+CMakeLists.txt
+file
+
+
+
+
+2017-12-28T05:25:54.000000Z
+5806c2ab7d605573c9d6297a034468e4
+2017-04-07T07:22:49.005099Z
+2758
+lintao
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+420
+

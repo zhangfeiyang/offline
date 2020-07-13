@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE xdd SYSTEM "xdd.dtd" >
+
+<xdd>
+  <package name="ReadoutEvent">
+    <import name="ReadoutTriggerDataPkg" soft="TRUE"/>
+    <import name="ReadoutRpcTriggerDataFrame" soft="TRUE"/>
+    <import name="TObject"/>
+    <class name="ReadoutTriggerDataFrame"
+      author="Jinyan Liu"
+      desc="Trigger Data Frame">
+
+    <attribute
+        name="package"
+        desc="Trigger Data Package that this frame lives in"
+        type="JM::ReadoutTriggerDataPkg*" init="0"/>
+
+      <attribute
+        desc="Internal Local Trigger Sequence Number"
+        name="seqNumber" init="0"
+        type="int"/>
+      <attribute
+        desc="Read Out Type"
+        name="readoutType" init="0"
+        type="int"/>
+      <attribute
+        desc="Trigger Type"
+        name="triggerType"
+        type="int"/>
+      <attribute
+        desc="Time in seconds since epoch"
+        name="triggerTime" init="0"
+        type="int"/>
+      <attribute
+        desc="Clock Cycle Number (12.5ns) since previous second (m_triggerTime)"
+        name="cycle" init="0"
+        type="unsigned int"/>
+      <attribute
+        desc="NHit"
+        name="nhit" init="0"
+        type="int"/>
+      <attribute
+        desc="ESum adc data"
+        name="esumAdc" init="0"
+        type="int"/>
+      <attribute
+        desc="ESum comp data"
+        name="esumComp" init="0"
+        type="int"/>
+      <attribute
+        desc="Cross Trigger Source"
+        name="crossSource" init="0"
+        type="int"/>
+      <attribute
+        desc="Is it an RPC trigger frame?"
+        name="isRpc" init="false"
+        type="bool"/>
+     
+
+     
+    </class>
+  </package>
+</xdd>

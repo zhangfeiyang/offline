@@ -1,0 +1,47 @@
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/offline/!svn/ver/3129/tags/J18v1r1-Pre1/DataModel/EDMUtil/include
+END
+UniqueIDTable.h
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/offline/!svn/ver/3129/tags/J18v1r1-Pre1/DataModel/EDMUtil/include/UniqueIDTable.h
+END
+BookEDM.h
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/offline/!svn/ver/3129/tags/J18v1r1-Pre1/DataModel/EDMUtil/include/BookEDM.h
+END
+EDMManager.h
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/offline/!svn/ver/3129/tags/J18v1r1-Pre1/DataModel/EDMUtil/include/EDMManager.h
+END
+FileMetaData.h
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/offline/!svn/ver/3129/tags/J18v1r1-Pre1/DataModel/EDMUtil/include/FileMetaData.h
+END
+InputElementKeeper.h
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/offline/!svn/ver/3129/tags/J18v1r1-Pre1/DataModel/EDMUtil/include/InputElementKeeper.h
+END
+RootFileInter.h
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/offline/!svn/ver/3129/tags/J18v1r1-Pre1/DataModel/EDMUtil/include/RootFileInter.h
+END
+JobInfo.h
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/offline/!svn/ver/3129/tags/J18v1r1-Pre1/DataModel/EDMUtil/include/JobInfo.h
+END

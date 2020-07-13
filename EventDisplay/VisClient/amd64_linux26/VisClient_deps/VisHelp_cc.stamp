@@ -1,0 +1,1 @@
+VisHelp_cc_dependencies =  ../src/VisHelp.cc   /junofs/production/public/users/zhangfy/offline_bgd/EventDisplay/VisClient/VisClient/VisHelp.h  $(bin)VisClient_deps/VisHelp_cc.stamp

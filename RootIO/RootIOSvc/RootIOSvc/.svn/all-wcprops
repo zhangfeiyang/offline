@@ -1,0 +1,65 @@
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/offline/!svn/ver/3129/tags/J18v1r1-Pre1/RootIO/RootIOSvc/RootIOSvc
+END
+RootInputStream.h
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/offline/!svn/ver/3129/tags/J18v1r1-Pre1/RootIO/RootIOSvc/RootIOSvc/RootInputStream.h
+END
+RootInputSvc.h
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/offline/!svn/ver/3129/tags/J18v1r1-Pre1/RootIO/RootIOSvc/RootIOSvc/RootInputSvc.h
+END
+NavInputStream.h
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/offline/!svn/ver/3129/tags/J18v1r1-Pre1/RootIO/RootIOSvc/RootIOSvc/NavInputStream.h
+END
+RootOutputStream.h
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/offline/!svn/ver/3129/tags/J18v1r1-Pre1/RootIO/RootIOSvc/RootIOSvc/RootOutputStream.h
+END
+RootOutputSvc.h
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/offline/!svn/ver/3129/tags/J18v1r1-Pre1/RootIO/RootIOSvc/RootIOSvc/RootOutputSvc.h
+END
+IInputStream.h
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/offline/!svn/ver/3129/tags/J18v1r1-Pre1/RootIO/RootIOSvc/RootIOSvc/IInputStream.h
+END
+IInputSvc.h
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/offline/!svn/ver/3129/tags/J18v1r1-Pre1/RootIO/RootIOSvc/RootIOSvc/IInputSvc.h
+END
+IOutputStream.h
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/offline/!svn/ver/3129/tags/J18v1r1-Pre1/RootIO/RootIOSvc/RootIOSvc/IOutputStream.h
+END
+IOutputSvc.h
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/offline/!svn/ver/3129/tags/J18v1r1-Pre1/RootIO/RootIOSvc/RootIOSvc/IOutputSvc.h
+END
+RootIOStream.h
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/offline/!svn/ver/3129/tags/J18v1r1-Pre1/RootIO/RootIOSvc/RootIOSvc/RootIOStream.h
+END

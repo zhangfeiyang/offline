@@ -1,0 +1,11 @@
+package JobInfoSvc
+
+use SniperKernel v*
+use EDMUtil v* DataModel
+use RootIOSvc v* RootIO
+
+apply_pattern install_more_includes more=JobInfoSvc
+apply_pattern install_python_modules
+
+library JobInfoSvc *.cc
+apply_pattern linker_library library=JobInfoSvc

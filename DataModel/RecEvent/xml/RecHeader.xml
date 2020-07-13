@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE xdd SYSTEM "xdd.dtd">
+
+<xdd>
+    <package name = "RecEvent">
+
+        <import name="Event/HeaderObject"/>
+        <import name="Event/CDRecEvent"/>
+        <import name="Event/CDTrackRecEvent"/>
+        <import name="Event/WPRecEvent"/>
+        <import name="Event/TTRecEvent"/>
+        <!--<import name="CLHEP/Matrix/Matrix" />-->
+
+        <class name = "RecHeader"
+            author = "ZHANG Kun"
+            desc = "Reconstruction Header Class">
+
+            <base name = "HeaderObject"/>
+            <SmartRelation type = "JM::CDRecEvent"
+                name = "CDEvent"
+                desc = "Smart pointer to the RecEvent (CD)"
+                nonconstaccessor = "TRUE"/>
+
+            <SmartRelation type = "JM::CDTrackRecEvent"
+                name = "CDTrackEvent"
+                desc = "Smart pointer to the RecTrackEvent (CD)"
+                nonconstaccessor = "TRUE"/>
+
+            <SmartRelation type = "JM::WPRecEvent"
+                name = "WPEvent"
+                desc = "Smart pointer to the RecEvent (WP)"
+                nonconstaccessor = "TRUE"/>
+
+            <SmartRelation type = "JM::TTRecEvent"
+                name = "TTEvent"
+                desc = "Smart pointer to the RecEvent (TT)"
+                nonconstaccessor = "TRUE"/>
+
+
+        </class>
+    </package>
+</xdd>

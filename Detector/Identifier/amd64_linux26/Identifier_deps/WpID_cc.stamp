@@ -1,0 +1,1 @@
+WpID_cc_dependencies =  ../src/WpID.cc  $(bin)Identifier_deps/WpID_cc.stamp

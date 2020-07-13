@@ -1,0 +1,9 @@
+package BasicDist
+
+use SniperRelease v*
+
+use SimEventV2   v* DataModel
+use EvtNavigator v* DataModel
+
+library BasicDist *.cc
+apply_pattern linker_library library=BasicDist

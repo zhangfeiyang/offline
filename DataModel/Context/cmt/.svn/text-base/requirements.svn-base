@@ -1,0 +1,19 @@
+package Context
+
+use SniperPolicy v*
+use ROOT v* Externals
+
+apply_pattern install_more_includes more=Context
+
+macro Context_cintflags "  "
+document rootcint ContextDict ../Context/TimeStamp.h
+
+include_dirs $(CONTEXTROOT)/Context
+library Context *.cc
+macro Context_dependencies " ContextDict "
+apply_pattern linker_library library=Context
+
+application test_Context_write ../test/write.C
+macro_append test_Context_write_dependencies Context
+application test_Context_read ../test/read.C
+macro_append test_Context_read_dependencies Context

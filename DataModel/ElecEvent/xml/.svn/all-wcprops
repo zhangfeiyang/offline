@@ -1,0 +1,41 @@
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/offline/!svn/ver/3129/tags/J18v1r1-Pre1/DataModel/ElecEvent/xml
+END
+ElecFeeChannel.xml
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/offline/!svn/ver/3129/tags/J18v1r1-Pre1/DataModel/ElecEvent/xml/ElecFeeChannel.xml
+END
+ElecHeader.xml
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/offline/!svn/ver/3129/tags/J18v1r1-Pre1/DataModel/ElecEvent/xml/ElecHeader.xml
+END
+ElecFeeCrate.xml
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/offline/!svn/ver/3129/tags/J18v1r1-Pre1/DataModel/ElecEvent/xml/ElecFeeCrate.xml
+END
+ElecEvent.xml
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/offline/!svn/ver/3129/tags/J18v1r1-Pre1/DataModel/ElecEvent/xml/ElecEvent.xml
+END
+SpmtElecAbcBlock.xml
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/offline/!svn/ver/3129/tags/J18v1r1-Pre1/DataModel/ElecEvent/xml/SpmtElecAbcBlock.xml
+END
+SpmtElecEvent.xml
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/offline/!svn/ver/3129/tags/J18v1r1-Pre1/DataModel/ElecEvent/xml/SpmtElecEvent.xml
+END

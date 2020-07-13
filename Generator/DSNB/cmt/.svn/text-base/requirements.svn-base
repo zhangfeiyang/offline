@@ -1,0 +1,8 @@
+package DSNB
+
+use ROOT  v* Externals
+use CLHEP v* Externals
+
+application DSNB-NC *.cc
+
+

@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/offline/!svn/ver/3129/tags/J18v1r1-Pre1/Validation/JunoTest/production/Chain
+END
+gen-positron-uniform.sh
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/svn/offline/!svn/ver/3129/tags/J18v1r1-Pre1/Validation/JunoTest/production/Chain/gen-positron-uniform.sh
+END
+gen-positron-center.sh
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/svn/offline/!svn/ver/3129/tags/J18v1r1-Pre1/Validation/JunoTest/production/Chain/gen-positron-center.sh
+END
+prod_Chain_uniform.py
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/svn/offline/!svn/ver/3129/tags/J18v1r1-Pre1/Validation/JunoTest/production/Chain/prod_Chain_uniform.py
+END
+prod_Chain_center.py
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/svn/offline/!svn/ver/3129/tags/J18v1r1-Pre1/Validation/JunoTest/production/Chain/prod_Chain_center.py
+END

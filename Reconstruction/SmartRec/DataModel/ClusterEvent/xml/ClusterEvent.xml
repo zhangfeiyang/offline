@@ -1,0 +1,22 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<!DOCTYPE xdd SYSTEM "xdd.dtd">
+
+<xdd>
+    <package name = "ClusterEvent">
+
+        <import name="Event/EventObject"/>
+
+        <class name = "ClusterEvent"
+            author = "DING Xuefeng"
+            desc = "Cluster event">
+
+            <base name = "EventObject"/>
+
+            <attribute name = "length"
+                type = "unsigned int"
+                desc = "cluster length, used to subtract the dark noise. Unit: ns"
+                init = "0"
+                />
+        </class>
+    </package>
+</xdd>

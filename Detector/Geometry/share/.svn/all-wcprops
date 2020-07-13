@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/offline/!svn/ver/3129/tags/J18v1r1-Pre1/Detector/Geometry/share
+END
+CdGeom.gdml
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/offline/!svn/ver/3129/tags/J18v1r1-Pre1/Detector/Geometry/share/CdGeom.gdml
+END
+CdGeom.root
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/offline/!svn/ver/3129/tags/J18v1r1-Pre1/Detector/Geometry/share/CdGeom.root
+END
+JunoGeom.root
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/offline/!svn/ver/3129/tags/J18v1r1-Pre1/Detector/Geometry/share/JunoGeom.root
+END
+buildit.sh
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/offline/!svn/ver/3129/tags/J18v1r1-Pre1/Detector/Geometry/share/buildit.sh
+END
+c.py
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/offline/!svn/ver/3129/tags/J18v1r1-Pre1/Detector/Geometry/share/c.py
+END

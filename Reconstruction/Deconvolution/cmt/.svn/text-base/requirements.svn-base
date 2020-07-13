@@ -1,0 +1,18 @@
+package Deconvolution
+
+use SniperRelease   v*
+use SniperKernel v*
+use ROOT v* Externals
+use Boost v* Externals
+
+use ElecEvent v* DataModel
+use CalibEvent v* DataModel
+use EvtNavigator v* DataModel
+use DataRegistritionSvc v* DataModel
+use Identifier v* Detector
+use RootIOSvc      v*  RootIO
+
+
+library Deconvolution *.cc
+apply_pattern linker_library library=Deconvolution
+

@@ -1,0 +1,41 @@
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/offline/!svn/ver/3129/tags/J18v1r1-Pre1/Simulation/DetSimV2/G4DAEChroma/src/phys
+END
+DAEDsPhysConsOptical.cc
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/svn/offline/!svn/ver/3129/tags/J18v1r1-Pre1/Simulation/DetSimV2/G4DAEChroma/src/phys/DAEDsPhysConsOptical.cc
+END
+DAEDsPhysConsOptical.h
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/svn/offline/!svn/ver/3129/tags/J18v1r1-Pre1/Simulation/DetSimV2/G4DAEChroma/src/phys/DAEDsPhysConsOptical.h
+END
+DAEDsG4Cerenkov.cc
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/svn/offline/!svn/ver/3129/tags/J18v1r1-Pre1/Simulation/DetSimV2/G4DAEChroma/src/phys/DAEDsG4Cerenkov.cc
+END
+DAEDsG4Scintillation.cc
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/svn/offline/!svn/ver/3129/tags/J18v1r1-Pre1/Simulation/DetSimV2/G4DAEChroma/src/phys/DAEDsG4Scintillation.cc
+END
+DAEDsG4Cerenkov.h
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/svn/offline/!svn/ver/3129/tags/J18v1r1-Pre1/Simulation/DetSimV2/G4DAEChroma/src/phys/DAEDsG4Cerenkov.h
+END
+DAEDsG4Scintillation.h
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/svn/offline/!svn/ver/3129/tags/J18v1r1-Pre1/Simulation/DetSimV2/G4DAEChroma/src/phys/DAEDsG4Scintillation.h
+END

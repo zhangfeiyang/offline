@@ -1,0 +1,1 @@
+NucDecay_cpp_dependencies =  ../src/NucDecay.cpp   ../src/NucDecay.h   ../src/NucState.h  $(bin)GenDecay_deps/NucDecay_cpp.stamp

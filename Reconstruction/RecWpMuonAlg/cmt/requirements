@@ -1,0 +1,20 @@
+package RecWpMuonAlg
+
+use SniperKernel v*
+use CLHEP v* Externals
+
+use RecEvent v* DataModel
+use CalibEvent v* DataModel
+use EvtNavigator v* DataModel
+use DataRegistritionSvc v* DataModel
+use BufferMemMgr v* CommonSvc
+use RootWriter v* SniperSvc
+
+use Geometry v* Detector
+use Identifier v* Detector
+
+apply_pattern install_more_includes more=RecWpMuonAlg
+
+library RecWpMuonAlg *.cc
+apply_pattern linker_library library=RecWpMuonAlg
+apply_pattern install_python_modules

@@ -1,0 +1,12 @@
+package PoolMuonRecTool
+
+use RecWpMuonAlg v* Reconstruction
+
+macro_append PoolMuonRecTool_shlibflags " -lSpectrum"
+
+apply_pattern install_more_includes more=PoolMuonRecTool
+
+library PoolMuonRecTool *.cc
+apply_pattern linker_library library=PoolMuonRecTool
+apply_pattern install_python_modules
+

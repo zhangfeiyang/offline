@@ -1,0 +1,5 @@
+/run/initialize
+/vis/open OGLIQt
+/vis/drawVolume worlds
+/tracking/storeTrajectory 1
+/vis/scene/add/trajectories

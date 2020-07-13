@@ -1,0 +1,100 @@
+#!/usr/bin/env python
+# -*- coding:utf-8 -*-
+# author: lintao
+
+
+import Sniper
+
+def config_detsim_task(task):
+    
+    # = I/O Related =
+    import DataRegistritionSvc
+    task.createSvc("DataRegistritionSvc")
+    # = I/O =
+    import RootIOSvc
+    outsvc = task.createSvc("RootOutputSvc/OutputSvc")
+    outsvc.property("OutputStreams").set({"/Event/Sim": "sample.root"})
+
+    # = Data Buffer =
+    import BufferMemMgr
+    bufMgr = task.createSvc("BufferMemMgr")
+
+    # = generator related =
+    import GenTools
+    from GenTools import makeTV
+    gt = task.createAlg("GenTools")
+
+    gun = gt.createTool("GtGunGenTool/gun")
+    gun.property("particleNames").set(["gamma", "gamma", "e+"])
+    gun.property("particleMomentums").set([1.173, 1.333, 1.0])
+    gun.property("DirectionMode").set("Fix")
+    gun.property("Directions").set([makeTV(0,0,-1), makeTV(0,0,-1), makeTV(0,0,-1)])
+    gun.property("PositionMode").set("FixMany")
+    gun.property("Positions").set([makeTV(0,0,15500), makeTV(0,0,15500), makeTV(0,0,-155)])
+
+    gt.property("GenToolNames").set([gun.objName()])
+
+    # = geant4 related =
+    import DetSimOptions
+    from DetSimOptions.ConfAcrylic import ConfAcrylic
+    acrylic_conf = ConfAcrylic(task)
+    acrylic_conf.configure()
+
+def config_detsim_task_nosim(task):
+    # = I/O Related =
+    import DataRegistritionSvc
+    task.createSvc("DataRegistritionSvc")
+
+    import RootIOSvc
+    inputsvc = task.createSvc("RootInputSvc/InputSvc")
+    inputsvc.property("InputFile").set(["detsim_sample.root"])
+
+    # = Data Buffer =
+    import BufferMemMgr
+    bufMgr = task.createSvc("BufferMemMgr")
+
+if __name__ == "__main__":
+
+    Sniper.setLogLevel(0)
+    task = Sniper.Task("task")
+    task.asTop()
+    task.setEvtMax(10)
+    task.setLogLevel(0)
+
+    # = random svc =
+    import RandomSvc
+    task.property("svcs").append("RandomSvc")
+    rndm = task.find("RandomSvc")
+    rndm.property("Seed").set(42)
+
+    # = root writer =
+    import RootWriter
+    rootwriter = task.createSvc("RootWriter")
+
+    rootwriter.property("Output").set({"SIMEVT":"evt.root"})
+
+    # = second task =
+    sec_task = task.createTask("Task/detsimtask")
+    #config_detsim_task(sec_task)
+    config_detsim_task_nosim(sec_task)
+
+    # = create alg in top task =
+    #Sniper.loadDll("libTwoTask.so")
+    #task.createAlg("AlgWithFire")
+    # = Elec Sim =
+    # == Data Buffer ==
+    import BufferMemMgr
+    bufMgr = task.createSvc("BufferMemMgr")
+    # == Elec Sim ==
+    Sniper.loadDll("libElecSim.so")
+    elecsim = task.createAlg("ElecSimAlg")
+    elecsim.property("PmtTotal").set("17746")
+    elecsim.property("split_evt_time").set("10000")
+    elecsim.property("simFrequency").set("1e9")
+    elecsim.property("noiseAmp").set("3.5e-3")
+    elecsim.property("speAmp").set("0.010")
+    elecsim.property("preTimeTolerance").set("300")
+    elecsim.property("postTimeTolerance").set("2000")
+    # = begin run =
+    task.show()
+    task.run()

@@ -1,0 +1,11 @@
+package BufferMemMgr
+
+use SniperKernel   v*
+use EvtNavigator   v*  DataModel
+use RootIOSvc      v*  RootIO
+
+apply_pattern install_more_includes more=BufferMemMgr
+apply_pattern install_python_modules
+
+library BufferMemMgr *.cc
+apply_pattern linker_library library=BufferMemMgr

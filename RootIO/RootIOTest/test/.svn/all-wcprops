@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/offline/!svn/ver/3129/tags/J18v1r1-Pre1/RootIO/RootIOTest/test
+END
+test_simpleIO.py
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/offline/!svn/ver/3129/tags/J18v1r1-Pre1/RootIO/RootIOTest/test/test_simpleIO.py
+END
+test_heavyIO.py
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/offline/!svn/ver/3129/tags/J18v1r1-Pre1/RootIO/RootIOTest/test/test_heavyIO.py
+END
+test_detsim.py
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/offline/!svn/ver/3129/tags/J18v1r1-Pre1/RootIO/RootIOTest/test/test_detsim.py
+END

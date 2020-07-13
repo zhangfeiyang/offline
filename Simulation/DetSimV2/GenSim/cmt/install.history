@@ -1,0 +1,16 @@
+(i__main__
+LogFile
+p0
+(dp1
+S'_installed_files'
+p2
+(dp3
+S'../../../Simulation/DetSimV2/GenSim/amd64_linux26/EnergySpectrum.exe'
+p4
+S'../../../../InstallArea/amd64_linux26/bin/EnergySpectrum.exe'
+p5
+sS'../../../Simulation/DetSimV2/GenSim/amd64_linux26/libGenSim.so'
+p6
+S'../../../../InstallArea/amd64_linux26/lib/libGenSim.so'
+p7
+ssb.

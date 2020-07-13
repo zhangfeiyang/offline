@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/offline/!svn/ver/3129/tags/J18v1r1-Pre1/Doc/detsim/examples
+END
+R12199_PMTSolid.hh
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/offline/!svn/ver/3129/tags/J18v1r1-Pre1/Doc/detsim/examples/R12199_PMTSolid.hh
+END
+R12199PMTManager.hh
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/offline/!svn/ver/3129/tags/J18v1r1-Pre1/Doc/detsim/examples/R12199PMTManager.hh
+END
+R12199_PMTSolid.cc
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/offline/!svn/ver/3129/tags/J18v1r1-Pre1/Doc/detsim/examples/R12199_PMTSolid.cc
+END
+R12199PMTManager.cc
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/offline/!svn/ver/3129/tags/J18v1r1-Pre1/Doc/detsim/examples/R12199PMTManager.cc
+END

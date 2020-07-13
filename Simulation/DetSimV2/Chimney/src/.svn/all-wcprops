@@ -1,0 +1,41 @@
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/offline/!svn/ver/3129/tags/J18v1r1-Pre1/Simulation/DetSimV2/Chimney/src
+END
+LowerChimneyPlacement.cc
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svn/offline/!svn/ver/3129/tags/J18v1r1-Pre1/Simulation/DetSimV2/Chimney/src/LowerChimneyPlacement.cc
+END
+UpperChimneyPlacement.cc
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svn/offline/!svn/ver/3129/tags/J18v1r1-Pre1/Simulation/DetSimV2/Chimney/src/UpperChimneyPlacement.cc
+END
+LowerChimney.cc
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/offline/!svn/ver/3129/tags/J18v1r1-Pre1/Simulation/DetSimV2/Chimney/src/LowerChimney.cc
+END
+LowerChimneyMaker.cc
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svn/offline/!svn/ver/3129/tags/J18v1r1-Pre1/Simulation/DetSimV2/Chimney/src/LowerChimneyMaker.cc
+END
+UpperChimney.cc
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/offline/!svn/ver/3129/tags/J18v1r1-Pre1/Simulation/DetSimV2/Chimney/src/UpperChimney.cc
+END
+UpperChimneyMaker.cc
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svn/offline/!svn/ver/3129/tags/J18v1r1-Pre1/Simulation/DetSimV2/Chimney/src/UpperChimneyMaker.cc
+END

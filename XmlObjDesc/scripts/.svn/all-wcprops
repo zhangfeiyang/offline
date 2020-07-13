@@ -1,0 +1,83 @@
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/offline/!svn/ver/3129/tags/J18v1r1-Pre1/XmlObjDesc/scripts
+END
+genAssocDicts.py
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/offline/!svn/ver/3129/tags/J18v1r1-Pre1/XmlObjDesc/scripts/genAssocDicts.py
+END
+genNamespaces.py
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/offline/!svn/ver/3129/tags/J18v1r1-Pre1/XmlObjDesc/scripts/genNamespaces.py
+END
+godII.py
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/offline/!svn/ver/3129/tags/J18v1r1-Pre1/XmlObjDesc/scripts/godII.py
+END
+importUtils.py
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/offline/!svn/ver/3129/tags/J18v1r1-Pre1/XmlObjDesc/scripts/importUtils.py
+END
+tools.py
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/offline/!svn/ver/3129/tags/J18v1r1-Pre1/XmlObjDesc/scripts/tools.py
+END
+genSrc.py
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/offline/!svn/ver/3129/tags/J18v1r1-Pre1/XmlObjDesc/scripts/genSrc.py
+END
+genSrcUtils.py
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/offline/!svn/ver/3129/tags/J18v1r1-Pre1/XmlObjDesc/scripts/genSrcUtils.py
+END
+gparser.py
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/offline/!svn/ver/3129/tags/J18v1r1-Pre1/XmlObjDesc/scripts/gparser.py
+END
+xparser.py
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/offline/!svn/ver/3129/tags/J18v1r1-Pre1/XmlObjDesc/scripts/xparser.py
+END
+genPackage.py
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/offline/!svn/ver/3129/tags/J18v1r1-Pre1/XmlObjDesc/scripts/genPackage.py
+END
+genClassDicts.py
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/offline/!svn/ver/3129/tags/J18v1r1-Pre1/XmlObjDesc/scripts/genClassDicts.py
+END
+genLinkDef.py
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/offline/!svn/ver/3129/tags/J18v1r1-Pre1/XmlObjDesc/scripts/genLinkDef.py
+END
+genClasses.py
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/offline/!svn/ver/3129/tags/J18v1r1-Pre1/XmlObjDesc/scripts/genClasses.py
+END

@@ -1,0 +1,46 @@
+package Tutorial
+
+# = Common Svc =
+use DataModelRelease v* DataModel
+use BufferMemMgr     v* CommonSvc
+use RandomSvc        v* CommonSvc
+use JobInfoSvc       v* CommonSvc
+
+use RootIORelease    v* RootIO
+
+# = Generator =
+use GeneratorRelease v* Generator
+# = Simulation =
+use GenTools         v* Simulation
+use GenDecay         v* Simulation
+use DetSimOptions    v* Simulation/DetSimV2
+use ElecSim          v* Simulation
+use ReadOutAlg       v* Simulation/ElecSimV3
+# = Reconstruction =
+#
+use PmtRec           v* Reconstruction
+use WaveFitAlg       v* Reconstruction
+use RecTimeLikeAlg   v* Reconstruction
+use OMILREC          v* Reconstruction
+use IntegralPmtRec   v* Reconstruction
+use RecCdMuonAlg     v* Reconstruction
+use LsqMuonRecTool   v* Reconstruction
+use PushAndPull      v* Reconstruction
+use Deconvolution    v* Reconstruction
+use MuonWaveRec      v* Reconstruction
+
+use SpmtMuonRecTool  v* Reconstruction
+use RecWpMuonAlg     v* Reconstruction
+use PoolMuonRecTool  v* Reconstruction
+use ConeMuonRecTool  v* Reconstruction
+
+use TTCalib          v* Reconstruction
+use TTTracking       v* Reconstruction
+
+# = Calibration
+use PMTCalib         v* Calibration
+# = EventDisplay =
+use VisClient        v* EventDisplay
+
+# = Validation =
+use JunoTest         v* Validation

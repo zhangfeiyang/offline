@@ -1,0 +1,65 @@
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/offline/!svn/ver/3129/tags/J18v1r1-Pre1/Reconstruction/WaveFitAlg/src
+END
+FadcFit.cxx
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/offline/!svn/ver/3129/tags/J18v1r1-Pre1/Reconstruction/WaveFitAlg/src/FadcFit.cxx
+END
+AnalysisTool.cxx
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/offline/!svn/ver/3129/tags/J18v1r1-Pre1/Reconstruction/WaveFitAlg/src/AnalysisTool.cxx
+END
+FadcReadout.cxx
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/offline/!svn/ver/3129/tags/J18v1r1-Pre1/Reconstruction/WaveFitAlg/src/FadcReadout.cxx
+END
+IWaveFitTool.h
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/offline/!svn/ver/3129/tags/J18v1r1-Pre1/Reconstruction/WaveFitAlg/src/IWaveFitTool.h
+END
+FadcFit.h
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/offline/!svn/ver/3129/tags/J18v1r1-Pre1/Reconstruction/WaveFitAlg/src/FadcFit.h
+END
+AnalysisTool.h
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/offline/!svn/ver/3129/tags/J18v1r1-Pre1/Reconstruction/WaveFitAlg/src/AnalysisTool.h
+END
+FadcReadout.h
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/offline/!svn/ver/3129/tags/J18v1r1-Pre1/Reconstruction/WaveFitAlg/src/FadcReadout.h
+END
+WaveFit.cc
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/offline/!svn/ver/3129/tags/J18v1r1-Pre1/Reconstruction/WaveFitAlg/src/WaveFit.cc
+END
+MyTree.h
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/offline/!svn/ver/3129/tags/J18v1r1-Pre1/Reconstruction/WaveFitAlg/src/MyTree.h
+END
+WaveFit.h
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/offline/!svn/ver/3129/tags/J18v1r1-Pre1/Reconstruction/WaveFitAlg/src/WaveFit.h
+END

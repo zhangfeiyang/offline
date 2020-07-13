@@ -1,0 +1,59 @@
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/offline/!svn/ver/3129/tags/J18v1r1-Pre1/DataModel/ReadoutEvent/xml
+END
+ReadoutRpcChannel.xml
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/offline/!svn/ver/3129/tags/J18v1r1-Pre1/DataModel/ReadoutEvent/xml/ReadoutRpcChannel.xml
+END
+ReadoutRpcTriggerDataFrame.xml
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/svn/offline/!svn/ver/3129/tags/J18v1r1-Pre1/DataModel/ReadoutEvent/xml/ReadoutRpcTriggerDataFrame.xml
+END
+Readout.xml
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/offline/!svn/ver/3129/tags/J18v1r1-Pre1/DataModel/ReadoutEvent/xml/Readout.xml
+END
+ReadoutPmtCrate.xml
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/offline/!svn/ver/3129/tags/J18v1r1-Pre1/DataModel/ReadoutEvent/xml/ReadoutPmtCrate.xml
+END
+ReadoutTriggerDataPkg.xml
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svn/offline/!svn/ver/3129/tags/J18v1r1-Pre1/DataModel/ReadoutEvent/xml/ReadoutTriggerDataPkg.xml
+END
+ReadoutRpcCrate.xml
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/offline/!svn/ver/3129/tags/J18v1r1-Pre1/DataModel/ReadoutEvent/xml/ReadoutRpcCrate.xml
+END
+ReadoutHeader.xml
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/offline/!svn/ver/3129/tags/J18v1r1-Pre1/DataModel/ReadoutEvent/xml/ReadoutHeader.xml
+END
+ReadoutTriggerDataFrame.xml
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svn/offline/!svn/ver/3129/tags/J18v1r1-Pre1/DataModel/ReadoutEvent/xml/ReadoutTriggerDataFrame.xml
+END
+ReadoutPmtChannel.xml
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/offline/!svn/ver/3129/tags/J18v1r1-Pre1/DataModel/ReadoutEvent/xml/ReadoutPmtChannel.xml
+END

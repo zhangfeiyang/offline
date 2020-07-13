@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/offline/!svn/ver/3129/tags/J18v1r1-Pre1/Detector/Identifier/Identifier
+END
+Identifier.h
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/offline/!svn/ver/3129/tags/J18v1r1-Pre1/Detector/Identifier/Identifier/Identifier.h
+END
+JunoDetectorID.h
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/offline/!svn/ver/3129/tags/J18v1r1-Pre1/Detector/Identifier/Identifier/JunoDetectorID.h
+END
+CdID.h
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/offline/!svn/ver/3129/tags/J18v1r1-Pre1/Detector/Identifier/Identifier/CdID.h
+END
+WpID.h
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/offline/!svn/ver/3129/tags/J18v1r1-Pre1/Detector/Identifier/Identifier/WpID.h
+END
+TtID.h
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/offline/!svn/ver/3129/tags/J18v1r1-Pre1/Detector/Identifier/Identifier/TtID.h
+END

@@ -1,0 +1,4 @@
+PKG(BundleRecTool
+    DEPENDS
+        RecCdMuonAlg
+)

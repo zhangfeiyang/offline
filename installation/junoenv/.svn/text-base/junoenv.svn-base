@@ -1,0 +1,238 @@
+#!/bin/bash
+export LANG=C
+export LANGUAGE=C
+export LC_ALL=C
+export LC_CTYPE=C
+# source utilites
+JUNOENVDIR=$(dirname $(readlink -e $0))
+echo = The junoenv is in $JUNOENVDIR
+source $JUNOENVDIR/junoenv-common.sh
+
+function setup-juno-help {
+cat << SJH
+HELP:
+    DEFINE an ENVIRONMENT VARIABLE called \$JUNOTOP first
+    Then, use
+    * all
+        Install the external libraries, sniper and the offline software.
+    * libs
+        External libraries related commands.
+    * cmtlibs
+        Interface of the external libraries related commands.
+    * sniper
+        Install the sniper.
+    * offline
+        Install the offline. 
+    * offline-data
+        Install the offline data. 
+    * env
+        Create the setup script.
+    * fixed
+        When the JUNOTOP is moved to another directory, fixed the dir path.
+    * archive
+        Create the archive files of the whole software.
+    * deploy
+        Deploy from the archive files.
+    to setup the whole systems.
+
+    You can also find the logs in $JUNOENVDIR/logs
+SJH
+}
+
+function setup-juno-basic-preq {
+    local msg="== $FUNCNAME: "
+    if [ -z "$JUNOTOP" ]; then
+        echo "Please setup an ENVIRONMENT VARIABLE called \$JUNOTOP first"
+        echo "It will be used as the TOP DIRECTORY to keep all the software."
+        exit 1
+    fi
+    echo $msg ================================================================
+    echo $msg GLOBAL Environment Variables:
+    echo $msg \$JUNOTOP is \"$JUNOTOP\"
+
+    if [ ! -d "$JUNOTOP" ]; then
+        echo $msg CREATE JUNOTOP: $JUNOTOP
+        mkdir -p $JUNOTOP
+    fi
+    echo $msg \$JUNO_EXTLIB_OLDTOP: \"$JUNO_EXTLIB_OLDTOP\"
+    echo $msg \$JUNOARCHIVEGET: \"$JUNOARCHIVEGET\"
+    echo $msg \$JUNOARCHIVEURL: \"$JUNOARCHIVEURL\"
+    echo $msg ================================================================
+}
+
+function setup-juno-preq {
+    local msg="== $FUNCNAME: "
+    source junoenv-preq.sh
+    # * check the user permission first
+    #   + sudo
+    #   + su
+    junoenv-preq-check-root-perm
+    local st=$?
+    if [ "$st" != "0" ];
+    then
+        echo $msg Make sure you have the permissions to install softwares!
+        exit 1
+    fi
+    # * dispatch the job
+    echo $msg 1>&2
+    junoenv-preq $@
+}
+
+function setup-juno-offline {
+    echo == $FUNCNAME
+    source junoenv-offline.sh
+    junoenv-offline $@
+}
+
+function setup-juno-offline-data {
+    echo == $FUNCNAME
+    source junoenv-offline-data.sh
+    junoenv-offline-data $@
+}
+
+function setup-juno-sniper {
+    echo == $FUNCNAME
+    source junoenv-sniper.sh
+    junoenv-sniper $@
+}
+
+function setup-juno-external-libs {
+    echo == $FUNCNAME
+    source junoenv-external-libs.sh
+    junoenv-external-libs $@
+}
+
+function setup-juno-external-interface {
+    echo == $FUNCNAME
+    source junoenv-env.sh
+    source junoenv-external-interface.sh
+    junoenv-external-interface $@
+}
+
+function setup-juno-env {
+    echo == $FUNCNAME
+    source junoenv-env.sh
+    junoenv-env $@
+}
+
+function setup-juno-fixed {
+    echo == $FUNCNAME
+    source junoenv-fixed.sh
+    junoenv-fixed $@
+}
+
+function setup-juno-archive {
+    echo == $FUNCNAME
+    source junoenv-archive.sh
+    junoenv-archive $@
+}
+
+function setup-juno-deploy {
+    echo == $FUNCNAME
+    source junoenv-archive.sh
+    source junoenv-deploy.sh
+    junoenv-deploy $@
+
+}
+###############################################################################
+function setup-juno-all-help {
+cat << EOF
+    --no-extlib-build
+        skip build from scratch 
+    --reuse-extlib-top
+        reuse the libraries defined in \$JUNO_EXTLIB_OLDTOP
+EOF
+}
+function setup-juno-all {
+    local msg="== $FUNCNAME: "
+    local noextlibbuild=0
+    local reuseextlibtop=0
+    for arg in $@
+    do
+        case $arg in
+            --no-extlib-build)
+                noextlibbuild=1
+                ;;
+            --reuse-extlib-top)
+                reuseextlibtop=1
+                ;;
+            *|--help|-h)
+                setup-juno-all-help
+                exit 1
+                ;;
+        esac
+    done
+    # == try to reuse the library first ==
+    if [ "$reuseextlibtop" == "1" ] ;
+    then
+        echo $msg reuse the external libraries 1>&2
+        setup-juno-external-libs reuse allpkgs
+    fi
+    # == if the library does not exist, build it ==
+    if [ "$noextlibbuild" == "0" ] ;
+    then
+        echo $msg will build and setup the whole external libraries 1>&2
+        setup-juno-external-libs all allpkgs
+    else
+        echo $msg dont build and setup the whole external libraries 1>&2
+    fi
+
+
+    setup-juno-env
+    setup-juno-external-interface
+    setup-juno-sniper
+    setup-juno-offline
+    setup-juno-offline-data
+}
+
+function main {
+    echo = $FUNCNAME
+    echo = THE JUNOTOP is $JUNOTOP
+    echo = THE JUNOENVDIR is $JUNOENVDIR
+    pushd $JUNOENVDIR >& /dev/null
+    setup-juno-basic-preq
+    cmd=$1
+    shift
+    case $cmd in
+        all)
+            setup-juno-all $@
+            ;;
+        preq)
+            setup-juno-preq $@
+            ;;
+        libs)
+            setup-juno-external-libs $@
+            ;;
+        cmtlibs)
+            setup-juno-external-interface $@
+            ;;
+        sniper)
+            setup-juno-sniper $@
+            ;;
+        offline)
+            setup-juno-offline $@
+            ;;
+        offline-data)
+            setup-juno-offline-data $@
+            ;;
+        env)
+            setup-juno-env $@
+            ;;
+        fixed)
+            setup-juno-fixed $@
+            ;;
+        archive)
+            setup-juno-archive $@
+            ;;
+        deploy)
+            setup-juno-deploy $@
+            ;;
+        *)
+            echo Unknown Sub Command $cmd
+            setup-juno-help
+            ;;
+    esac
+    popd >& /dev/null
+}
+
+main $@

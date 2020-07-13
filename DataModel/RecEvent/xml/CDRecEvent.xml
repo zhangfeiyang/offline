@@ -1,0 +1,120 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<!DOCTYPE xdd SYSTEM "xdd.dtd">
+
+<xdd>
+    <package name = "RecEvent">
+
+        <import name="Event/EventObject"/>
+
+        <class name = "CDRecEvent"
+            author = ""
+            desc = "Reconstructed CD vertex event">
+
+            <base name = "EventObject"/>
+
+            <attribute name = "nVertexes"
+                type = "unsigned int"
+                desc = "number of reconstructed vertexes"
+                init = "1"
+                />
+
+            <attribute name = "PESum"
+                type = "std::vector&lt;Double_t&gt;"
+                desc = "Total number of PE"
+                setMethScalar="TRUE"
+                getMethScalar="TRUE"
+                />
+            <attribute                   
+                desc="Best estimation of deposit energy. Unit:MeV"
+                name="energy"
+                type="std::vector&lt;Double_t&gt;"
+                setMethScalar="TRUE"
+                getMethScalar="TRUE"
+                />
+            <attribute                   
+                desc="Reconstructed positron energy. Unit:MeV"
+                name="eprec"
+                type="std::vector&lt;Double_t&gt;"
+                setMethScalar="TRUE"
+                getMethScalar="TRUE"
+                />
+            <attribute                   
+                desc="x position. Unit:mm"
+                name="x"
+                type="std::vector&lt;Double_t&gt;"
+                setMethScalar="TRUE"
+                getMethScalar="TRUE"
+                />
+            <attribute                   
+                desc="y position. Unit:mm"
+                name="y"
+                type="std::vector&lt;Double_t&gt;"
+                setMethScalar="TRUE"
+                getMethScalar="TRUE"
+                />
+            <attribute                   
+                desc="z position. Unit:mm"
+                name="z"
+                type="std::vector&lt;Double_t&gt;"
+                setMethScalar="TRUE"
+                getMethScalar="TRUE"
+                />
+            <attribute                   
+                desc="x direction"
+                name="px"
+                type="std::vector&lt;Double_t&gt;"
+                setMethScalar="TRUE"
+                getMethScalar="TRUE"
+                />
+            <attribute                   
+                desc="y direction"
+                name="py"
+                type="std::vector&lt;Double_t&gt;"
+                setMethScalar="TRUE"
+                getMethScalar="TRUE"
+                />
+            <attribute                   
+                desc="z direction"
+                name="pz"
+                type="std::vector&lt;Double_t&gt;"
+                setMethScalar="TRUE"
+                getMethScalar="TRUE"
+                />
+
+            <!--
+            <attribute                   
+                desc="error matrix"
+                name="errorMatrix"
+                type="CLHEP::HepMatrix"
+                />
+            -->
+
+            <attribute
+                desc="goodness of the fit"
+                name="chisq"
+                type="std::vector&lt;Double_t&gt;"
+                setMethScalar="TRUE"
+                getMethScalar="TRUE"
+                />
+
+            <attribute
+                desc="quality of energy recontruction"
+                name="energyQuality"
+                type="std::vector&lt;Double_t&gt;"
+                setMethScalar="TRUE"
+                getMethScalar="TRUE"
+                />
+            <attribute
+                desc="quality of position recontruction"
+                name="positionQuality"
+                type="std::vector&lt;Double_t&gt;"
+                setMethScalar="TRUE"
+                getMethScalar="TRUE"
+                />
+
+
+
+
+        </class>
+    </package>
+</xdd>

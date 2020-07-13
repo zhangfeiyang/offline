@@ -1,0 +1,18 @@
+package CorAnalisys
+
+use SniperKernel v*
+use BufferMemMgr v* CommonSvc
+use ROOT v* Externals
+
+use SimEventV2 v* DataModel
+use ElecEvent v* DataModel
+use CalibEvent v* DataModel
+use RecEvent v* DataModel
+
+use InputReviser v* Utilities
+
+
+library CorAnalisys *.cc
+apply_pattern linker_library library=CorAnalisys
+apply_pattern install_python_modules
+

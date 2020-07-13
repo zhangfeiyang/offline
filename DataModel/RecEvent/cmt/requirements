@@ -1,0 +1,30 @@
+package RecEvent
+
+branches cmt src xml Event
+
+use XmlObjDesc v* -no_auto_imports
+use SniperKernel v*
+use ROOT v* Externals
+use CLHEP v* Externals
+use CLHEPDict v* DataModel/Dict
+use BaseEvent v* DataModel
+use EDMUtil v* DataModel
+
+macro_append XODflags " -n JM "
+macro_append CDRecEvent_cintflags "-I$(CMTINSTALLAREA)/include"
+macro_append RecHeader_cintflags "-I$(CMTINSTALLAREA)/include  `clhep-config --include`"
+macro_append RecTrack_cintflags "-I$(CMTINSTALLAREA)/include  `clhep-config --include`"
+macro_append CDTrackRecEvent_cintflags "-I$(CMTINSTALLAREA)/include  `clhep-config --include`"
+macro_append WPRecEvent_cintflags "-I$(CMTINSTALLAREA)/include  `clhep-config --include`"
+macro_append TTRecEvent_cintflags "-I$(CMTINSTALLAREA)/include  `clhep-config --include`"
+
+
+apply_pattern xod_headers files=../xml/*.xml
+apply_pattern install_more_includes more=Event
+apply_pattern cint_dictionary files=../Event/*.h
+
+apply_pattern xod_srcs files=../Event/*.h
+
+include_dirs $(RECEVENTROOT)/Event
+library RecEvent *.cc
+apply_pattern linker_library library=RecEvent

@@ -1,0 +1,137 @@
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/offline/!svn/ver/3129/tags/J18v1r1-Pre1/DataModel/EDMUtil/src
+END
+SmartRefTable.cc
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/offline/!svn/ver/3129/tags/J18v1r1-Pre1/DataModel/EDMUtil/src/SmartRefTable.cc
+END
+UniqueIDTable.cc
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/offline/!svn/ver/3129/tags/J18v1r1-Pre1/DataModel/EDMUtil/src/UniqueIDTable.cc
+END
+InputFileManager.h
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/offline/!svn/ver/3129/tags/J18v1r1-Pre1/DataModel/EDMUtil/src/InputFileManager.h
+END
+JunoEDMDefinitions.cc
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/offline/!svn/ver/3129/tags/J18v1r1-Pre1/DataModel/EDMUtil/src/JunoEDMDefinitions.cc
+END
+SmartRefTable.h
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/offline/!svn/ver/3129/tags/J18v1r1-Pre1/DataModel/EDMUtil/src/SmartRefTable.h
+END
+EDMManager.cc
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/offline/!svn/ver/3129/tags/J18v1r1-Pre1/DataModel/EDMUtil/src/EDMManager.cc
+END
+InputElementKeeper.cc
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/offline/!svn/ver/3129/tags/J18v1r1-Pre1/DataModel/EDMUtil/src/InputElementKeeper.cc
+END
+SmartRefTableImpl.cc
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/offline/!svn/ver/3129/tags/J18v1r1-Pre1/DataModel/EDMUtil/src/SmartRefTableImpl.cc
+END
+LinkDef.h
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/offline/!svn/ver/3129/tags/J18v1r1-Pre1/DataModel/EDMUtil/src/LinkDef.h
+END
+FileMetaDataLinkDef.h
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/offline/!svn/ver/3129/tags/J18v1r1-Pre1/DataModel/EDMUtil/src/FileMetaDataLinkDef.h
+END
+SmartRefTableImpl.h
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/offline/!svn/ver/3129/tags/J18v1r1-Pre1/DataModel/EDMUtil/src/SmartRefTableImpl.h
+END
+FileMetaData.cc
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/offline/!svn/ver/3129/tags/J18v1r1-Pre1/DataModel/EDMUtil/src/FileMetaData.cc
+END
+BookEDM.cc
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/offline/!svn/ver/3129/tags/J18v1r1-Pre1/DataModel/EDMUtil/src/BookEDM.cc
+END
+SmartRefLinkDef.h
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/offline/!svn/ver/3129/tags/J18v1r1-Pre1/DataModel/EDMUtil/src/SmartRefLinkDef.h
+END
+SmartRef.cc
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/offline/!svn/ver/3129/tags/J18v1r1-Pre1/DataModel/EDMUtil/src/SmartRef.cc
+END
+RootFileInter.cc
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/offline/!svn/ver/3129/tags/J18v1r1-Pre1/DataModel/EDMUtil/src/RootFileInter.cc
+END
+JobInfoLinkDef.h
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/offline/!svn/ver/3129/tags/J18v1r1-Pre1/DataModel/EDMUtil/src/JobInfoLinkDef.h
+END
+PassiveStream.cc
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/offline/!svn/ver/3129/tags/J18v1r1-Pre1/DataModel/EDMUtil/src/PassiveStream.cc
+END
+JobInfo.cc
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/offline/!svn/ver/3129/tags/J18v1r1-Pre1/DataModel/EDMUtil/src/JobInfo.cc
+END
+PassiveStream.h
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/offline/!svn/ver/3129/tags/J18v1r1-Pre1/DataModel/EDMUtil/src/PassiveStream.h
+END
+InputFileManager.cc
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/offline/!svn/ver/3129/tags/J18v1r1-Pre1/DataModel/EDMUtil/src/InputFileManager.cc
+END
+UniqueIDTableLinkDef.h
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/offline/!svn/ver/3129/tags/J18v1r1-Pre1/DataModel/EDMUtil/src/UniqueIDTableLinkDef.h
+END

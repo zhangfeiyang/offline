@@ -1,0 +1,18 @@
+package GlobalTimeSvc
+
+
+use SniperKernel   v*
+use ROOT v* Externals
+
+
+use Context v* DataModel
+
+library GlobalTimeSvc *.cc
+
+
+apply_pattern install_more_includes more="GlobalTimeSvc"
+
+apply_pattern linker_library library = GlobalTimeSvc
+apply_pattern install_python_modules
+
+

@@ -1,0 +1,41 @@
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/offline/!svn/ver/3129/tags/J18v1r1-Pre1/Simulation/DetSimV2/G4Opticks/src/phys
+END
+OKDsPhysConsOptical.cc
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/svn/offline/!svn/ver/3129/tags/J18v1r1-Pre1/Simulation/DetSimV2/G4Opticks/src/phys/OKDsPhysConsOptical.cc
+END
+OKDsPhysConsOptical.h
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/svn/offline/!svn/ver/3129/tags/J18v1r1-Pre1/Simulation/DetSimV2/G4Opticks/src/phys/OKDsPhysConsOptical.h
+END
+OKDsG4Cerenkov.cc
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svn/offline/!svn/ver/3129/tags/J18v1r1-Pre1/Simulation/DetSimV2/G4Opticks/src/phys/OKDsG4Cerenkov.cc
+END
+OKDsG4Scintillation.cc
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/svn/offline/!svn/ver/3129/tags/J18v1r1-Pre1/Simulation/DetSimV2/G4Opticks/src/phys/OKDsG4Scintillation.cc
+END
+OKDsG4Cerenkov.h
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svn/offline/!svn/ver/3129/tags/J18v1r1-Pre1/Simulation/DetSimV2/G4Opticks/src/phys/OKDsG4Cerenkov.h
+END
+OKDsG4Scintillation.h
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/svn/offline/!svn/ver/3129/tags/J18v1r1-Pre1/Simulation/DetSimV2/G4Opticks/src/phys/OKDsG4Scintillation.h
+END
