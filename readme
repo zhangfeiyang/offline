@@ -1,15 +1,15 @@
 the simulation includes: 
-	1. USS cables: "pwire0"(2%), "pwire1"(17%), "pwire2"(26%), "pwire3"(55%)
-		 USS cables have four layers, as you can see the weight in parenthesis
-
-	2. USS receivers: "pUSSBeCu"
-	3. CLS cables: "pCLS1Cable"(38.8%), "pCLS1Cable"(61.2%)
-		 there are two cls in left and right with fraction of cls weights, 38.8% and 61.2% respectively.
-
-	4. CLS anchor: "pAnchor"
-	5. GTCS tube: "pGT"
-	6. GTCS cable: "pCable"
-	7. GTCS sensor: "pSensor0", ..., "pSensor9" (ten sensors)
+  1. USS cables: "pwire0"(2%), "pwire1"(17%), "pwire2"(26%), "pwire3"(55%)
+     USS cables have four layers, as you can see the weight in parenthesis
+  
+  2. USS receivers: "pUSSBeCu"
+  3. CLS cables: "pCLS1Cable"(38.8%), "pCLS1Cable"(61.2%)
+     there are two cls in left and right with fraction of cls weights, 38.8% and 61.2% respectively.
+  
+  4. CLS anchor: "pAnchor"
+  5. GTCS tube: "pGT"
+  6. GTCS cable: "pCable"
+  7. GTCS sensor: "pSensor0", ..., "pSensor9" (ten sensors)
 
 The geometries of GTCS tube and cable are defined in Simulation/DetSimV2/CalibUnit/src/Calib_GuideTube_Construction.cc,
 while others are define in Simulation/DetSimV2/CentralDetector/src/DetSim1Construction.cc
