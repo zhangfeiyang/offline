@@ -22,3 +22,36 @@ python tut_detsim.py --no-gdml --evtmax 10 gendecay --nuclear K40 --volume pCabl
 
 there is no geometry for AURORA, and the contribution of background from AURORA is very small.
 if you want simulate it, just put the source at 19.44 m, as a conservative calculation
+
+
+list of simulation data in ihep serve:
+
+1. USS cables:/junofs/production/public/users/zhangfy/Calib_Sys_Background/offline/Examples/Tutorial/share/USS_cables
+
+2. USS receiver:/junofs/production/public/users/zhangfy/Calib_Sys_Background/offline/Examples/Tutorial/share/uss_receiver
+
+3. CLS cables:
+	/junofs/production/public/users/zhangfy/Calib_Sys_Background/offline/Examples/Tutorial/share/CLS1
+	/junofs/production/public/users/zhangfy/Calib_Sys_Background/offline/Examples/Tutorial/share/CLS2
+
+4. CLS anchors:/junofs/production/public/users/zhangfy/Calib_Sys_Background/offline/Examples/Tutorial/share/Anchor
+
+5. GTCS tube: 
+	U238: /junofs/users/zhukangfu/workdesktop/offline/Examples/Tutorial/share/U238pGT.bak
+	Th232: /junofs/users/zhukangfu/workdesktop/offline/Examples/Tutorial/share/Th232pGT.bak
+	K40: /junofs/users/zhukangfu/workdesktop/offline/Examples/Tutorial/share/K40pGT.bak
+
+6. GTCS cable:
+	U238: /junofs/users/zhukangfu/workdesktop/offline/Examples/Tutorial/share/U238pCable.bak
+	Th232: /junofs/users/zhukangfu/workdesktop/offline/Examples/Tutorial/share/Th232pCable.bak
+	K40: /junofs/users/zhukangfu/workdesktop/offline/Examples/Tutorial/share/K40pCable.bak
+
+7. GTCS sensor:
+	U238: /junofs/users/zhukangfu/workdesktop/offline/Examples/Tutorial/share/U238pSensordensity3035
+	Th232: /junofs/users/zhukangfu/workdesktop/offline/Examples/Tutorial/share/Th232pSensordensity3035
+	K40: /junofs/users/zhukangfu/workdesktop/offline/Examples/Tutorial/share/K40pSensordensity3035
+
+8. AURORA:/junofs/production/public/users/zhangfy/Calib_Sys_Background/offline/Examples/Tutorial/share/AURORA
+
+	
+
